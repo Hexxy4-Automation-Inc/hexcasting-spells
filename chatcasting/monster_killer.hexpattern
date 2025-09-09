@@ -1,0 +1,175 @@
+#git(/libs/base.hexpattern)
+
+$casterInWorldBounds
+$fastif()(
+    Janus' Gambit
+)
+
+Mind's Reflection
+Compass' Purification II
+Numerical Reflection: 28
+Zone Distillation: Monster
+{
+    Sekhmet's Gambit: 1
+    Gemini Decomposition
+    Physician's Purification
+    {
+        @entity_type(minecraft:phantom)
+        @entity_type(minecraft:zombie)
+        @entity_type(minecraft:zombie_villager)
+        @entity_type(minecraft:witch)
+        @entity_type(minecraft:piglin)
+        @entity_type(minecraft:magmacube)
+        @entity_type(minecraft:husk)
+        @entity_type(minecraft:hoglin)
+        @entity_type(minecraft:guardian)
+        @entity_type(minecraft:ghast)
+        @entity_type(minecraft:drowned)
+        @entity_type(minecraft:spider)
+        @entity_type(minecraft:cave_spider)
+        @entity_type(minecraft:skeleton)
+        @entity_type(minecraft:creeper)
+        @entity_type(minecraft:blaze)
+        @entity_type(minecraft:wither_skeleton)
+        @entity_type(minecraft:pillager)
+        @entity_type(minecraft:evoker)
+        @entity_type(minecraft:ravager)
+        @entity_type(minecraft:vindicator)
+        @entity_type(minecraft:vex)
+        @entity_type(minecraft:wither)
+    }
+    Jester's Gambit
+    Locator's Distillation
+    Numerical Reflection: -1
+    Inequality Distillation
+    $fastif(
+        // leave it in list
+    )(
+        // change the entry to null
+        Bookkeeper's Gambit: v
+        Nullary Reflection
+    )
+}
+Jester's Gambit
+Thoth's Gambit
+
+// Special entities handling (non monster and such)
+
+// {@entity_type(botania:doppleganger)}>>
+// Mind's Reflection
+// Compass' Purification II
+// Numerical Reflection: 28
+// Zone Exaltation: Type
+// Additive Distillation
+
+// {@entity_type(botania:pixie)}>>
+// Mind's Reflection
+// Compass' Purification II
+// Numerical Reflection: 28
+// Zone Exaltation: Type
+// Additive Distillation
+
+// remove all nulls
+Nullary Reflection 
+Single's Purification
+Additive Distillation
+Nullary Reflection 
+Single's Purification
+Exclusion Distillation
+
+Gemini Decomposition
+Length Purification
+Augur's Purification
+$fastif()(
+    Janus' Gambit
+)
+
+{
+    // add expose mind if it does not have it
+    Sekhmet's Gambit: 1
+    Gemini Decomposition
+    Gemini Decomposition
+    Apothecary's Purification
+    {@str(status/exposed)} >>
+    Locator's Distillation
+    Numerical Reflection: -1
+    Equality Distillation
+    $fastif(
+        Expose Mind
+    )(
+        Bookkeeper's Gambit: v
+    )
+
+    // get the position for explode and center it for the block
+    Compass' Purification II
+    $centerVec
+}
+Jester's Gambit
+Thoth's Gambit
+Uniqueness Purification
+
+{
+    Sekhmet's Gambit: 1
+    Gemini Decomposition
+    $iotatype
+    {@iota_type(hexcasting:vec3)}>>
+    Inequality Distillation
+    $fastif(
+        Atalanta's Gambit
+    )()
+    
+    
+    // if in air or gras, explode with liquid
+    {
+        @item_type(minecraft:air,false)
+        @item_type(minecraft:cave_air,false)
+        @item_type(minecraft:grass,false)
+        @item_type(minecraft:tall_grass,false)
+    }
+    Prospector's Gambit
+    Sorter's Purification
+    Locator's Distillation
+    Numerical Reflection: -1
+    Inequality Distillation
+    $fastif(
+        Gemini Decomposition
+        Spatial Reflection
+        {@str(dim/nether)} >>
+        Equality Distillation
+        $fastif(
+            Create Lava
+        )(
+            Create Water
+        )
+
+        Gemini Decomposition
+        Numerical Reflection: 1
+        Explosion
+        Gemini Decomposition
+        Gemini Decomposition
+        Conjure Block
+        Break Block
+        Numerical Reflection: 2
+        Confetti
+    )(
+        // if in liquid, only explode
+        {
+            @item_type(minecraft:water,false)
+            @item_type(minecraft:lava,false)
+        }
+        Prospector's Gambit
+        Sorter's Purification
+        Locator's Distillation
+        Numerical Reflection: -1
+        Inequality Distillation
+        $fastif(
+            Gemini Decomposition
+            Numerical Reflection: 1
+            Explosion
+            Numerical Reflection: 2
+            Confetti
+        )() 
+    ) 
+}
+Jester's Gambit
+Thoth's Gambit

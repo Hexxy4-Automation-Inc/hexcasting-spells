@@ -1,0 +1,441 @@
+// ==============================================================================
+// ==============================================================================
+// ==========================         PATTERNS         ==========================
+// ==============================================================================
+// ==============================================================================
+
+#def(true)(
+    True Reflection
+)
+
+#def(false)(
+    False Reflection
+)
+
+#def(leftclick)(
+    @pattern(NORTH_EAST,qadee)
+)
+
+#def(rightclick)(
+    @pattern(NORTH_WEST,edaqq)
+)
+
+#def(iotatype)(
+    @pattern(SOUTH_EAST,awd)
+)
+
+#def(bettersurgeon)(
+    @pattern(EAST,dedqdewqaeaq)
+)
+
+#def(exposeMind)(
+    @pattern(NORTH_EAST,eqeeedqadqqqqqdeewewewe)
+)
+
+#def(illuminate)(
+    @pattern(SOUTH_EAST,aeaeaeaeaeawqqqqq)
+)
+
+#def(personal_property)(
+    @pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwwawwwwawwwqawwdww)
+)
+
+#def(personal_gate)(
+    @pattern(SOUTH_WEST,wwwwwaqwwewwqwqqwwaeawqawwwqwwwawwwqa)
+)
+
+// ==============================================================================
+// ==============================================================================
+// ==========================          CONSTS          ==========================
+// ==============================================================================
+// ==============================================================================
+
+#def(publicAmethystMote)(
+    // Hexxy3
+    // {@mote(9edbd419-fd25-4c1f-8642-4529366e40a8,pseudoamethyst_shard,12c34b86-7ded-46c7-b000-2398c879fb92)} >>
+
+
+)
+
+
+// ==============================================================================
+// ==============================================================================
+// ==========================           MISC           ==========================
+// ==============================================================================
+// ==============================================================================
+
+#def(akasha)(
+    // Hexxy3
+    // {@vec(375, 53, 2484)} >>
+
+    // Hexxy4
+    {@vec(-391, 54, -694)} >>
+)
+
+#def(dump)(
+    Flock's Reflection
+    Flock's Gambit
+    {@str(<1>)}>>
+    Speaker's Distillation
+    Reveal
+    Speaker's Decomposition
+    Bookkeeper's Gambit: v
+    Flock's Disintegration
+)
+
+// ==============================================================================
+// ==============================================================================
+// ==========================        FUNCTIONS         ==========================
+// ==============================================================================
+// ==============================================================================
+
+// ==============================================================================
+// ==========================         BASE FUNC        ==========================
+// ==============================================================================
+
+#def(indexof)(
+    Gemini Decomposition
+    { @str(<1>) } >>
+    Locator's Distillation
+)
+
+#def(centerVec)(
+    Floor Purification
+    {@vec(0.5,0.5,0.5)}>>
+    Additive Distillation
+)
+
+// 6 + var patterns
+// do (patterns) else (patterns) based on bool before
+// Evaluates the second arg if true, evaluates the third if false
+#def(fastif)(
+    {
+        <1>
+    }
+    {
+        <2>
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+// 6 + var patterns
+// if (bool) do (patterns) else (patterns)
+// Evaluates the second arg if true, evaluates the third if false
+#def(if)(
+    <1>
+    $fastif(<2>)(<3>)
+)
+
+// 6 + var patterns
+#def(runif)(
+    <1>
+    $fastif(<2>)()
+)
+
+// for_each in (list) do (patterns)
+// Runs Thoth's on the given list and pattern list, returning a list containing all outputs
+#def(foreach)(
+    {
+        <2>
+    }
+    <1>
+    Thoth's Gambit
+)
+
+// prints passed string and removes it from stack
+#def(print)(
+    {@str(<1>)} >>
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
+#def(akasharead)(
+    $akasha
+    Jester's Gambit
+    Akasha's Distillation
+)
+
+#def(akashasaferead)(
+    $akasharead
+    Gemini Decomposition
+    Augur's Purification
+    $fastif()(
+        Bookkeeper's Gambit: v
+    )
+)
+
+#def(akashacast)(
+    $akasharead
+    Gemini Decomposition
+    Augur's Purification
+    $fastif(
+        Hermes' Gambit
+    )(
+        Bookkeeper's Gambit: v
+    )
+)
+
+// ==============================================================================
+// ==========================           MISC           ==========================
+// ==============================================================================
+
+#def(saferead)(
+    Auditor's Reflection
+    $fastif(
+        Scribe's Reflection
+    )()
+)
+
+#def(safewrite)(
+    Assessor's Reflection
+    $fastif(
+        Scribe's Gambit
+    )()
+)
+
+#def(isInWorldBounds)(
+    Vector Disintegration
+    Bookkeeper's Gambit: v-v
+    Gemini Decomposition
+    Spatial Reflection
+    Atlas' Decomposition
+    Reflecting Gambit
+    Minimus Distillation II
+    Reflecting Gambit
+    Maximus Distillation II
+    Conjunction Distillation
+    // stack: bool
+)
+
+#def(casterInWorldBounds)(
+    Mind's Reflection
+    Compass' Purification II
+    $isInWorldBounds
+)
+
+#def(hasMinMedia)(
+    Mind's Reflection
+    Media Purification
+    Numerical Reflection: 20
+    Subtractive Distillation
+    Numerical Reflection: <1>
+    Maximus Distillation II
+)
+
+
+// ==============================================================================
+// ==========================        DICTIONARY        ==========================
+// ==============================================================================
+
+// stack: name, list_of_names, list_of_values
+#def(dictread)(
+    Reflecting Gambit
+    Locator's Distillation
+    Selection Distillation
+    // stack: value
+)
+
+// stack: value, name, list_of_names, list_of_values
+#def(dictadd)(
+    Reflecting Gambit
+    Single's Purification
+    Additive Distillation
+    Reflecting Gambit
+    Single's Purification
+    Additive Distillation
+    // stack: list_of_names, list_of_values
+)
+
+#def(dictedit)(
+    Reflecting Gambit
+    Dioscuri Gambit
+    Locator's Distillation
+    Bookkeeper's Gambit: v-
+    Rotation Gambit II
+    Numerical Reflection: 4
+    Flock's Gambit
+    Retrograde Purification
+    Flock's Disintegration
+    Surgeon's Exaltation
+    // stack: list_of_names, list_of_values
+)
+
+// stack: value, name, list_of_names, list_of_values
+#def(dictsave)(
+    Reflecting Gambit
+    Dioscuri Gambit
+    // stack: value, list_of_values, list_of_names, name, list_of_names, name
+    Locator's Distillation
+    // stack: value, list_of_values, list_of_names, name, index
+    Numerical Reflection: -1
+    Equality Distillation
+    // stack: value, list_of_values, list_of_names, name
+    $fastif(
+        Single's Purification
+        Additive Distillation
+        Reflecting Gambit
+        Single's Purification
+        Additive Distillation
+        // stack: list_of_names, list_of_values
+    )(
+        // stack: value, list_of_values, list_of_names, name
+        Dioscuri Gambit
+        Locator's Distillation
+        Bookkeeper's Gambit: v-
+        Rotation Gambit II
+        // stack: value, index, list_of_values, list_of_names
+        Numerical Reflection: 4
+        Flock's Gambit
+        Retrograde Purification
+        Flock's Disintegration
+        // stack: list_of_names, list_of_values, index, value
+        Surgeon's Exaltation
+        // stack: list_of_names, list_of_values
+    )
+)
+
+// stack: ... , varname
+#def(varread)(
+    $personal_property
+    Observation Purification
+    Flock's Disintegration
+    $dictread
+    // stack: ... , varvalue
+)
+
+// stack: ... ,value, varname
+#def(varsave)(
+    $personal_property
+    Observation Purification
+    Flock's Disintegration
+    $dictsave
+    Numerical Reflection: 2
+    Flock's Gambit
+    $personal_property
+    Jester's Gambit
+    Schrödinger's Gambit
+    // stack: ... , 
+)
+
+
+// ==============================================================================
+// ==========================         RAYCASTS         ==========================
+// ==============================================================================
+
+// return vector of the targeted block
+#def(target_block)(
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Archer's Distillation
+)
+
+// return vector representing the side of targeted block
+#def(target_block_face)(
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Architect's Distillation
+)
+
+// return vector of block that would be placed on the side of targeted block
+#def(target_block_on_block_face)(
+    $target_block
+    $target_block_face
+    Additive Distillation
+)
+
+// return targeted entity iota
+#def(target_entity)(
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Scout's Distillation
+)
+
+
+// ==============================================================================
+// ==========================         CASSETTES        ==========================
+// ==============================================================================
+
+// checks if there is a free cassette or if cassette under the same name is running, if not, terminates the hex
+#def(check_for_free_cassette)(
+    $if(
+        {@str(<1>)} >>
+        Program Purification
+        Augur's Purification
+    )(
+        $print(Restarting cassette...)
+    )(
+        $if(
+            Threading Reflection II
+            Numerical Reflection: 0
+            Equality Distillation
+        )(
+            $print(No free cassettes, terminating thread!)
+            Janus' Gambit
+        )( 
+            $print(Free cassette available, proceeding...)
+        )
+    )
+)
+
+// starts thread to cast every n ticks 
+// params - 
+//      <1> name: string, 
+//      <2> n: number, 
+//      <3> loop: bool, 
+//      <4> hex: many iotas
+#def(start_thread)(
+    {
+        <4>
+        $if(<3>)(
+            {@str(<1>)} >>
+            Program Purification
+            Numerical Reflection: <2>
+            {@str(<1>)} >>
+            Enqueue
+        )()
+    }
+    Numerical Reflection: <2>
+    {@str(<1>)} >>
+    Enqueue
+
+)
+
+// if one of the passed arguments is "stop" stops or dequeues the hex, prints message with passed name
+// params - 
+//      <1> name: string
+#def(stop_detect)(
+    $runif( // 6base + 47 = 53
+        Flock's Reflection
+        Augur's Purification
+    )(
+        $runif( // 6base + 39 = 45
+            Gemini Decomposition
+            {@str(stop)}>> // 4
+            Locator's Distillation
+            Numerical Reflection: -1
+            Inequality Distillation
+        )(
+            $runif( // 6base + 18 = 24
+                {@str(<1>)} >> // 4
+                Program Purification II
+                Nullary Reflection
+                Inequality Distillation
+            )(
+                // if it is cassette, dequeue
+                {@str(<1>)} >> // 4
+                Dequeue
+                $print(Killing thread <1>) //6
+            )
+            // stop it
+            $print(Stopping <1>) // 6
+            Janus' Gambit
+        )
+    )
+)
