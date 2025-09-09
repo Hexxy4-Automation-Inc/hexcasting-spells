@@ -176,6 +176,50 @@
     )
 )
 
+// stack: string
+#def(to_hexicon)(
+    False Reflection
+    Case Distillation
+    Blank Reflection
+    Separation Distillation
+    Blank Reflection
+    Single's Purification
+    Exclusion Distillation
+    $akasha
+    @hexicon(hexicon)
+    Akasha's Distillation
+    {
+        Sekhmet's Gambit: 2
+        $dict_read
+        Gemini Decomposition
+        Augur's Purification
+        {
+            Chirographer's Purification
+            Flock's Disintegration
+        }
+        {
+            Bookkeeper's Gambit: v
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Rotation Gambit
+    Thoth's Gambit
+
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Calligrapher's Purification
+        Bookkeeper's Gambit: v-
+    }
+    {
+        Bookkeeper's Gambit: vv
+        Nullary Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
 // ==============================================================================
 // ==========================           MISC           ==========================
 // ==============================================================================
@@ -228,72 +272,148 @@
 // ==========================        DICTIONARY        ==========================
 // ==============================================================================
 
-// stack: name, list_of_names, list_of_values
-#def(dictread)(
-    Reflecting Gambit
-    Locator's Distillation
-    Selection Distillation
-    // stack: value
-)
-
-// stack: value, name, list_of_names, list_of_values
-#def(dictadd)(
-    Reflecting Gambit
-    Single's Purification
-    Additive Distillation
-    Reflecting Gambit
-    Single's Purification
-    Additive Distillation
-    // stack: list_of_names, list_of_values
-)
-
-#def(dictedit)(
-    Reflecting Gambit
-    Dioscuri Gambit
-    Locator's Distillation
-    Bookkeeper's Gambit: v-
-    Rotation Gambit II
-    Numerical Reflection: 4
+// stack: ,
+#def(dict_create)(
+    Vacant Reflection
+    Vacant Reflection
+    Numerical Reflection: 2
     Flock's Gambit
-    Retrograde Purification
-    Flock's Disintegration
-    Surgeon's Exaltation
-    // stack: list_of_names, list_of_values
 )
 
-// stack: value, name, list_of_names, list_of_values
-#def(dictsave)(
+// stack: dict, key
+#def(dict_read)(
+    Jester's Gambit
+    Flock's Disintegration
     Reflecting Gambit
-    Dioscuri Gambit
-    // stack: value, list_of_values, list_of_names, name, list_of_names, name
     Locator's Distillation
-    // stack: value, list_of_values, list_of_names, name, index
+    Gemini Decomposition
     Numerical Reflection: -1
     Equality Distillation
-    // stack: value, list_of_values, list_of_names, name
-    $fastif(
-        Single's Purification
-        Additive Distillation
-        Reflecting Gambit
-        Single's Purification
-        Additive Distillation
-        // stack: list_of_names, list_of_values
-    )(
-        // stack: value, list_of_values, list_of_names, name
-        Dioscuri Gambit
-        Locator's Distillation
-        Bookkeeper's Gambit: v-
-        Rotation Gambit II
-        // stack: value, index, list_of_values, list_of_names
-        Numerical Reflection: 4
-        Flock's Gambit
-        Retrograde Purification
-        Flock's Disintegration
-        // stack: list_of_names, list_of_values, index, value
-        Surgeon's Exaltation
-        // stack: list_of_names, list_of_values
-    )
+    {
+        Bookkeeper's Gambit: vv
+        Nullary Reflection
+    }
+    {
+        Selection Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 )
+
+// stack: dict, key, value
+#def(dict_write)(
+    Rotation Gambit
+    Flock's Disintegration
+    Rotation Gambit
+    Integration Distillation
+    Rotation Gambit II
+    Jester's Gambit
+    Integration Distillation
+    Jester's Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+)
+
+// stack: dict, key, value
+#def(dict_over_write)(
+    Reflecting Gambit
+    Dioscuri Gambit
+    Flock's Disintegration
+    Bookkeeper's Gambit: v
+    Jester's Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: v
+        Bubbling Gambit
+        Flock's Disintegration
+        Rotation Gambit
+        Integration Distillation
+        Rotation Gambit II
+        Jester's Gambit
+        Integration Distillation
+        Jester's Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    {
+        Bookkeeper's Gambit: v--
+        Jester's Gambit
+        Flock's Disintegration
+        Numerical Reflection: 17
+        Swindler's Gambit
+        Surgeon's Exaltation
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+// stack: dict, key
+#def(dict_remove)(
+    Jester's Gambit
+    Flock's Disintegration
+    Reflecting Gambit
+    Dioscuri Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: vv
+        Jester's Gambit
+    }
+    {
+        Bookkeeper's Gambit: v-
+        Undertaker's Gambit
+        Excisor's Distillation
+        Rotation Gambit II
+        Excisor's Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+)
+
+
+
+// stack: value, name, list_of_names, list_of_values
+// #def(dictsave)(
+//     Reflecting Gambit
+//     Dioscuri Gambit
+//     // stack: value, list_of_values, list_of_names, name, list_of_names, name
+//     Locator's Distillation
+//     // stack: value, list_of_values, list_of_names, name, index
+//     Numerical Reflection: -1
+//     Equality Distillation
+//     // stack: value, list_of_values, list_of_names, name
+//     $fastif(
+//         Single's Purification
+//         Additive Distillation
+//         Reflecting Gambit
+//         Single's Purification
+//         Additive Distillation
+//         // stack: list_of_names, list_of_values
+//     )(
+//         // stack: value, list_of_values, list_of_names, name
+//         Dioscuri Gambit
+//         Locator's Distillation
+//         Bookkeeper's Gambit: v-
+//         Rotation Gambit II
+//         // stack: value, index, list_of_values, list_of_names
+//         Numerical Reflection: 4
+//         Flock's Gambit
+//         Retrograde Purification
+//         Flock's Disintegration
+//         // stack: list_of_names, list_of_values, index, value
+//         Surgeon's Exaltation
+//         // stack: list_of_names, list_of_values
+//     )
+// )
 
 // stack: ... , varname
 #def(varread)(
