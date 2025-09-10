@@ -1,0 +1,379 @@
+#def(cassette_name)(
+    {@str(Hammer)}>>
+    Reading Purification
+)
+
+#def(storage_mode_id)(Numerical Reflection: 1)
+#def(storage_mode_count)(Numerical Reflection: 3)
+#def(storage_mode_desc)({
+    @str(Mode: normal)
+    @str(Mode: void)
+    @str(Mode: silktouch)
+})
+
+#def(storage_area_id)(Numerical Reflection: 0)
+#def(storage_area_count)(Numerical Reflection: 3)
+#def(storage_area_desc)({
+    @str(Area: 1x1)
+    @str(Area: 3x3)
+    @str(Area: 5x5)
+})
+
+#def(init_storage)(
+    Charmed Reflection
+    Augur's Purification
+    {}
+    {
+        {
+            @num(0)
+            @num(0)
+        }
+        Charmed Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+#def(mat_1_x)(
+    @matrix(1, 3, <
+         0,  0,  0
+>))
+#def(mat_1_y)(
+    @matrix(1, 3, <
+         0,  0,  0
+>))
+#def(mat_1_z)(
+    @matrix(1, 3, <
+         0,  0,  0
+>))
+
+#def(mat_3_x)(
+    @matrix(9, 3, <
+         0, -1, -1,
+         0, -1,  0,
+         0, -1,  1,
+         0,  0, -1,
+         0,  0,  0,
+         0,  0,  1,
+         0,  1, -1,
+         0,  1,  0,
+         0,  1,  1
+>))
+#def(mat_3_y)(
+    @matrix(9, 3, <
+        -1,  0, -1,
+        -1,  0,  0,
+        -1,  0,  1,
+         0,  0, -1,
+         0,  0,  0,
+         0,  0,  1,
+         1,  0, -1,
+         1,  0,  0,
+         1,  0,  1
+>))
+#def(mat_3_z)(
+    @matrix(9, 3, <
+        -1, -1,  0,
+        -1,  0,  0,
+        -1,  1,  0,
+         0, -1,  0,
+         0,  0,  0,
+         0,  1,  0,
+         1, -1,  0,
+         1,  0,  0,
+         1,  1,  0
+>))
+
+#def(mat_5_x)(
+    @matrix(25, 3, <
+     0, -2, -2,
+     0, -2, -1,
+     0, -2,  0,
+     0, -2,  1,
+     0, -2,  2,
+     0, -1, -2,
+     0, -1, -1,
+     0, -1,  0,
+     0, -1,  1,
+     0, -1,  2,
+     0,  0, -2,
+     0,  0, -1,
+     0,  0,  0,
+     0,  0,  1,
+     0,  0,  2,
+     0,  1, -2,
+     0,  1, -1,
+     0,  1,  0,
+     0,  1,  1,
+     0,  1,  2,
+     0,  2, -2,
+     0,  2, -1,
+     0,  2,  0,
+     0,  2,  1,
+     0,  2,  2
+>))
+#def(mat_5_y)(
+    @matrix(25, 3, <
+    -2,  0, -2,
+    -2,  0, -1,
+    -2,  0,  0,
+    -2,  0,  1,
+    -2,  0,  2,
+    -1,  0, -2,
+    -1,  0, -1,
+    -1,  0,  0,
+    -1,  0,  1,
+    -1,  0,  2,
+     0,  0, -2,
+     0,  0, -1,
+     0,  0,  0,
+     0,  0,  1,
+     0,  0,  2,
+     1,  0, -2,
+     1,  0, -1,
+     1,  0,  0,
+     1,  0,  1,
+     1,  0,  2,
+     2,  0, -2,
+     2,  0, -1,
+     2,  0,  0,
+     2,  0,  1,
+     2,  0,  2
+>))
+#def(mat_5_z)(
+    @matrix(25, 3, <
+    -2, -2,  0,
+    -2, -1,  0,
+    -2,  0,  0,
+    -2,  1,  0,
+    -2,  2,  0,
+    -1, -2,  0,
+    -1, -1,  0,
+    -1,  0,  0,
+    -1,  1,  0,
+    -1,  2,  0,
+     0, -2,  0,
+     0, -1,  0,
+     0,  0,  0,
+     0,  1,  0,
+     0,  2,  0,
+     1, -2,  0,
+     1, -1,  0,
+     1,  0,  0,
+     1,  1,  0,
+     1,  2,  0,
+     2, -2,  0,
+     2, -1,  0,
+     2,  0,  0,
+     2,  1,  0,
+     2,  2,  0
+>))
+
+
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Scout's Distillation
+
+/*
+storage:
+    mine_area:
+        0 - 1x1
+        1 - 3x3
+        2 - 5x5
+    
+    mode:
+        0 - normal
+        1 - vacum
+        2 - annichilate
+*/
+//      
+{
+    Stealthy Reflection
+    Numerical Reflection: -1
+    Equality Distillation
+    {// not shift
+        Augur's Purification
+        {// right
+            // change size
+            $init_storage
+
+            Charmed Reflection
+            $storage_area_id
+            Dioscuri Gambit
+
+            Selection Distillation
+
+            Numerical Reflection: 1
+            Additive Distillation
+            $storage_area_count
+            Modulus Distillation
+            
+            $storage_area_desc
+            Prospector's Gambit
+            Selection Distillation
+            Reveal
+            Bookkeeper's Gambit: v
+
+            Surgeon's Exaltation
+            
+            Charmed Gambit
+        }
+        {// left
+            // mine
+            $init_storage
+            
+            Mind's Reflection
+            Compass' Purification
+            Mind's Reflection
+            Alidade's Purification
+            Dioscuri Gambit
+            Archer's Distillation
+
+            Rotation Gambit II
+            Architect's Distillation
+            {
+                @vec(1, 0, 0)
+                @vec(0, 1, 0)
+                @vec(0, 0, 1)
+
+                @vec(-1, 0, 0)
+                @vec(0, -1, 0)
+                @vec(0, 0, -1)
+            }
+            Jester's Gambit
+            Locator's Distillation
+            Numerical Reflection: 3
+            Modulus Distillation
+            // stack: pos, id_axis
+            {
+                $mat_1_x
+                $mat_1_y
+                $mat_1_z
+            }
+            {
+                $mat_3_x
+                $mat_3_y
+                $mat_3_z
+            }
+            {
+                $mat_5_x
+                $mat_5_y
+                $mat_5_z
+            }
+            Numerical Reflection: 3
+            Flock's Gambit
+
+            Charmed Reflection
+            $storage_area_id
+            Selection Distillation
+            Selection Distillation
+
+            // stack: pos, id_axis, list_mat
+            Jester's Gambit
+            Selection Distillation
+            // stack: pos, mat
+            {
+                Additive Distillation
+                Break Block
+                Sekhmet's Gambit: 0
+            }
+            {
+                Additive Distillation
+                Annihilate Block
+                Sekhmet's Gambit: 0
+            }
+            {
+                Additive Distillation
+                Collect Block
+                Sekhmet's Gambit: 0
+            }
+            Numerical Reflection: 3
+            Flock's Gambit
+
+            Charmed Reflection
+            $storage_mode_id
+            Selection Distillation
+            Selection Distillation
+            // stack: pos, mat
+
+            Jester's Gambit
+            Restoration Purification
+            {}
+            Modicum Purification
+            Prospector's Gambit
+            Modicum Purification
+            Equality Distillation
+            {}
+            {
+                Single's Purification
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            // stack: pos, hex, list
+
+            Numerical Reflection: 3
+            Flock's Gambit
+            Bubbles' Purification
+            Single's Purification
+            {
+                Flock's Disintegration
+                Thoth's Gambit
+            }
+            Additive Distillation
+            Numerical Reflection: 1
+            Enqueue
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {// shift
+        Augur's Purification
+        {// right
+            // change mode
+            $init_storage
+
+            Charmed Reflection
+            $storage_mode_id
+            Dioscuri Gambit
+
+            Selection Distillation
+
+            Numerical Reflection: 1
+            Additive Distillation
+            $storage_mode_count
+            Modulus Distillation
+            
+            $storage_mode_desc
+            Prospector's Gambit
+            Selection Distillation
+            Reveal
+            Bookkeeper's Gambit: v
+
+            Surgeon's Exaltation
+            
+            Charmed Gambit
+        }
+        {// left
+
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+}
+
+Numerical Reflection: 64
+
+{
+    @num(0)
+    @num(1)
+}
+{
+    @num(1)
+}
+
+Charm
