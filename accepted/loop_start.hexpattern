@@ -1,5 +1,11 @@
 #git(/libs/base.hexpattern)
 
+/*
+Starts a spell from Akasha Chat Casting using it every 10 ticks in a cassette called "Loop".
+Overwrites the cassette if it exists.
+It should keep parameters passed when chat casted.
+*/
+
 // stack: [params], first in list is spell name which i want to cad
 
 Gemini Decomposition

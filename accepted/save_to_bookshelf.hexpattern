@@ -1,5 +1,9 @@
 #git(/libs/base.hexpattern)
 
+/*
+Saves hex held in hand into bookshelf you are looking at with name provided as first parameter.
+*/
+
 Flock's Disintegration
 $to_hexicon
 $target_block

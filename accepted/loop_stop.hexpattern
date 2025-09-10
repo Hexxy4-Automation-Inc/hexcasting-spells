@@ -1,5 +1,10 @@
 #git(/libs/base.hexpattern)
 
+/*
+Stops a spell in a cassette called "Loop" started via "loop start".
+Leaves the cassette locked as "Loop" to prevent kicking when queueing diffrent spell.
+*/
+
 {
     {@str(Loop)} >>
     Program Purification

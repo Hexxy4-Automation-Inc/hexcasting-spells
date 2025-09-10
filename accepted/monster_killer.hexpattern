@@ -1,5 +1,15 @@
 #git(/libs/base.hexpattern)
 
+/*
+Should be used as a quine (for example with "Loop").
+Targets all listed monsters in range and uses safe explode to kill them.
+Also uses Expose Mind on all the monsters to harvest media into Mind Phial.
+If you are the only person killing the enemy, media income is net positive (around +10 media/mob at min).
+Works in all dimensions, doesn't destroy terrain.
+
+Note: for some reason it sometimes leaves mage blocks...
+*/
+
 $casterInWorldBounds
 $fastif()(
     Janus' Gambit
