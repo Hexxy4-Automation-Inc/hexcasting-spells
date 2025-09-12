@@ -1,0 +1,127 @@
+/*
+check if sentinel exists
+
+
+
+get global time
+modulo
+get this tick pos
+for i:
+    use sorobon
+    pos -= vec(0, 1, 0) * sorobon
+    check if sorobon less than max
+*/
+
+Locate Sentinel
+Augur's Purification
+{}
+{
+    {@vec(-382.5, 37.5, -696,5)}>>
+    Summon Greater Sentinel
+    {@vec(-375.5, 35.5, -696,5)}>>
+    Summon Greater Sentinel
+}
+Augur's Exaltation
+Hermes' Gambit
+
+{@vec(-382.5, 36.5, -696,5)}>>
+Timekeeper's Reflection
+Numerical Reflection: 124
+Modulus Distillation
+Tachygrapher's Distilation
+// stack: top_pos
+{// for i
+    // stack: top_pos, max
+    Undertaker's Gambit
+    Soroban Reflection
+    Undertaker's Gambit
+    Minimus Distillation
+    {// for i cont
+        // stack: max, top_pos, i
+        {@vec(0, -1, 0)}>>
+        Multiplicative Distillation
+        Additive Distillation
+        // stack: max, pos
+        Gemini Decomposition
+        Detective's Purification
+        {@str(amethyst)}>>
+        Equality Distillation
+        {// if amethyst
+            // stack: max, pos
+            Gemini Decomposition
+            Numerical Reflection: 2
+            Extract Block
+            Numerical Reflection: 1
+            Zone Distillation: Item
+            {
+                // stack: ..., item
+                {// package_positions
+                    @vec()
+                    @vec()
+                    @vec()
+                }
+                {// item_iden
+                    @str(d)
+                    @str(s)
+                    @str(c)
+                }
+                Numerical Reflection: 3
+                Fisherman's Gambit II
+                Locator's Distillation
+                Selection Distillation
+                // TODO: check if null
+                // stack: ..., item, package_pos
+                Dioscuri Gambit
+                Hopper
+                
+                // check if package is full
+                Prospector's Gambit
+                Augur's Purification
+                {}
+                {
+                    // stack: ..., item, package_pos
+                    Numerical Reflection: 4
+                    Gemini Gambit
+                    // stack: ..., item, package_pos, package_pos, package_pos, package_pos
+                    Break Block
+                    // stack: ..., item, package_pos, package_pos, package_pos
+                    Entity Purification: Item
+                    // stack: ..., item, package_pos, package_pos, package
+                    Prospector's Gambit
+                    // stack: ..., item, package_pos, package_pos, package, package_pos
+                    {@vec(0, 1, 0)}>>
+                    Additive Distillation
+                    // stack: ..., item, package_pos, package_pos, package, package_pos+1
+                    Hopper
+                    // TODO: add pushing this package also up/make it repeat
+
+                    // stack: ..., item, package_pos, package_pos
+                    
+                    {@vec(-383.5, 36.5, -693.5)}>> // package of packages pos
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+
+                Soroban Gambit: 0
+            }
+            Jester's Gambit
+            Thoth's Gambit
+            Bookkeeper's Gambit: vv
+            // stack: max
+            Single's Purification
+            Castor's Gambit
+        }
+        {}
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+    Soroban Gambit: 0
+}
+Numerical Reflection: 15
+Single's Purification
+Single's Purification
+Thoth's Gambit
+Bookkeeper's Gambit: v

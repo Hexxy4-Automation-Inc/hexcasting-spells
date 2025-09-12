@@ -1,0 +1,90 @@
+/*
+simplified:
+    get package
+    if can't break it and give it
+    if broken use 'get' to replace destroyed package
+
+detailed:
+input: source, destination, column_axis, package_look_direction
+
+checks if 0 slot is empty:
+    if not move 1 package from source and place it at destination
+        (use package_look_direction for correct orientation and will look same direction as pacakge storage)
+    if yes:
+    break package at source and place it at destination (use package_look_direction for correct orientation)
+    add next iteration of 'get' where new destination is current source 
+        and new source is current source + column_axis
+*/
+
+#def(place)(
+    // stack: item, pos, look
+    Undertaker's Gambit
+    Subtractive Distillation
+    Jester's Gambit
+    // stack: item, dispenser_pos, look
+    Dispense
+)
+
+// stack: src, dst, axis, look
+Numerical Reflection: 4
+Flock's Gambit
+{
+    Numerical Reflection: 3
+    Fisherman's Gambit II
+    Hopper Purification
+    Numerical Reflection: 0
+    Selection Distillation
+    Augur's Purification
+    {// not empty
+        // stack: src, dst, axis, look
+        Bookkeeper's Gambit: v-
+        Rotation Gambit II
+        // stack: look, src, dst
+        Undertaker's Gambit
+        Numerical Reflection: 1
+        Jester's Gambit
+        Hopper
+        // stack: look, dst
+        Undertaker's Gambit
+        Entity Purification: Item
+        // stack: dst, look, item
+        Rotation Gambit II
+        $place
+    }
+    {// empty
+        // move package from source to dest
+        // stack: src, dst, axis, look
+        Numerical Reflection: 3
+        Fisherman's Gambit
+        Gemini Decomposition
+        Break Block
+        Entity Purification: Item
+        // stack: dst, axis, look, item
+        Numerical Reflection: 3
+        Fisherman's Gambit II
+        Numerical Reflection: 2
+        Fisherman's Gambit II
+        // stack: dst, axis, look, item, dst, look
+        $place
+        // stack: dst, axis, look
+        Rotation Gambit II
+        Dioscuri Gambit
+        Additive Distillation
+        Jester's Gambit
+        // stack: look, dst, new_dst, axis
+        Numerical Reflection: 3
+        Fisherman's Gambit
+        // stack: dst, new_dst, axis, look
+        
+        // run get with dst, dst+axis, axis, look
+        Numerical Reflection: 4
+        Flock's Gambit
+        Single's Purification
+        Castor's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+Single's Purification
+Thoth's Gambit

@@ -1,0 +1,45 @@
+// stack: pos, axis, desti
+/*
+Moves 1 package from pos of package to destination. 
+If package is empty will break it and move it instead, and then place new package with pacakges.
+*/
+
+Numerical Reflection: 2
+Fisherman's Gambit II
+Hopper Purification
+Numerical Reflection: 0
+Selection Distillation
+Augur's Purification
+{// package not empty
+    Bookkeeper's Gambit: v-
+    Numerical Reflection: 1
+    Jester's Gambit
+    Hopper
+}
+{// package empty
+    Numerical Reflection: 2
+    Fisherman's Gambit II
+    Gemini Decomposition
+    Break Block
+    Entity Purification: Item
+    Jester's Gambit
+    Hopper
+    
+    Jester's Gambit
+    // stack: axis, pos
+    Undertaker's Gambit
+    Dioscuri Gambit
+    Additive Distillation
+    Prospector's Gambit
+    // stack: pos, axis, pos, pos+1, pos
+    Numerical Reflection: 1
+    Jester's Gambit
+    Hopper
+    
+    Gemini Decomposition
+    Entity Purification: Item
+    Jester's Gambit
+    // stack: pos, axis, item, pos
+}
+Augur's Exaltation
+Hermes' Gambit
