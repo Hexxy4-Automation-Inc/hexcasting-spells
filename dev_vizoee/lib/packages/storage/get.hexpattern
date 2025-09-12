@@ -70,28 +70,31 @@ Flock's Gambit
         // move package from source to dest
         // stack: src, dst, axis, look
         Numerical Reflection: 3
-        Fisherman's Gambit
+        Fisherman's Gambit II
+        // stack: src, dst, axis, look, src
         Gemini Decomposition
         Break Block
         Entity Purification: Item
-        // stack: dst, axis, look, item
+        // stack: src, dst, axis, look, item
         Numerical Reflection: 3
-        Fisherman's Gambit II
+        Fisherman's Gambit
+        // stack: src, axis, look, item, dst
         Numerical Reflection: 2
         Fisherman's Gambit II
-        // stack: dst, axis, look, item, dst, look
+        // stack: src, axis, look, item, dst, look
         $place
-        // stack: dst, axis, look
+        // stack: src, axis, look
         Rotation Gambit II
         Dioscuri Gambit
         Additive Distillation
         Jester's Gambit
-        // stack: look, dst, new_dst, axis
+        // stack: look, src->dst, new_src, axis
+        Bubbling Gambit
         Numerical Reflection: 3
         Fisherman's Gambit
-        // stack: dst, new_dst, axis, look
+        // stack: new_src, src->dst, axis, look
         
-        // run get with dst, dst+axis, axis, look
+        // run get with src+axis, src, axis, look
         Numerical Reflection: 4
         Flock's Gambit
         Castor's Gambit
