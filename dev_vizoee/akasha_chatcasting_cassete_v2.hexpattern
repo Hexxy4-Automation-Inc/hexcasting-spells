@@ -1,0 +1,57 @@
+{
+    {Bookkeeper's Gambit: -}>>
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+
+    Numerical Reflection: 17
+    Whisper Reflection
+    Bubbles' Purification
+    Surgeon's Exaltation
+
+    Numerical Reflection: 2
+    {@str(Akasha Chat Casting)}>>
+    Reading Purification
+    Enqueue
+
+    Whisper Reflection // replaced by last message
+    Whisper Reflection
+    Equality Distillation
+    {}
+    {
+        Whisper Reflection
+        Spacing Reflection
+        Separation Distillation
+        
+        Speaker's Decomposition
+
+        Gemini Decomposition
+        Augur's Purification
+        {
+            #git(/dev_vizoee/convert_string_to_hexicon.hexpattern)
+            {#git(/dev_vizoee/config/akasha_position.hexpattern)}>>
+            Jester's Gambit
+            Akasha's Distillation
+            Gemini Decomposition
+            Augur's Purification
+            {
+                Hermes' Gambit
+            }
+            {}
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        {}
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+Hermes' Gambit
+
+
