@@ -1,5 +1,5 @@
 /*
-Starts cassette that reads player messages and tries to 
+Starts cassette that reads player messages and tries to find spell with same name in akasha, and runs it if it finds it.
 */
 
 {
