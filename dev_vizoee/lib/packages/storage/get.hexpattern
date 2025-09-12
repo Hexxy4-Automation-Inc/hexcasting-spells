@@ -29,6 +29,8 @@ checks if 0 slot is empty:
 Numerical Reflection: 4
 Flock's Gambit
 {
+    Flock's Disintegration
+    // stack: src, dst, axis, look
     Numerical Reflection: 3
     Fisherman's Gambit II
     Hopper Purification

@@ -1,10 +1,14 @@
+/*
+Starts cassette that reads player messages and tries to 
+*/
+
 {
     {Bookkeeper's Gambit: -}>>
     Numerical Reflection: 1
     Prospector's Gambit
     Surgeon's Exaltation
 
-    Numerical Reflection: 18
+    Numerical Reflection: 18 // replaces last message
     Whisper Reflection
     Bubbles' Purification
     Surgeon's Exaltation
