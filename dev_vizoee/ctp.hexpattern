@@ -25,41 +25,41 @@
     Restoration Purification
 )
 
-
+Reveal
 Gemini Decomposition
 Numerical Reflection: 0
 Numerical Reflection: 3
 Selection Exaltation
 Jester's Gambit
-// Numerical Reflection: 3
-// Numerical Reflection: 4      // commented out untill tests with gblink after noetic
-// Selection Exaltation
-// Flock's Disintegration
+Numerical Reflection: 3
+Numerical Reflection: 4      // commented out untill tests with gblink after noetic
+Selection Exaltation
+Flock's Disintegration
 // stack: list of strX, strY, strZ, strDim
 
 // ====================== dim change code goes here =========================
 // check if in the same dim
-// @str(dim/table)
-// Reflecting Gambit
-// Locator's Distillation
-// Selection Distillation
-// Gemini Decomposition
-// Spatial Reflection
-// Equality Distillation
-// $fastif(
-//     Bookkeeper's Gambit: v
-// )(
-//     $hasMinMedia(200)
-//     $fastif()(
-//         $print(Not enough media to use dimensional teleport)
-//         Janus' Gambit
-//     )
+@str(dim/table)
+Reflecting Gambit
+Locator's Distillation
+Selection Distillation
+Gemini Decomposition
+Spatial Reflection
+Equality Distillation
+$fastif(
+    Bookkeeper's Gambit: v
+)(
+    $hasMinMedia(200)
+    $fastif()(
+        $print(Not enough media to use dimensional teleport)
+        Janus' Gambit
+    )
     
-//     Mind's Reflection
-//     Jester's Gambit
+    Mind's Reflection
+    Jester's Gambit
     
-//     Noetic Gateway
-// )
+    Noetic Gateway
+)
 // ====================== end of dim change code =========================
 
 {
