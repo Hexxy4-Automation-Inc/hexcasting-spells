@@ -5,8 +5,8 @@ Saves hex held in hand into bookshelf you are looking at with name provided as f
 */
 
 Flock's Disintegration
-$to_hexicon
-$target_block
+$toHexicon
+$targetBlock
 Scribe's Reflection
 Bubbling Gambit
 Librarian's Gambit
