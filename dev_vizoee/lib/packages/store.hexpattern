@@ -1,0 +1,14 @@
+/*
+Input: storage[pos, ], package_storage[]
+Input: item, storage pos, package storage pos, axis, look
+*/
+
+/*
+    insert item to storage
+    if item does not exists:
+        end spell
+    if item does exists:
+        break package and add:
+            new store run with storage pos = storage pos + axis
+            placing new empty package at storage pos and hopper item there
+*/
