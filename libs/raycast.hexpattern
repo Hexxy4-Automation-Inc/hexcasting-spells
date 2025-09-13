@@ -1,0 +1,37 @@
+// ==============================================================================
+// ==========================         RAYCASTS         ==========================
+// ==============================================================================
+
+// return vector of the targeted block
+#def(targetBlock)(
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Archer's Distillation
+)
+
+// return vector representing the side of targeted block
+#def(targetBlockFace)(
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Architect's Distillation
+)
+
+// return vector of block that would be placed on the side of targeted block
+#def(targetBlockOnBlockFace)(
+    $targetBlock
+    $targetBlockFace
+    Additive Distillation
+)
+
+// return targeted entity iota
+#def(targetEntity)(
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Scout's Distillation
+)
