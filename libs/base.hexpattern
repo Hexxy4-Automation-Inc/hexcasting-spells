@@ -291,10 +291,8 @@
         Augur's Exaltation
         Hermes' Gambit
     }
-    {
-        $akashaRaw
-        @hexicon(hexicon)
-    }>>
+    $akasha
+    {@hexicon(hexicon)} >>
     Akasha's Distillation
     Retrograde Purification
     Reflecting Gambit
