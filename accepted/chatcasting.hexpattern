@@ -2,6 +2,8 @@
 Starts cassette that reads player messages and tries to find spell with same name in akasha, and runs it if it finds it.
 */
 
+#git(/libs/base.hexpattern)
+
 {
     {Bookkeeper's Gambit: -}>>
     Numerical Reflection: 1
@@ -32,8 +34,8 @@ Starts cassette that reads player messages and tries to find spell with same nam
         Gemini Decomposition
         Augur's Purification
         {
-            #git(/dev_vizoee/convert_string_to_hexicon.hexpattern)
-            {#git(/dev_vizoee/config/akasha_position.hexpattern)}>>
+            $toHexicon
+            $akasha
             Jester's Gambit
             Akasha's Distillation
             Gemini Decomposition
