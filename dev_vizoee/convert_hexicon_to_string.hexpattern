@@ -133,8 +133,10 @@ Chirographer's Purification
     Augur's Exaltation
     Hermes' Gambit
 }
-{#git(/dev_vizoee/config/akasha_position.hexpattern)}>>
-@hexicon(hexicon)
+{
+    #git(/dev_vizoee/config/akasha_position.hexpattern)
+    @hexicon(hexicon)
+}>>
 Akasha's Distillation
 Retrograde Purification
 Reflecting Gambit
