@@ -1,4 +1,11 @@
 /*
+Input: source package, destination position, column axis, package look direction
+
+Takes package from package storage and places it in given position in same orientation as pacakge storage. 
+Column axis is orientation in which package storage is set up.
+*/
+
+/*
 simplified:
     get package
     if can't break it and give it

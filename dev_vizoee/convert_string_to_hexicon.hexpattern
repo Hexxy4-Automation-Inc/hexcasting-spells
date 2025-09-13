@@ -6,8 +6,10 @@ Separation Distillation
 Blank Reflection
 Single's Purification
 Exclusion Distillation
-{#git(/dev_vizoee/config/akasha_position.hexpattern)}>>
-@hexicon(hexicon)
+{
+    #git(/dev_vizoee/config/akasha_position.hexpattern)
+    @hexicon(hexicon)
+}>>
 Akasha's Distillation
 {
     Sekhmet's Gambit: 2
