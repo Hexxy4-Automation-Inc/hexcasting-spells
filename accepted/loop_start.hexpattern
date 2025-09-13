@@ -8,6 +8,11 @@ It should keep parameters passed when chat casted.
 
 // stack: [params], first in list is spell name which i want to cad
 
+#def(cassette_name)(
+    {@str(Loop)} >>
+    Reading Purification
+)
+
 Gemini Decomposition
 Huginn's Gambit
 Numerical Reflection: 0
@@ -41,10 +46,10 @@ Additive Distillation
 
 
 {
-    {@str(Loop)} >>
+    $cassette_name
     Program Purification
     Numerical Reflection: 10
-    {@str(Loop)} >>
+    $cassette_name
     Enqueue
 
     {
@@ -59,5 +64,5 @@ Rotation Gambit
 Surgeon's Exaltation
 
 Numerical Reflection: 10
-{@str(Loop)} >>
+$cassette_name
 Enqueue

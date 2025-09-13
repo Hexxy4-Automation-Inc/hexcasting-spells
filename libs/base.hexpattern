@@ -1,3 +1,6 @@
+#git(/libs/dictonary.hexpattern)
+#git(/libs/akasha.hexpattern)
+
 // ==============================================================================
 // ==============================================================================
 // ==========================         PATTERNS         ==========================
@@ -46,7 +49,7 @@
 
 // ==============================================================================
 // ==============================================================================
-// ==========================          CONSTS          ==========================
+// ==========================           CONF           ==========================
 // ==============================================================================
 // ==============================================================================
 
@@ -57,138 +60,12 @@
 
 )
 
-
-// ==============================================================================
-// ==============================================================================
-// ==========================           CONF           ==========================
-// ==============================================================================
-// ==============================================================================
-
-#def(akashaRaw)(
-    @vec(-391, 54, -694)
-)
-
-#def(akasha)(
-    {@vec(-391, 54, -694)} >>
-)
-
 // ==============================================================================
 // ==============================================================================
 // ==========================        FUNCTIONS         ==========================
 // ==============================================================================
 // ==============================================================================
 
-
-// ==============================================================================
-// ==========================        DICTIONARY        ==========================
-// ==============================================================================
-
-// stack: ,
-#def(dictCreate)(
-    Vacant Reflection
-    Vacant Reflection
-    Numerical Reflection: 2
-    Flock's Gambit
-)
-
-// stack: dict, key
-#def(dictRead)(
-    Jester's Gambit
-    Flock's Disintegration
-    Reflecting Gambit
-    Locator's Distillation
-    Gemini Decomposition
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        Bookkeeper's Gambit: vv
-        Nullary Reflection
-    }
-    {
-        Selection Distillation
-    }
-    Augur's Exaltation
-    Hermes' Gambit
-)
-
-// stack: dict, key, value
-#def(dictWrite)(
-    Rotation Gambit
-    Flock's Disintegration
-    Rotation Gambit
-    Integration Distillation
-    Rotation Gambit II
-    Jester's Gambit
-    Integration Distillation
-    Jester's Gambit
-    Numerical Reflection: 2
-    Flock's Gambit
-)
-
-// stack: dict, key, value
-#def(dictOverwrite)(
-    Reflecting Gambit
-    Dioscuri Gambit
-    Flock's Disintegration
-    Bookkeeper's Gambit: v
-    Jester's Gambit
-    Locator's Distillation
-    Gemini Decomposition
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        Bookkeeper's Gambit: v
-        Bubbling Gambit
-        Flock's Disintegration
-        Rotation Gambit
-        Integration Distillation
-        Rotation Gambit II
-        Jester's Gambit
-        Integration Distillation
-        Jester's Gambit
-        Numerical Reflection: 2
-        Flock's Gambit
-    }
-    {
-        Bookkeeper's Gambit: v--
-        Jester's Gambit
-        Flock's Disintegration
-        Numerical Reflection: 17
-        Swindler's Gambit
-        Surgeon's Exaltation
-        Numerical Reflection: 2
-        Flock's Gambit
-    }
-    Augur's Exaltation
-    Hermes' Gambit
-)
-
-// stack: dict, key
-#def(dictRemove)(
-    Jester's Gambit
-    Flock's Disintegration
-    Reflecting Gambit
-    Dioscuri Gambit
-    Locator's Distillation
-    Gemini Decomposition
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        Bookkeeper's Gambit: vv
-        Jester's Gambit
-    }
-    {
-        Bookkeeper's Gambit: v-
-        Undertaker's Gambit
-        Excisor's Distillation
-        Rotation Gambit II
-        Excisor's Distillation
-    }
-    Augur's Exaltation
-    Hermes' Gambit
-    Numerical Reflection: 2
-    Flock's Gambit
-)
 
 // ==============================================================================
 // ==========================         BASE FUNC        ==========================
@@ -249,32 +126,6 @@
     {@str(<1>)} >>
     Reveal
     Bookkeeper's Gambit: v
-)
-
-#def(akasharead)(
-    $akasha
-    Jester's Gambit
-    Akasha's Distillation
-)
-
-#def(akashasaferead)(
-    $akasharead
-    Gemini Decomposition
-    Augur's Purification
-    $fastif()(
-        Bookkeeper's Gambit: v
-    )
-)
-
-#def(akashacast)(
-    $akasharead
-    Gemini Decomposition
-    Augur's Purification
-    $fastif(
-        Hermes' Gambit
-    )(
-        Bookkeeper's Gambit: v
-    )
 )
 
 // stack: string
