@@ -60,27 +60,16 @@
 
 // ==============================================================================
 // ==============================================================================
-// ==========================           MISC           ==========================
+// ==========================           CONF           ==========================
 // ==============================================================================
 // ==============================================================================
 
-#def(akasha)(
-    // Hexxy3
-    // {@vec(375, 53, 2484)} >>
-
-    // Hexxy4
-    {@vec(-391, 54, -694)} >>
+#def(akashaRaw)(
+    @vec(-391, 54, -694)
 )
 
-#def(dump)(
-    Flock's Reflection
-    Flock's Gambit
-    {@str(<1>)}>>
-    Speaker's Distillation
-    Reveal
-    Speaker's Decomposition
-    Bookkeeper's Gambit: v
-    Flock's Disintegration
+#def(akasha)(
+    {@vec(-391, 54, -694)} >>
 )
 
 // ==============================================================================
@@ -88,6 +77,118 @@
 // ==========================        FUNCTIONS         ==========================
 // ==============================================================================
 // ==============================================================================
+
+
+// ==============================================================================
+// ==========================        DICTIONARY        ==========================
+// ==============================================================================
+
+// stack: ,
+#def(dictCreate)(
+    Vacant Reflection
+    Vacant Reflection
+    Numerical Reflection: 2
+    Flock's Gambit
+)
+
+// stack: dict, key
+#def(dictRead)(
+    Jester's Gambit
+    Flock's Disintegration
+    Reflecting Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: vv
+        Nullary Reflection
+    }
+    {
+        Selection Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+// stack: dict, key, value
+#def(dictWrite)(
+    Rotation Gambit
+    Flock's Disintegration
+    Rotation Gambit
+    Integration Distillation
+    Rotation Gambit II
+    Jester's Gambit
+    Integration Distillation
+    Jester's Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+)
+
+// stack: dict, key, value
+#def(dictOverwrite)(
+    Reflecting Gambit
+    Dioscuri Gambit
+    Flock's Disintegration
+    Bookkeeper's Gambit: v
+    Jester's Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: v
+        Bubbling Gambit
+        Flock's Disintegration
+        Rotation Gambit
+        Integration Distillation
+        Rotation Gambit II
+        Jester's Gambit
+        Integration Distillation
+        Jester's Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    {
+        Bookkeeper's Gambit: v--
+        Jester's Gambit
+        Flock's Disintegration
+        Numerical Reflection: 17
+        Swindler's Gambit
+        Surgeon's Exaltation
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+// stack: dict, key
+#def(dictRemove)(
+    Jester's Gambit
+    Flock's Disintegration
+    Reflecting Gambit
+    Dioscuri Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Bookkeeper's Gambit: vv
+        Jester's Gambit
+    }
+    {
+        Bookkeeper's Gambit: v-
+        Undertaker's Gambit
+        Excisor's Distillation
+        Rotation Gambit II
+        Excisor's Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+)
 
 // ==============================================================================
 // ==========================         BASE FUNC        ==========================
@@ -177,7 +278,7 @@
 )
 
 // stack: string
-#def(to_hexicon)(
+#def(toHexicon)(
     False Reflection
     Case Distillation
     Blank Reflection
@@ -190,7 +291,7 @@
     Akasha's Distillation
     {
         Sekhmet's Gambit: 2
-        $dict_read
+        $dictRead
         Gemini Decomposition
         Augur's Purification
         {
@@ -223,6 +324,17 @@
 // ==============================================================================
 // ==========================           MISC           ==========================
 // ==============================================================================
+
+#def(dump)(
+    Flock's Reflection
+    Flock's Gambit
+    {@str(<1>)}>>
+    Speaker's Distillation
+    Reveal
+    Speaker's Decomposition
+    Bookkeeper's Gambit: v
+    Flock's Disintegration
+)
 
 #def(saferead)(
     Auditor's Reflection
@@ -267,184 +379,12 @@
     Maximus Distillation II
 )
 
-
-// ==============================================================================
-// ==========================        DICTIONARY        ==========================
-// ==============================================================================
-
-// stack: ,
-#def(dict_create)(
-    Vacant Reflection
-    Vacant Reflection
-    Numerical Reflection: 2
-    Flock's Gambit
-)
-
-// stack: dict, key
-#def(dict_read)(
-    Jester's Gambit
-    Flock's Disintegration
-    Reflecting Gambit
-    Locator's Distillation
-    Gemini Decomposition
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        Bookkeeper's Gambit: vv
-        Nullary Reflection
-    }
-    {
-        Selection Distillation
-    }
-    Augur's Exaltation
-    Hermes' Gambit
-)
-
-// stack: dict, key, value
-#def(dict_write)(
-    Rotation Gambit
-    Flock's Disintegration
-    Rotation Gambit
-    Integration Distillation
-    Rotation Gambit II
-    Jester's Gambit
-    Integration Distillation
-    Jester's Gambit
-    Numerical Reflection: 2
-    Flock's Gambit
-)
-
-// stack: dict, key, value
-#def(dict_over_write)(
-    Reflecting Gambit
-    Dioscuri Gambit
-    Flock's Disintegration
-    Bookkeeper's Gambit: v
-    Jester's Gambit
-    Locator's Distillation
-    Gemini Decomposition
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        Bookkeeper's Gambit: v
-        Bubbling Gambit
-        Flock's Disintegration
-        Rotation Gambit
-        Integration Distillation
-        Rotation Gambit II
-        Jester's Gambit
-        Integration Distillation
-        Jester's Gambit
-        Numerical Reflection: 2
-        Flock's Gambit
-    }
-    {
-        Bookkeeper's Gambit: v--
-        Jester's Gambit
-        Flock's Disintegration
-        Numerical Reflection: 17
-        Swindler's Gambit
-        Surgeon's Exaltation
-        Numerical Reflection: 2
-        Flock's Gambit
-    }
-    Augur's Exaltation
-    Hermes' Gambit
-)
-
-// stack: dict, key
-#def(dict_remove)(
-    Jester's Gambit
-    Flock's Disintegration
-    Reflecting Gambit
-    Dioscuri Gambit
-    Locator's Distillation
-    Gemini Decomposition
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        Bookkeeper's Gambit: vv
-        Jester's Gambit
-    }
-    {
-        Bookkeeper's Gambit: v-
-        Undertaker's Gambit
-        Excisor's Distillation
-        Rotation Gambit II
-        Excisor's Distillation
-    }
-    Augur's Exaltation
-    Hermes' Gambit
-    Numerical Reflection: 2
-    Flock's Gambit
-)
-
-
-
-// stack: value, name, list_of_names, list_of_values
-// #def(dictsave)(
-//     Reflecting Gambit
-//     Dioscuri Gambit
-//     // stack: value, list_of_values, list_of_names, name, list_of_names, name
-//     Locator's Distillation
-//     // stack: value, list_of_values, list_of_names, name, index
-//     Numerical Reflection: -1
-//     Equality Distillation
-//     // stack: value, list_of_values, list_of_names, name
-//     $fastif(
-//         Single's Purification
-//         Additive Distillation
-//         Reflecting Gambit
-//         Single's Purification
-//         Additive Distillation
-//         // stack: list_of_names, list_of_values
-//     )(
-//         // stack: value, list_of_values, list_of_names, name
-//         Dioscuri Gambit
-//         Locator's Distillation
-//         Bookkeeper's Gambit: v-
-//         Rotation Gambit II
-//         // stack: value, index, list_of_values, list_of_names
-//         Numerical Reflection: 4
-//         Flock's Gambit
-//         Retrograde Purification
-//         Flock's Disintegration
-//         // stack: list_of_names, list_of_values, index, value
-//         Surgeon's Exaltation
-//         // stack: list_of_names, list_of_values
-//     )
-// )
-
-// stack: ... , varname
-#def(varread)(
-    $personal_property
-    Observation Purification
-    Flock's Disintegration
-    $dictread
-    // stack: ... , varvalue
-)
-
-// stack: ... ,value, varname
-#def(varsave)(
-    $personal_property
-    Observation Purification
-    Flock's Disintegration
-    $dictsave
-    Numerical Reflection: 2
-    Flock's Gambit
-    $personal_property
-    Jester's Gambit
-    Schrödinger's Gambit
-    // stack: ... , 
-)
-
-
 // ==============================================================================
 // ==========================         RAYCASTS         ==========================
 // ==============================================================================
 
 // return vector of the targeted block
-#def(target_block)(
+#def(targetBlock)(
     Mind's Reflection
     Compass' Purification
     Mind's Reflection
@@ -453,7 +393,7 @@
 )
 
 // return vector representing the side of targeted block
-#def(target_block_face)(
+#def(targetBlockFace)(
     Mind's Reflection
     Compass' Purification
     Mind's Reflection
@@ -462,14 +402,14 @@
 )
 
 // return vector of block that would be placed on the side of targeted block
-#def(target_block_on_block_face)(
-    $target_block
-    $target_block_face
+#def(targetBlockOnBlockFace)(
+    $targetBlock
+    $targetBlockFace
     Additive Distillation
 )
 
 // return targeted entity iota
-#def(target_entity)(
+#def(targetEntity)(
     Mind's Reflection
     Compass' Purification
     Mind's Reflection
@@ -481,28 +421,6 @@
 // ==============================================================================
 // ==========================         CASSETTES        ==========================
 // ==============================================================================
-
-// checks if there is a free cassette or if cassette under the same name is running, if not, terminates the hex
-#def(check_for_free_cassette)(
-    $if(
-        {@str(<1>)} >>
-        Program Purification
-        Augur's Purification
-    )(
-        $print(Restarting cassette...)
-    )(
-        $if(
-            Threading Reflection II
-            Numerical Reflection: 0
-            Equality Distillation
-        )(
-            $print(No free cassettes, terminating thread!)
-            Janus' Gambit
-        )( 
-            $print(Free cassette available, proceeding...)
-        )
-    )
-)
 
 // starts thread to cast every n ticks 
 // params - 
@@ -525,37 +443,4 @@
     {@str(<1>)} >>
     Enqueue
 
-)
-
-// if one of the passed arguments is "stop" stops or dequeues the hex, prints message with passed name
-// params - 
-//      <1> name: string
-#def(stop_detect)(
-    $runif( // 6base + 47 = 53
-        Flock's Reflection
-        Augur's Purification
-    )(
-        $runif( // 6base + 39 = 45
-            Gemini Decomposition
-            {@str(stop)}>> // 4
-            Locator's Distillation
-            Numerical Reflection: -1
-            Inequality Distillation
-        )(
-            $runif( // 6base + 18 = 24
-                {@str(<1>)} >> // 4
-                Program Purification II
-                Nullary Reflection
-                Inequality Distillation
-            )(
-                // if it is cassette, dequeue
-                {@str(<1>)} >> // 4
-                Dequeue
-                $print(Killing thread <1>) //6
-            )
-            // stop it
-            $print(Stopping <1>) // 6
-            Janus' Gambit
-        )
-    )
 )
