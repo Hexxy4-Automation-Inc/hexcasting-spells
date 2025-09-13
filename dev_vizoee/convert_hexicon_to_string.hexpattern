@@ -1,0 +1,153 @@
+/*
+TODO: use locator spell
+
+
+number list
+while there are more patterns
+    while there are more numbers
+        check if numbers are matching
+
+        at the end return true
+    if empty return false
+    else return true and break
+
+get pattern with number equal to lenght of list - 1 
+    or skip if last pattern is false
+
+*/
+
+// stack: pattern
+Chirographer's Purification
+
+{ // while not empty
+    Sekhmet's Gambit: 2
+    // stack: abc_pattern_dict, [to_convert_list, result]
+    Flock's Disintegration
+    Reflecting Gambit
+    // stack: result, to_convert_list, abc_pattern_dict
+    Flock's Disintegration
+    // stack: result, to_convert_list, abc_patterns, abc_strings
+    Rotation Gambit II
+    // stack: result, abc_strings, to_convert_list, abc_patterns
+    Undertaker's Gambit
+    // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns
+    { // for each pattern - break when finds pattern
+        // stack: to_convert_list, abc_pattern
+        Sekhmet's Gambit: 2
+        Chirographer's Purification
+        Undertaker's Gambit
+        Length Purification
+        // stack: abc_pattern, to_convert_list, abc_pattern_length
+        Prospector's Gambit
+        Length Purification
+        Prospector's Gambit
+        // stack: abc_pattern, to_convert_list, abc_pattern_length, to_convert_list_length, abc_pattern_length
+        Minimus Distillation 
+        {
+            {
+                Tutu's Gambit
+            }
+        }
+        {
+            // stack: abc_pattern, to_convert_list, abc_pattern_length
+            Numerical Reflection: 0
+            Jester's Gambit
+            Selection Exaltation
+
+            // Flock's Reflection
+            // Flock's Gambit
+            // Reveal
+            // Flock's Disintegration
+
+            Undertaker's Gambit
+            Equality Distillation
+            {
+                {
+                    Charon's Gambit
+                }
+            }
+            {
+                {
+                    Tutu's Gambit
+                }
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        
+        Flock's Disintegration
+        Sekhmet's Gambit: 1
+        Hermes' Gambit
+        Numerical Reflection: 0
+    }
+    Jester's Gambit
+    // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns, [num/empty]
+    Thoth's Gambit
+    // stack: result, abc_strings, abc_patterns, to_convert_list, [num/empty]
+    Bubbling Gambit
+    // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
+
+    // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
+    Length Purification
+    Prospector's Gambit
+    Length Purification
+    Prospector's Gambit
+    Inequality Distillation
+    {
+        // stack: result, abc_strings, to_convert_list, abc_patterns, num
+        Numerical Reflection: -2
+        Fisherman's Gambit II
+        // stack: result, abc_strings, num, to_convert_list, abc_patterns, num
+        Selection Distillation
+        Chirographer's Purification
+        Length Purification
+        Prospector's Gambit
+        Length Purification
+        Selection Exaltation
+        // stack: result, abc_strings, num, to_convert_list_sliced
+        Numerical Reflection: -3
+        Fisherman's Gambit
+        Selection Distillation
+        Additive Distillation
+        // stack: to_convert_list_sliced, result
+        Prospector's Gambit
+        Augur's Purification
+        {
+            Numerical Reflection: 2
+            Flock's Gambit
+            Pollux's Gambit
+            Sekhmet's Gambit: 0
+        }
+        {
+            Sekhmet's Gambit: 1
+            // stack: result
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        // No patterns found. PANIC AND THROW ERROR OR SHIT
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+{
+    #git(/dev_vizoee/config/akasha_position.hexpattern)
+    @hexicon(hexicon)
+}>>
+Akasha's Distillation
+Retrograde Purification
+Reflecting Gambit
+// stack: pattern_dict, commands, to_convert_list
+Blank Reflection
+Numerical Reflection: 2
+Flock's Gambit
+Single's Purification
+// stack: pattern_dict, commands, [[to_convert_list, string]]
+Thoth's Gambit
+Flock's Disintegration
+Bookkeeper's Gambit: v-
+
+
