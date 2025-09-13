@@ -1,0 +1,127 @@
+#git(/libs/base.hexpattern)
+
+
+// -> vec x, vec y, vec z
+#def(getCasterBasisMatrix)(
+    Mind's Reflection
+    Alidade's Purification
+    Mind's Reflection
+    Theodolite's Purification
+    Dioscuri Gambit
+    Division Distillation
+    Reflecting Gambit
+    
+    
+    Numerical Reflection: 3
+    Flock's Gambit
+    Transformation Purification
+    Inverse Purification
+)
+
+// mat, vec -> vec (transposed)
+#def(transpose)(
+    Transformation Purification
+    Multiplicative Distillation
+    Restoration Purification
+)
+
+
+Gemini Decomposition
+Numerical Reflection: 0
+Numerical Reflection: 3
+Selection Exaltation
+Jester's Gambit
+Numerical Reflection: 3
+Numerical Reflection: 4      // commented out untill tests with gblink after noetic
+Selection Exaltation
+Flock's Disintegration
+// stack: list of strX, strY, strZ, strDim
+
+// ====================== dim change code goes here =========================
+// check if in the same dim
+// @str(dim/table)
+// Reflecting Gambit
+// Locator's Distillation
+// Selection Distillation
+// Gemini Decomposition
+// Spatial Reflection
+// Equality Distillation
+// $fastif(
+//     Bookkeeper's Gambit: v
+// )(
+//     $hasMinMedia(200)
+//     $fastif()(
+//         $print(Not enough media to use dimensional teleport)
+//         Janus' Gambit
+//     )
+    
+//     Mind's Reflection
+//     Jester's Gambit
+    
+//     Noetic Gateway
+// )
+// ====================== end of dim change code =========================
+
+{
+    Input Purification
+    Gemini Decomposition
+    Nullary Reflection
+    Equality Distillation
+    $fastif(
+        $print(part of the vector is NaN)
+        Janus' Gambit
+    )()
+}
+Jester's Gambit
+Thoth's Gambit
+Flock's Disintegration
+Vector Exaltation
+$centerVec
+Gemini Decomposition
+$isInWorldBounds
+$fastif()(
+    $print(Destination out of world bounds)
+    Janus' Gambit
+)
+
+Single's Purification
+
+
+{
+    Gemini Decomposition
+    Mind's Reflection
+    Compass' Purification II
+    Dioscuri Gambit
+    Subtractive Distillation
+    Length Purification
+    Numerical Reflection: 125
+    Minimus Distillation II
+    $fastif(
+        //move to dest
+        Subtractive Distillation
+    )(
+        // move 125 and queue dest
+        Prospector's Gambit
+        Castor's Gambit
+        Subtractive Distillation
+        Gemini Decomposition
+        Length Purification
+        Division Distillation
+        Numerical Reflection: 125
+        Multiplicative Distillation
+    )
+    {@str(basis)}>>
+    Jester's Gambit
+    $transpose
+    Greater Blink
+}
+$indexof(basis)
+$getCasterBasisMatrix
+Surgeon's Exaltation
+Jester's Gambit
+Thoth's Gambit
+
+Mind's Reflection
+Compass' Purification
+Numerical Reflection: 1
+Confetti
