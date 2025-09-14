@@ -129,6 +129,12 @@
     Bookkeeper's Gambit: v
 )
 
+// insert string as text iota
+#def(textIota)(
+    {@str(<1>)} >>
+    Reading Purification
+)
+
 // stack: string
 #def(toHexicon)(
     False Reflection
