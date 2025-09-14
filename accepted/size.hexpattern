@@ -1,5 +1,8 @@
 #git(/libs/base.hexpattern)
 
+// Usage: size <number>
+// Changes caster size, includes incorrect input handling
+
 Gemini Decomposition
 Length Purification
 Numerical Reflection: 0
@@ -11,12 +14,11 @@ $$fastif(
     Gemini Decomposition
     Augur's Purification
     $fastif()(
-        $print("Provided size is not a number.")
-        $print("Usage: size <number>")
+        $print(Provided size is not a number. Usage: size <number>)
         Janus' Gambit
     )
 )(
-    $print("Usage: size <number>")
+    $print(No size provided. Usage: size <number>)
     Janus' Gambit
 )
 
