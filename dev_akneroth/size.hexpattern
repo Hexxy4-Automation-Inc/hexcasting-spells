@@ -7,6 +7,14 @@ Maximus Distillation
 $$fastif(
     Speaker's Decomposition
     Bookkeeper's Gambit: v-
+    Input Purification
+    Gemini Decomposition
+    Augur's Purification
+    $fastif()(
+        $print("Provided size is not a number.")
+        $print("Usage: size <number>")
+        Janus' Gambit
+    )
 )(
     $print("Usage: size <number>")
     Janus' Gambit
