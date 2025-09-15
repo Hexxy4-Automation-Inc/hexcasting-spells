@@ -12,7 +12,7 @@
     Akasha's Distillation
 )
 
-#def(akashasaferead)(
+#def(akashaSafeRead)(
     $akasharead
     Gemini Decomposition
     Augur's Purification
@@ -21,7 +21,7 @@
     )
 )
 
-#def(akashacast)(
+#def(akashaCast)(
     $akasharead
     Gemini Decomposition
     Augur's Purification
@@ -30,4 +30,9 @@
     )(
         Bookkeeper's Gambit: v
     )
+)
+
+#def(akashaVar)(
+    {@hexicon(<1>)} >>
+    $akashaRead
 )
