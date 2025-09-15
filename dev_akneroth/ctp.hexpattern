@@ -40,7 +40,7 @@ Derivation Decomposition
 
 // ====================== dim change code goes here =========================
 // check if in the same dim
-@akashaVar(table/dim)
+$akashaVar(table/dim)
 Flock's Disintegration
 Reflecting Gambit
 Locator's Distillation
