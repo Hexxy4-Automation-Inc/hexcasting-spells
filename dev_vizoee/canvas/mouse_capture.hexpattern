@@ -43,12 +43,19 @@
     Bookkeeper's Gambit: v-
     Inverse Tangent Purification II
     // stack: pitch, yaw
+    Numerical Reflection: 2
+    Dioscuri Gambit II
     Mind's Reflection
     Rotation Gambit II
     Rotate Entity
-    // Numerical Reflection: 2
-    // Flock's Gambit
-    // Reveal
+    
+    Numerical Reflection: -1
+    Periphery Reflection
+    Numerical Reflection: -2
+    Division Distillation
+    Periphery Reflection
+    {@vec(1, 1, 1)}>>
+    Draw Rectangle
 }
 Numerical Reflection: 12
 Mind's Reflection
