@@ -1,0 +1,28 @@
+#git(/libs/base.hexpattern)
+
+// Usage: size <number>
+// Changes caster size, includes incorrect input handling
+
+Gemini Decomposition
+Length Purification
+Numerical Reflection: 0
+Maximus Distillation
+$$fastif(
+    Speaker's Decomposition
+    Bookkeeper's Gambit: v-
+    Input Purification
+    Gemini Decomposition
+    Augur's Purification
+    $fastif()(
+        $print(Provided size is not a number. Usage: size <number>)
+        Janus' Gambit
+    )
+)(
+    $print(No size provided. Usage: size <number>)
+    Janus' Gambit
+)
+
+Mind's Reflection
+Jester's Gambit
+Alter Scale
+
