@@ -56,6 +56,10 @@
     Periphery Reflection
     {@vec(1, 1, 1)}>>
     Draw Rectangle
+    
+    // stack: pitch, yaw
+    Soulprint Reflection
+    
 }
 Numerical Reflection: 12
 Mind's Reflection
