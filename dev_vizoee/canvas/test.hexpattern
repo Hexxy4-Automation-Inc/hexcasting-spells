@@ -1,0 +1,28 @@
+#def(button_type)(@str(button))
+#def(label_type)(@str(label))
+
+// Text
+#def(content)(@str(content))
+#def(align)(@str(align))
+#def(align-center)(@num(0))
+#def(align-left)(@num(1))
+#def(align-right)(@num(2))
+
+Vacant Reflection
+{
+    @str(label_type)
+    @vec(0, 0, 0)
+}
+Vacant Reflection
+{
+    $content
+    $align
+}
+Integration Distillation
+{
+    @str(Hello World)
+    $align-center
+}
+Integration Distillation
+Integration Distillation
+Integration Distillation

@@ -4,18 +4,22 @@ Contains storage how exactly ui should look like. Each iteration writes again up
 ## Storage
 Is a list of elements in order which they shoudl be drawn. Each element contains type, position and styles.
 [type, position, styles]
-### Styles
-Its a dictionary:
+## Styles
 - color
 - background_color
+- on_click
+- width
+- height
+- scale
+- rotation
+### Text
+- content
+- align
 - text_underlined
 - test_obfuscated
 - text_crossed
 - text_italic
 - text_bold
-- on_click
-- width
-- height
 
 
 

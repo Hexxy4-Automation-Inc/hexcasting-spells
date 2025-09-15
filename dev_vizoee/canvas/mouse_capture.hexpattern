@@ -1,0 +1,51 @@
+{
+    {Bookkeeper's Gambit: -}>>
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+    Enqueue
+
+    {
+        Bookkeeper's Gambit: -
+    }
+
+    Mind's Reflection
+    Alidade's Purification
+    Subtractive Distillation
+    Vector Disintegration
+    // stack: x, y, z
+    Numerical Reflection: 3
+    Gemini Gambit
+    // stack: x, y, z
+    Numerical Reflection: 2
+    Power Distillation
+    Rotation Gambit
+    Numerical Reflection: 2
+    Power Distillation
+    // stack: yaw, y, z^2, x^2
+    Additive Distillation
+    Numerical Reflection: 0.5
+    Power Distillation
+    Inverse Tangent Purification II
+    // stack: x, y, z, pitch
+    Numerical Reflection: -3
+    Fisherman's Gambit
+    // stack: pitch, x, y, z
+    Bookkeeper's Gambit: v-
+    Inverse Tangent Purification II
+    // stack: pitch, yaw
+    Numerical Reflection: 2
+    Flock's Gambit
+    Reveal
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+
+Numerical Reflection: 9
+Mind's Reflection
+Alidade's Purification
+Surgeon's Exaltation
+
+Enqueue
+

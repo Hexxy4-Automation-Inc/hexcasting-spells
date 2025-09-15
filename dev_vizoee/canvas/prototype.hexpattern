@@ -1,3 +1,8 @@
+#def(label_handler)(
+    // stack: element_list
+)
+
+
 // stack: list
 {
     
