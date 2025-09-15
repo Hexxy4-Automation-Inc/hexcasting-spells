@@ -7,8 +7,10 @@
     Prospector's Gambit
     Surgeon's Exaltation
     Numerical Reflection: 1
+    Numerical Reflection: 0
+    Reading Purification
     Enqueue
-
+    
     {
         Bookkeeper's Gambit: -
     }
@@ -43,7 +45,7 @@
     Flock's Gambit
     Reveal
 }
-Numerical Reflection: 10
+Numerical Reflection: 12
 Mind's Reflection
 Alidade's Purification
 Surgeon's Exaltation
@@ -54,5 +56,7 @@ Surgeon's Exaltation
 
 
 Numerical Reflection: 1
+Numerical Reflection: 0
+Reading Purification
 Enqueue
 
