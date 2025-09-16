@@ -1,6 +1,7 @@
 #git(/libs/dictonary.hexpattern)
 #git(/libs/akasha.hexpattern)
 #git(/libs/raycast.hexpattern)
+#git(/libs/hexicon.hexpattern)
 
 // ==============================================================================
 // ==============================================================================
@@ -67,6 +68,30 @@
 // ==============================================================================
 // ==============================================================================
 
+// ==============================================================================
+// ==========================        DEBUG FUNC        ==========================
+// ==============================================================================
+
+// $dump(TAG)
+// prints entire stack as list with provided TAG at the start of the list
+#def(dump)(
+    Flock's Reflection
+    Flock's Gambit
+    {@str(<1>)}>>
+    Speaker's Distillation
+    Reveal
+    Speaker's Decomposition
+    Bookkeeper's Gambit: v
+    Flock's Disintegration
+)
+
+// prints entire stack as list
+#def(printStack)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
 
 // ==============================================================================
 // ==========================         BASE FUNC        ==========================
@@ -129,211 +154,11 @@
     Bookkeeper's Gambit: v
 )
 
-// prints entire stack as list
-#def(printStack)(
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
-)
 
 // insert string as text iota
 #def(textIota)(
     {@str(<1>)} >>
     Reading Purification
-)
-
-// stack: string
-#def(toHexicon)(
-    False Reflection
-    Case Distillation
-    Blank Reflection
-    Separation Distillation
-    Blank Reflection
-    Single's Purification
-    Exclusion Distillation
-    $akasha
-    {@hexicon(hexicon)} >>
-    Akasha's Distillation
-    {
-        Sekhmet's Gambit: 2
-        $dictRead
-        Gemini Decomposition
-        Augur's Purification
-        {
-            Chirographer's Purification
-            Flock's Disintegration
-        }
-        {
-            Bookkeeper's Gambit: v
-        }
-        Augur's Exaltation
-        Hermes' Gambit
-    }
-    Rotation Gambit
-    Thoth's Gambit
-
-    Gemini Decomposition
-    Augur's Purification
-    {
-        Calligrapher's Purification
-        Bookkeeper's Gambit: v-
-    }
-    {
-        Bookkeeper's Gambit: vv
-        Nullary Reflection
-    }
-    Augur's Exaltation
-    Hermes' Gambit
-)
-
-// stack: pattern
-#def(fromHexicon)(
-    Chirographer's Purification
-
-    { // while not empty
-        Sekhmet's Gambit: 2
-        // stack: abc_pattern_dict, [to_convert_list, result]
-        Flock's Disintegration
-        Reflecting Gambit
-        // stack: result, to_convert_list, abc_pattern_dict
-        Flock's Disintegration
-        // stack: result, to_convert_list, abc_patterns, abc_strings
-        Rotation Gambit II
-        // stack: result, abc_strings, to_convert_list, abc_patterns
-        Undertaker's Gambit
-        // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns
-        { // for each pattern - break when finds pattern
-            // stack: to_convert_list, abc_pattern
-            Sekhmet's Gambit: 2
-            Chirographer's Purification
-            Undertaker's Gambit
-            Length Purification
-            // stack: abc_pattern, to_convert_list, abc_pattern_length
-            Prospector's Gambit
-            Length Purification
-            Prospector's Gambit
-            // stack: abc_pattern, to_convert_list, abc_pattern_length, to_convert_list_length, abc_pattern_length
-            Minimus Distillation 
-            {
-                {
-                    Tutu's Gambit
-                }
-            }
-            {
-                // stack: abc_pattern, to_convert_list, abc_pattern_length
-                Numerical Reflection: 0
-                Jester's Gambit
-                Selection Exaltation
-
-                // Flock's Reflection
-                // Flock's Gambit
-                // Reveal
-                // Flock's Disintegration
-
-                Undertaker's Gambit
-                Equality Distillation
-                {
-                    {
-                        Charon's Gambit
-                    }
-                }
-                {
-                    {
-                        Tutu's Gambit
-                    }
-                }
-                Augur's Exaltation
-                Hermes' Gambit
-            }
-            Augur's Exaltation
-            Hermes' Gambit
-            
-            Flock's Disintegration
-            Sekhmet's Gambit: 1
-            Hermes' Gambit
-            Numerical Reflection: 0
-        }
-        Jester's Gambit
-        // stack: result, abc_strings, abc_patterns, to_convert_list, abc_patterns, [num/empty]
-        Thoth's Gambit
-        // stack: result, abc_strings, abc_patterns, to_convert_list, [num/empty]
-        Bubbling Gambit
-        // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
-
-        // stack: result, abc_strings, to_convert_list, abc_patterns, [num/empty]
-        Length Purification
-        Prospector's Gambit
-        Length Purification
-        Prospector's Gambit
-        Inequality Distillation
-        {
-            // stack: result, abc_strings, to_convert_list, abc_patterns, num
-            Numerical Reflection: -2
-            Fisherman's Gambit II
-            // stack: result, abc_strings, num, to_convert_list, abc_patterns, num
-            Selection Distillation
-            Chirographer's Purification
-            Length Purification
-            Prospector's Gambit
-            Length Purification
-            Selection Exaltation
-            // stack: result, abc_strings, num, to_convert_list_sliced
-            Numerical Reflection: -3
-            Fisherman's Gambit
-            Selection Distillation
-            Additive Distillation
-            // stack: to_convert_list_sliced, result
-            Prospector's Gambit
-            Augur's Purification
-            {
-                Numerical Reflection: 2
-                Flock's Gambit
-                Pollux's Gambit
-                Sekhmet's Gambit: 0
-            }
-            {
-                Sekhmet's Gambit: 1
-                // stack: result
-            }
-            Augur's Exaltation
-            Hermes' Gambit
-        }
-        {
-            // No patterns found. PANIC AND THROW ERROR OR SHIT
-        }
-        Augur's Exaltation
-        Hermes' Gambit
-    }
-    $akasha
-    {@hexicon(hexicon)} >>
-    Akasha's Distillation
-    Retrograde Purification
-    Reflecting Gambit
-    // stack: pattern_dict, commands, to_convert_list
-    Blank Reflection
-    Numerical Reflection: 2
-    Flock's Gambit
-    Single's Purification
-    // stack: pattern_dict, commands, [[to_convert_list, string]]
-    Thoth's Gambit
-    Flock's Disintegration
-    Bookkeeper's Gambit: v-
-)
-
-// ==============================================================================
-// ==========================           MISC           ==========================
-// ==============================================================================
-
-#def(dump)(
-    Flock's Reflection
-    Flock's Gambit
-    {@str(<1>)}>>
-    Speaker's Distillation
-    Reveal
-    Speaker's Decomposition
-    Bookkeeper's Gambit: v
-    Flock's Disintegration
 )
 
 #def(saferead)(
@@ -377,32 +202,4 @@
     Subtractive Distillation
     Numerical Reflection: <1>
     Maximus Distillation II
-)
-
-
-// ==============================================================================
-// ==========================         CASSETTES        ==========================
-// ==============================================================================
-
-// starts thread to cast every n ticks 
-// params - 
-//      <1> name: string, 
-//      <2> n: number, 
-//      <3> loop: bool, 
-//      <4> hex: many iotas
-#def(start_thread)(
-    {
-        <4>
-        $if(<3>)(
-            {@str(<1>)} >>
-            Program Purification
-            Numerical Reflection: <2>
-            {@str(<1>)} >>
-            Enqueue
-        )()
-    }
-    Numerical Reflection: <2>
-    {@str(<1>)} >>
-    Enqueue
-
 )
