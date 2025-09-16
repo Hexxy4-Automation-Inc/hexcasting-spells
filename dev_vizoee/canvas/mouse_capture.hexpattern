@@ -61,6 +61,7 @@
     // Draw Rectangle
     
     // stack: pitch, yaw
+    $printStack
     Mind's Reflection
     Retrieve Idea
     Gemini Decomposition
@@ -78,7 +79,6 @@
     Vector Disintegration
     Bookkeeper's Gambit: v
     // stack: new x, new y, old x, old y
-    $printStack
     Bubbling Gambit
     Additive Distillation
     Rotation Gambit II
