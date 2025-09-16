@@ -59,7 +59,42 @@
     
     // stack: pitch, yaw
     Soulprint Reflection
+    Retrieve Idea
+    Gemini Decomposition
+    Augur's Purification
+    {
+
+    }
+    {
+        Bookkeeper's Gambit: v
+        {@vec(0, 0, 0)}>>
+    }
+    Augur's Exaltation
+    Hermes' Gambit
     
+    Vector Disintegration
+    Bookkeeper's Gambit: v
+    // stack: new x, new y, old x, old y
+    Bubbling Gambit
+    Additive Distillation
+    Rotation Gambit II
+    Additive Distillation
+    Jester's Gambit
+    // stack: x, y
+    Numerical Reflection: 0
+    Vector Exaltation
+    Soulprint Reflection
+    Prospector's Gambit
+    Inscribe Idea
+    // stack: cur_pos
+    Reveal
+    Numerical Reflection: 1
+    Jester's Gambit
+    {
+        @vec(1, 1, 0)
+        @vec(0, 0, 0)
+    }>>
+    Draw Rectangle
 }
 Numerical Reflection: 12
 Mind's Reflection
