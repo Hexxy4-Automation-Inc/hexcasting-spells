@@ -51,13 +51,14 @@
     Rotation Gambit II
     Rotate Entity
     
-    Numerical Reflection: -1
-    Periphery Reflection
-    Numerical Reflection: -2
-    Division Distillation
-    Periphery Reflection
-    {@vec(1, 1, 1)}>>
-    Draw Rectangle
+    // White screen
+    // Numerical Reflection: -1
+    // Periphery Reflection
+    // Numerical Reflection: -2
+    // Division Distillation
+    // Periphery Reflection
+    // {@vec(1, 1, 1)}>>
+    // Draw Rectangle
     
     // stack: pitch, yaw
     Mind's Reflection
