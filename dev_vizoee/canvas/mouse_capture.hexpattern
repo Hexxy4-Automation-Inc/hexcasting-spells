@@ -1,3 +1,5 @@
+#git(/libs/base.hexpattern)
+
 {
     {
         Bookkeeper's Gambit: -
@@ -75,6 +77,7 @@
     Vector Disintegration
     Bookkeeper's Gambit: v
     // stack: new x, new y, old x, old y
+    $printStack
     Bubbling Gambit
     Additive Distillation
     Rotation Gambit II
@@ -87,7 +90,7 @@
     Prospector's Gambit
     Inscribe Idea
     // stack: cur_pos
-    Reveal
+    
     Numerical Reflection: 1
     Jester's Gambit
     {

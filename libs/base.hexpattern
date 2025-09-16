@@ -129,6 +129,14 @@
     Bookkeeper's Gambit: v
 )
 
+// prints entire stack as list
+#def(printStack)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
+
 // insert string as text iota
 #def(textIota)(
     {@str(<1>)} >>
