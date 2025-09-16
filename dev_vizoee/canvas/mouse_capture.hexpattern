@@ -45,6 +45,7 @@
     Bookkeeper's Gambit: v-
     Inverse Tangent Purification II
     // stack: pitch, yaw
+    $printStack
     Numerical Reflection: 2
     Dioscuri Gambit II
     Mind's Reflection
@@ -61,9 +62,6 @@
     // Draw Rectangle
     
     // stack: pitch, yaw
-    Numerical Reflection: 100
-    Multiplicative Distillation
-    $printStack
     Mind's Reflection
     Retrieve Idea
     Gemini Decomposition
