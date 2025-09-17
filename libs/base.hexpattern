@@ -72,7 +72,6 @@
 // ==========================        DEBUG FUNC        ==========================
 // ==============================================================================
 
-// $dump(TAG)
 // prints entire stack as list with provided TAG at the start of the list
 #def(dump)(
     Flock's Reflection
