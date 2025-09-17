@@ -1,4 +1,11 @@
-#git(/libs/base.hexpattern)
+// #git(/libs/base.hexpattern)
+
+#def(printStack)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
 
 {
     {
