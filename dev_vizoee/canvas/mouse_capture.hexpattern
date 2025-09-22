@@ -7,6 +7,11 @@
     Flock's Disintegration
 )
 
+
+Mind's Reflection
+{@vec(0, 0, 0)}>>
+Inscribe Idea
+
 {
     {
         Bookkeeper's Gambit: -
@@ -58,7 +63,7 @@
     Bookkeeper's Gambit: v-
     Inverse Tangent Purification II
     // stack: pitch, yaw
-    Numerical Reflection: -100
+    Numerical Reflection: -10
     Multiplicative Distillation
 
     $printStack
