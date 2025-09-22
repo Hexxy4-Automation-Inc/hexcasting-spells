@@ -47,7 +47,7 @@
     Inverse Tangent Purification II
     // stack: x, y, z, pitch
 
-    Numerical Reflection: 100
+    Numerical Reflection: -100
     Multiplicative Distillation
     
     
@@ -58,6 +58,9 @@
     Bookkeeper's Gambit: v-
     Inverse Tangent Purification II
     // stack: pitch, yaw
+    Numerical Reflection: -100
+    Multiplicative Distillation
+
     $printStack
     Jester's Gambit
     
