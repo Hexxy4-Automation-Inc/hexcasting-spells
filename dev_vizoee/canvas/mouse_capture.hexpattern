@@ -53,59 +53,59 @@
     Inverse Tangent Purification II
     // stack: pitch, yaw
     $printStack
-    Numerical Reflection: 2
-    Dioscuri Gambit II
-    Mind's Reflection
-    Rotation Gambit II
-    Rotate Entity
+    // Numerical Reflection: 2
+    // Dioscuri Gambit II
+    // Mind's Reflection
+    // Rotation Gambit II
+    // Rotate Entity
     
-    // White screen
-    // Numerical Reflection: -1
-    // Periphery Reflection
-    // Numerical Reflection: -2
-    // Division Distillation
-    // Periphery Reflection
-    // {@vec(1, 1, 1)}>>
-    // Draw Rectangle
+    // // White screen
+    // // Numerical Reflection: -1
+    // // Periphery Reflection
+    // // Numerical Reflection: -2
+    // // Division Distillation
+    // // Periphery Reflection
+    // // {@vec(1, 1, 1)}>>
+    // // Draw Rectangle
     
-    // stack: pitch, yaw
-    Mind's Reflection
-    Retrieve Idea
-    Gemini Decomposition
-    Augur's Purification
-    {
+    // // stack: pitch, yaw
+    // Mind's Reflection
+    // Retrieve Idea
+    // Gemini Decomposition
+    // Augur's Purification
+    // {
 
-    }
-    {
-        Bookkeeper's Gambit: v
-        {@vec(0, 0, 0)}>>
-    }
-    Augur's Exaltation
-    Hermes' Gambit
+    // }
+    // {
+    //     Bookkeeper's Gambit: v
+    //     {@vec(0, 0, 0)}>>
+    // }
+    // Augur's Exaltation
+    // Hermes' Gambit
     
-    Vector Disintegration
-    Bookkeeper's Gambit: v
-    // stack: new x, new y, old x, old y
-    Bubbling Gambit
-    Additive Distillation
-    Rotation Gambit II
-    Additive Distillation
-    Jester's Gambit
-    // stack: x, y
-    Numerical Reflection: 0
-    Vector Exaltation
-    Mind's Reflection
-    Prospector's Gambit
-    Inscribe Idea
-    // stack: cur_pos
+    // Vector Disintegration
+    // Bookkeeper's Gambit: v
+    // // stack: new x, new y, old x, old y
+    // Bubbling Gambit
+    // Additive Distillation
+    // Rotation Gambit II
+    // Additive Distillation
+    // Jester's Gambit
+    // // stack: x, y
+    // Numerical Reflection: 0
+    // Vector Exaltation
+    // Mind's Reflection
+    // Prospector's Gambit
+    // Inscribe Idea
+    // // stack: cur_pos
     
-    Numerical Reflection: 1
-    Jester's Gambit
-    {
-        @vec(1, 1, 0)
-        @vec(0, 0, 0)
-    }>>
-    Draw Rectangle
+    // Numerical Reflection: 1
+    // Jester's Gambit
+    // {
+    //     @vec(1, 1, 0)
+    //     @vec(0, 0, 0)
+    // }>>
+    // Draw Rectangle
 }
 Numerical Reflection: 12
 Mind's Reflection
