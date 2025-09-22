@@ -56,13 +56,13 @@
     
     
     // White screen
-    Numerical Reflection: -1
-    Periphery Reflection
-    Numerical Reflection: -2
-    Division Distillation
-    Periphery Reflection
-    {@vec(1, 1, 1)}>>
-    Draw Rectangle
+    // Numerical Reflection: -1
+    // Periphery Reflection
+    // Numerical Reflection: -2
+    // Division Distillation
+    // Periphery Reflection
+    // {@vec(1, 1, 1)}>>
+    // Draw Rectangle
     
     // stack: pitch, yaw
     Mind's Reflection
@@ -98,7 +98,7 @@
     Numerical Reflection: 1
     Jester's Gambit
     {
-        @vec(1, 1, 0)
+        @vec(10, 10, 0)
         @vec(0, 0, 0)
     }>>
     Draw Rectangle
