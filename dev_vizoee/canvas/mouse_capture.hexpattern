@@ -21,7 +21,7 @@
     Numerical Reflection: 2
     Prospector's Gambit
     Surgeon's Exaltation
-    
+
     Numerical Reflection: 1
     Numerical Reflection: 0
     Reading Purification
@@ -40,12 +40,16 @@
     Rotation Gambit
     Numerical Reflection: 2
     Power Distillation
-    // stack: yaw, y, z^2, x^2
+    // stack: y, z^2, x^2
     Additive Distillation
     Numerical Reflection: 0.5
     Power Distillation
     Inverse Tangent Purification II
     // stack: x, y, z, pitch
+
+    Numerical Reflection: 100
+    Multiplicative Distillation
+    
     
     Numerical Reflection: -3
     Fisherman's Gambit
