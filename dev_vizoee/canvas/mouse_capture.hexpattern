@@ -26,40 +26,48 @@
     >>
 
     Mind's Reflection
-    // Alidade's Purification
-    // Subtractive Distillation
-    // Vector Disintegration
-    // // stack: x, y, z
-    // Numerical Reflection: 3
-    // Dioscuri Gambit II
-    // // stack: x, y, z
-    // Numerical Reflection: 2
-    // Power Distillation
-    // Rotation Gambit
-    // Numerical Reflection: 2
-    // Power Distillation
-    // // stack: yaw, y, z^2, x^2
-    // Additive Distillation
-    // Numerical Reflection: 0.5
-    // Power Distillation
-    // Inverse Tangent Purification II
-    // // stack: x, y, z, pitch
+    Alidade's Purification
+    Subtractive Distillation
+    Vector Disintegration
+    // stack: x, y, z
+    Numerical Reflection: 3
+    Dioscuri Gambit II
+    // stack: x, y, z
+    Numerical Reflection: 2
+    Power Distillation
+    Rotation Gambit
+    Numerical Reflection: 2
+    Power Distillation
+    // stack: yaw, y, z^2, x^2
+    Additive Distillation
+    Numerical Reflection: 0.5
+    Power Distillation
+    Inverse Tangent Purification II
+    // stack: x, y, z, pitch
     
-    // Numerical Reflection: -3
-    // Fisherman's Gambit
+    Numerical Reflection: -3
+    Fisherman's Gambit
 
-    // // stack: pitch, x, y, z
-    // Bookkeeper's Gambit: v-
-    // Inverse Tangent Purification II
-    // // stack: pitch, yaw
-    // $printStack
-    // Numerical Reflection: 2
-    // Dioscuri Gambit II
-    // Mind's Reflection
-    // Rotation Gambit II
-    Numerical Reflection: 0
-    Numerical Reflection: 0
-    Rotate Entity
+    // stack: pitch, x, y, z
+    Bookkeeper's Gambit: v-
+    Inverse Tangent Purification II
+    // stack: pitch, yaw
+    $printStack
+    Dioscuri Gambit
+    Augur's Purification
+    Jester's Gambit
+    Augur's Purification
+    Disjunction Distillation
+    {
+        Dioscuri Gambit
+        Mind's Reflection
+        Rotation Gambit II
+        Rotate Entity
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+    
     
     // // White screen
     // // Numerical Reflection: -1
