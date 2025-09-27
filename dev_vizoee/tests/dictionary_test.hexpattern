@@ -1,0 +1,12 @@
+#git(/libs/base.hexpattern)
+
+$dictCreate
+{
+    @str("test")
+    @num(3.14)    
+}>>
+$dictOverwrite
+
+Nullary Reflection
+Numerical Reflection: 2
+$dictOverwrite

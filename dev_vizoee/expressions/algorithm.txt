@@ -1,0 +1,36 @@
+values:
+    current symbol
+    processing number
+
+for each symbol:
+    if number or .:
+        if last symbol's first value is number:
+            add it to last symbol
+        else
+            make new symbol
+    else:
+        make new symbol
+
+
+V2
+use Castor's Gambit as a way to have states - state machine
+    push index of commands that should be run
+    index 0 is ismply selecting correct command
+    all commands should fall back to index 0 if they fail or complete
+
+handlers:
+numbers:
+    converts string to number
+    runs as long as symbol is part of numbers (0123456789 and .)
+    does not validate if number is correct (but can by checking if null)
+functions
+    parses functions
+    contains list of all functions (probably good idea to make tree out of it with leafs as results)
+    traverses tree until finds leaf or miss
+        leaf - success, pastes result
+        miss - fail, parses as variable and/or errors if len > 1
+variables
+    converts char/string to variable/list of variables
+operators (could argue that they are part of functions)
+    +-==()
+    
