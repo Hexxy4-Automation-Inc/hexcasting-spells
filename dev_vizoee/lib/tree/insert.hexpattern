@@ -1,4 +1,13 @@
-#git(/libs/base.hexpattern)
+
+
+#def(printStack)(
+    Flock's Reflection
+    Flock's Gambit
+    Reveal
+    Flock's Disintegration
+)
+
+#git(/libs/dictonary.hexpattern)
 
 #def(traverse_tree_index)(Numerical Reflection: 0)
 #def(merge_tree_index)(Numerical Reflection: 1)
