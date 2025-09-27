@@ -6,13 +6,13 @@
 // stack: tree, key_string, value
 
 //     /*
-//     iteration begining stack: (values:(), operation index)
+//     iteration begining stack: "values:"...", operation index"
 
 //     if parsed all key: 
 //             remove everything except value
 //             v2: push to tree value under null
 //         while there are iterations:
-//             get iteration ((parent_node, char))
+//             get iteration "parent_node, char"
 //             push node to iteration
 //         leave on stack only new tree
 //     else
@@ -127,7 +127,7 @@ Numerical Reflection: 2
 Flock's Gambit
 {
     Sekhmet's Gambit: 2
-    // stack: operatino_list, (values:(...), opperation_number)
+    // stack: operatino_list, "values:"...", opperation_number"
     Flock's Disintegration
     Bubbling Gambit
     Selection Distillation
