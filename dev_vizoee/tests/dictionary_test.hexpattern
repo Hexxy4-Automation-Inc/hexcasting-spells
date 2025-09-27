@@ -10,3 +10,13 @@ $dictOverwrite
 Nullary Reflection
 Numerical Reflection: 2
 $dictOverwrite
+
+Gemini Decomposition
+Nullary Reflection
+$dictRead
+
+Prospector's Gambit
+{
+    @str("test")    
+}>>
+$dictRead
