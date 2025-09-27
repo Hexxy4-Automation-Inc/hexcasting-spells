@@ -3,67 +3,29 @@
 #def(traverse_tree_index)(Numerical Reflection: 0)
 #def(merge_tree_index)(Numerical Reflection: 1)
 
-// stack: tree, key_string, value
-
-//     /*
-//     iteration begining stack: [values:[], operation index]
-
-//     if parsed all key: 
-//             remove everything except value
-//             v2: push to tree value under null
-//         while there are iterations:
-//             get iteration ([parent_node, char])
-//             push node to iteration
-//         leave on stack only new tree
-//     else
-//         get branch/create new one
-//         add next iteration for merging tree back again (this one will be pop using Seshat's Gambit)
-//             iteration value: [parent_node, char] -> will put new_node to parent_node on char key
-//             V3: storing new_node/value in ravenmind and iteration simply adds to its tree key ravenmind and saves it back to RM
-//         add next iteration for traversing branch
-//     */
-
-
-// stack: tree, key_string, value
-// operations:
-    // traverse existing node - default - key didn't end, node exists
-        // values: tree, key, index
-    // creating new nodes
-    // end of key
-    // reassembling tree
-
-
-// TODO: save and restore ravenmind
 Huginn's Gambit
 Numerical Reflection: 0
 Numerical Reflection: 3
 Flock's Gambit
-{// opp 1
-    // entering tree deeper
-    // stack: [tree, key, key_index]
+{
     Flock's Disintegration
 
     Prospector's Gambit
     Length Purification
     Prospector's Gambit
-    // stack: ... key_len, index
     Minimus Distillation II
-    // stack: value, tree, key_char_list, key_index
-    {// end of key
+    {
         Bookkeeper's Gambit: vv
         Nullary Reflection
         Rotation Gambit
         $dictOverwrite
     }
-    {// parse key
+    {
         Numerical Reflection: 3
         Dioscuri Gambit II
         Selection Distillation
         Undertaker's Gambit
         $dictRead
-        // stack: tree, key, key_index, key_char, node/null
-
-        // If empty create new node
         Gemini Decomposition
         Augur's Purification
         {}
@@ -72,16 +34,6 @@ Flock's Gambit
         }
         Augur's Exaltation
         Hermes' Gambit
-        
-        // stack: tree, key, key_index, key_char, node
-        
-        // to next iter:
-        //     node
-        //     key_index+1 
-        //     key
-        // to last iter:
-        //     tree
-        //     key_char
 
         Numerical Reflection: 3
         Fisherman's Gambit
@@ -90,12 +42,9 @@ Flock's Gambit
         Numerical Reflection: 1
         Additive Distillation
 
-        // stack: tree, key_char, node, key, key_index+1
         Numerical Reflection: 3
         Flock's Gambit
-        // stack: tree, key_char, [node, key, key_index+1]
         Rotation Gambit II
-        // stack: [node, key, key_index+1], tree, key_char
         Numerical Reflection: 2
         Flock's Gambit
         $merge_tree_index
@@ -103,7 +52,6 @@ Flock's Gambit
         Flock's Gambit
         Castor's Gambit
         
-        // stack: [node, key, key_index+1]
         $traverse_tree_index
         Numerical Reflection: 2
         Flock's Gambit
@@ -112,10 +60,7 @@ Flock's Gambit
     Augur's Exaltation
     Hermes' Gambit
 }
-{// opp 2
-    // merging tree
-    // ravenmind: value
-    // stack: [node, key_char]
+{
     Flock's Disintegration
     Muninn's Reflection
     $dictOverwrite
@@ -125,7 +70,6 @@ Numerical Reflection: 2
 Flock's Gambit
 {
     Sekhmet's Gambit: 2
-    // stack: operatino_list, [values:[...], opperation_number]
     Flock's Disintegration
     Bubbling Gambit
     Selection Distillation
