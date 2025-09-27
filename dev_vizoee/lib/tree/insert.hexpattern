@@ -74,15 +74,14 @@ Flock's Gambit
         Hermes' Gambit
         
         // stack: tree, key, key_index, key_char, node
-        /*
-        to next iter:
-            node
-            key_index+1 
-            key
-        to last iter:
-            tree
-            key_char
-        */
+        
+        // to next iter:
+        //     node
+        //     key_index+1 
+        //     key
+        // to last iter:
+        //     tree
+        //     key_char
 
         Numerical Reflection: 3
         Fisherman's Gambit
