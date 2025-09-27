@@ -1,10 +1,15 @@
 #git(/libs/base.hexpattern)
-
+#git(/dev_vizoee/lib/tree.hexpattern)
 
 $dictCreate
 {
-    @str(test)
+    @str(te)
     @num(3.145)
 }>>
-#def(insert)(#git(/dev_vizoee/lib/tree/insert.hexpattern))
-$insert
+$treeInsert
+
+{
+    @str(tt)
+    @num(4)
+}>>
+$treeInsert
