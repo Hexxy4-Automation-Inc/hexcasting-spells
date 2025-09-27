@@ -55,12 +55,13 @@ Flock's Gambit
     Prospector's Gambit
     // stack: ... key_len, index
     Minimus Distillation II
-    // stack: value, tree, key_char_list, key_index
+    // stack: tree, key_char_list, key_index
     {// end of key
         Bookkeeper's Gambit: vv
         Nullary Reflection
-        Rotation Gambit
+        Muninn's Reflection
         $dictOverwrite
+        Huginn's Gambit
     }
     {// parse key
         Numerical Reflection: 3
