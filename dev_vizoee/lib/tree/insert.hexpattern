@@ -83,6 +83,7 @@ Flock's Gambit
             tree
             key_char
         */
+        $printStack
 
         Numerical Reflection: 3
         Fisherman's Gambit
