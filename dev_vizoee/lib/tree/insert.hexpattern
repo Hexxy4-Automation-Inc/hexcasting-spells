@@ -95,7 +95,8 @@ Flock's Gambit
 
         Numerical Reflection: 3
         Fisherman's Gambit
-        Numerical Reflection: 2
+        // stack: tree, key_index, key_char, node, key
+        Numerical Reflection: 3
         Fisherman's Gambit
         Numerical Reflection: 1
         Additive Distillation
