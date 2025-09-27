@@ -45,15 +45,6 @@ Flock's Gambit
         Hermes' Gambit
         
         
-        /*
-        to next iter:
-            node
-            key_index+1 
-            key
-        to last iter:
-            tree
-            key_char
-        */
         $printStack
 
         Numerical Reflection: 3
