@@ -1,18 +1,10 @@
-// #def(stringSplit)(#git(/dev_vizoee/lib/string/split.hexpattern))
 #git(/libs/base.hexpattern)
 
 #def(traverse_tree_index)(Numerical Reflection: 0)
 #def(merge_tree_index)(Numerical Reflection: 1)
 
-// // stack: tree, key_string, value
-// Rotation Gambit II
-// $stringSplit
-// Numerical Reflection: 0
-// Numerical Reflection: 3
-// Flock's Gambit
-// Single's Purification
-// {
-//     // stack: value, [tree, key_char_list, key_index]
+// stack: tree, key_string, value
+
 //     /*
 //     iteration begining stack: [values:[], operation index]
 
@@ -31,31 +23,6 @@
 //         add next iteration for traversing branch
 //     */
 
-//     Prospector's Gambit
-//     Length Purification
-//     Prospector's Gambit
-//     // stack: ... key_len, index
-//     Minimus Distillation II
-//     // stack: value, tree, key_char_list, key_index
-//     {// end of key
-//         Bookkeeper's Gambit: vv
-//         Nullary Reflection
-//         Rotation Gambit
-//         $dictOverwrite
-//         Sekhmet's Gambit: 1
-        
-//     }
-//     {// parse key
-
-//     }
-//     Augur's Exaltation
-//     Hermes' Gambit
-// }
-// Jester's Gambit
-// Thoth's Gambit
-
-// // V3
-
 
 // stack: tree, key_string, value
 // operations:
@@ -64,6 +31,9 @@
     // creating new nodes
     // end of key
     // reassembling tree
+
+
+// TODO: save and restore ravenmind
 Huginn's Gambit
 Numerical Reflection: 0
 Numerical Reflection: 3
@@ -81,9 +51,9 @@ Flock's Gambit
     // stack: value, tree, key_char_list, key_index
     {// end of key
         Bookkeeper's Gambit: vv
-        Jester's Gambit
         Nullary Reflection
-        
+        Rotation Gambit
+        $dictOverwrite
     }
     {// parse key
         Numerical Reflection: 3
@@ -139,7 +109,6 @@ Flock's Gambit
         Numerical Reflection: 2
         Flock's Gambit
         Castor's Gambit
-        Sekhmet's Gambit: 0
     }
     Augur's Exaltation
     Hermes' Gambit
@@ -162,6 +131,7 @@ Flock's Gambit
     Bubbling Gambit
     Selection Distillation
     Hermes' Gambit
+    Sekhmet's Gambit: 0
 }
 Rotation Gambit
 
@@ -171,3 +141,5 @@ Flock's Gambit
 
 Single's Purification
 Thoth's Gambit
+Bookkeeper's Gambit: vv
+Muninn's Reflection

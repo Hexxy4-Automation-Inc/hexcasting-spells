@@ -1,0 +1,10 @@
+#git(/libs/base.hexpattern)
+
+#def(insert)(#git(/dev_vizoee/lib/tree/insert.hexpattern))
+
+$dictCreate
+{
+    @str(test)
+    @num(3.145)
+}>>
+$insert
