@@ -6,19 +6,19 @@
 // stack: tree, key_string, value
 
 //     /*
-//     iteration begining stack: [values:[], operation index]
+//     iteration begining stack: (values:(), operation index)
 
 //     if parsed all key: 
 //             remove everything except value
 //             v2: push to tree value under null
 //         while there are iterations:
-//             get iteration ([parent_node, char])
+//             get iteration ((parent_node, char))
 //             push node to iteration
 //         leave on stack only new tree
 //     else
 //         get branch/create new one
 //         add next iteration for merging tree back again (this one will be pop using Seshat's Gambit)
-//             iteration value: [parent_node, char] -> will put new_node to parent_node on char key
+//             iteration value: (parent_node, char) -> will put new_node to parent_node on char key
 //             V3: storing new_node/value in ravenmind and iteration simply adds to its tree key ravenmind and saves it back to RM
 //         add next iteration for traversing branch
 //     */
@@ -40,7 +40,7 @@ Numerical Reflection: 3
 Flock's Gambit
 {// opp 1
     // entering tree deeper
-    // stack: [tree, key, key_index]
+    // stack: (tree, key, key_index)
     Flock's Disintegration
 
     Prospector's Gambit
@@ -94,9 +94,9 @@ Flock's Gambit
         // stack: tree, key_char, node, key, key_index+1
         Numerical Reflection: 3
         Flock's Gambit
-        // stack: tree, key_char, [node, key, key_index+1]
+        // stack: tree, key_char, (node, key, key_index+1)
         Rotation Gambit II
-        // stack: [node, key, key_index+1], tree, key_char
+        // stack: (node, key, key_index+1), tree, key_char
         Numerical Reflection: 2
         Flock's Gambit
         $merge_tree_index
@@ -104,7 +104,7 @@ Flock's Gambit
         Flock's Gambit
         Castor's Gambit
         
-        // stack: [node, key, key_index+1]
+        // stack: (node, key, key_index+1)
         $traverse_tree_index
         Numerical Reflection: 2
         Flock's Gambit
@@ -116,7 +116,7 @@ Flock's Gambit
 {// opp 2
     // merging tree
     // ravenmind: value
-    // stack: [node, key_char]
+    // stack: (node, key_char)
     Flock's Disintegration
     Muninn's Reflection
     $dictOverwrite
@@ -126,7 +126,7 @@ Numerical Reflection: 2
 Flock's Gambit
 {
     Sekhmet's Gambit: 2
-    // stack: operatino_list, [values:[...], opperation_number]
+    // stack: operatino_list, (values:(...), opperation_number)
     Flock's Disintegration
     Bubbling Gambit
     Selection Distillation
