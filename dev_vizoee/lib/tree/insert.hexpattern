@@ -74,15 +74,6 @@ Flock's Gambit
         Hermes' Gambit
         
         // stack: tree, key, key_index, key_char, node
-        /*
-        to next iter:
-            node
-            key_index+1 
-            key
-        to last iter:
-            tree
-            key_char
-        */
         $printStack
 
         Numerical Reflection: 3
