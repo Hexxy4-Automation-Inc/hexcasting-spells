@@ -34,7 +34,6 @@
 
 #def(treeInsert)(
     // stack: tree, key_string, value
-    // TODO: save and restore ravenmind
     Muninn's Reflection
     // stack: tree, key_string, value, old_ravenmind
     Numerical Reflection: -3
@@ -152,4 +151,13 @@
     Muninn's Reflection
     Jester's Gambit
     Huginn's Gambit
+
+    // stack: tree
+)
+
+#def(treeFind)(
+    // stack: tree, key_string
+
+
+    // stack: value
 )
