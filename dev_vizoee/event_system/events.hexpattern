@@ -1,0 +1,44 @@
+
+
+#def(addEvent)(
+    // stack: event function list, event name, function
+    Rotation Gambit II
+    Dioscuri Gambit
+    $dictRead
+    Numerical Reflection: 3
+    Fisherman's Gambit
+    Gemini Decomposition
+    Augur's Purification
+    {}
+    {
+        Bookkeeper's Gambit: v
+        Vacant Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Integration Distillation
+    $dictOverwrite
+)
+
+#def(handleEvent)(
+    // stack: event function list, event name, param list
+    Rotation Gambit II
+    $dictRead
+    {
+        Sekhmet's Gambit: 2
+        {
+            Flock's Disintegration
+        }
+        Jester's Gambit
+        Additive Distillation
+        Hermes' Gambit
+        Sekhmet's Gambit: 0
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Bookkeeper's Gambit: v
+)
+
+#def(triggerEvent)(
+    // stack: event list, 
+)
