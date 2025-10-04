@@ -4,6 +4,7 @@
 #def(eventListProperty)({@str(Event.List)}>>)
 
 #def(addEventHandler)(
+    $print(addEventHandler)
     // stack: event name, function
     $eventHandlersProperty
     $personalGet
@@ -32,6 +33,7 @@
 )
 
 #def(clearEventHandlers)(
+    $print(clearEventHandlers)
     $eventHandlersProperty
     $personalGet
     $dictCreate
@@ -39,6 +41,7 @@
 )
 
 #def(handleEvents)(
+    $print(handleEvents)
     $eventListProperty
     $personalGet
     Gemini Decomposition
@@ -75,6 +78,7 @@
 )
 
 #def(handleEvent)(
+    $print(handleEvent)
     // stack: event function list, event name, param list
     Rotation Gambit II
     $dictRead
@@ -94,6 +98,7 @@
 )
 
 #def(triggerEvent)(
+    $print(triggerEvent)
     // stack: event name, param list
     Numerical Reflection: 2
     Flock's Gambit
