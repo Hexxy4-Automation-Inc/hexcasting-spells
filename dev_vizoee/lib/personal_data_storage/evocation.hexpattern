@@ -7,9 +7,10 @@
 #def(evocationSetPersonalProperty)(
     {
         @null
+        $personal_property
     }>>
     Evocation Reflection
-    $personal_property
+    Jester's Gambit
     Locator's Distillation
     Numerical Reflection: -1
     Equality Distillation
