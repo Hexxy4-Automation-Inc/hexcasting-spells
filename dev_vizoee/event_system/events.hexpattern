@@ -1,11 +1,11 @@
 #git(/libs/base.hexpattern)
 
-#def(eventHandlersPropertyName)({@str(Event.Functions)}>>)
-#def(eventListPropertyName)({@str(Event.List)}>>)
+#def(eventHandlersProperty)({@str(Event.Functions)}>>)
+#def(eventListProperty)({@str(Event.List)}>>)
 
 #def(addEventHandler)(
     // stack: event name, function
-    $eventHandlersPropertyName
+    $eventHandlersProperty
     $personalGet
     Numerical Reflection: -2
     Fisherman's Gambit II
@@ -32,14 +32,14 @@
 )
 
 #def(clearEventHandlers)(
-    $eventHandlersPropertyName
+    $eventHandlersProperty
     $personalGet
     $dictCreate
     Schrödinger's Gambit
 )
 
 #def(handleEvents)(
-    $eventListPropertyName
+    $eventListProperty
     $personalGet
     Gemini Decomposition
     Observation Purification
@@ -52,7 +52,7 @@
         Vacant Reflection
         Schrödinger's Gambit
 
-        $eventHandlersPropertyName
+        $eventHandlersProperty
         $personalGet
         Observation Purification
         // stack: event_list, func_list
@@ -97,7 +97,7 @@
     // stack: event name, param list
     Numerical Reflection: 2
     Flock's Gambit
-    $eventListPropertyName
+    $eventListProperty
     $personalGet
     Undertaker's Gambit
     Observation Purification
