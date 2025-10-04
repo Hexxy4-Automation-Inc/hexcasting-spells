@@ -71,6 +71,7 @@
             // stack: func_list, event
             Sekhmet's Gambit: 2
             Flock's Disintegration
+            $stackPrint
             $handleSingleEvent
             Sekhmet's Gambit: 0
         }
