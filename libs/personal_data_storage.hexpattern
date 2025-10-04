@@ -35,7 +35,7 @@
     Schrödinger's Gambit
 )
 
-#def(evocationPersonalRead)(
+#def(evocationPersonalRead2)(
     // gets value from personal prop in evo
     // stack: name
     $evocationGetProp
@@ -44,7 +44,7 @@
     $dictRead
 )
 
-#def(evocationPersonalRead2)(
+#def(evocationPersonalRead)(
     // gets prop from personal prop in evo
     // if dont exists, creates new prop and writes it to storage
     // stack: name
@@ -72,6 +72,17 @@
     }
     Augur's Exaltation
     Hermes' Gambit
+)
+
+#def(evocationPersonalRemove)(
+    // removes key from personal prop in evo
+    // stack: name
+    $evocationGetProp
+    Undertaker's Gambit
+    Observation Purification
+    Jester's Gambit
+    $dictRemove
+    Schrödinger's Gambit
 )
 
 #def(evocationSetPersonalProperty)(
