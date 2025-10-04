@@ -27,6 +27,7 @@
     Hermes' Gambit
     $print(addEventHandler 2)
     $printStack
+    $print(addEventHandler 3)
     Rotation Gambit
     Integration Distillation
     Bubbling Gambit
