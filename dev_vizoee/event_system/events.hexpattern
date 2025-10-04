@@ -16,6 +16,7 @@
     Dioscuri Gambit
     $dictRead
     // stack: prop, name, function, list, list2
+    // stack: prop, function, list, name, list2
     Gemini Decomposition
     Augur's Purification
     {}
@@ -25,15 +26,19 @@
     }
     Augur's Exaltation
     Hermes' Gambit
+
     $print(addEventHandler 2)
     Flock's Reflection
     Flock's Gambit
     Reveal
     Flock's Disintegration
     $print(addEventHandler 3)
-    Rotation Gambit
+    
+    
+    // stack: prop, function, list, name, list2
+    Numerical Reflection: 3
+    Fisherman's Gambit
     Integration Distillation
-    Bubbling Gambit
     $dictOverwrite
     Schrödinger's Gambit
 )
