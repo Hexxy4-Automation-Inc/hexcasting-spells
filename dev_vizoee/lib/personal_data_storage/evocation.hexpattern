@@ -30,7 +30,7 @@
     }
     {
         Evocation Reflection
-        $personal_property
+        {$personal_property}>>
         Locator's Distillation
         Numerical Reflection: 1
         Additive Distillation
