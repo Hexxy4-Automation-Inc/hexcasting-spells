@@ -1,11 +1,11 @@
 #git(/libs/base.hexpattern)
 
-#def(eventListenersPropertyName)({@str(Event.Functions)}>>)
+#def(eventHandlersPropertyName)({@str(Event.Functions)}>>)
 #def(eventListPropertyName)({@str(Event.List)}>>)
 
-#def(addEventListener)(
+#def(addEventHandler)(
     // stack: event name, function
-    $eventListenersPropertyName
+    $eventHandlersPropertyName
     $personalGet
     Numerical Reflection: -2
     Fisherman's Gambit II
@@ -45,7 +45,7 @@
         Vacant Reflection
         Schrödinger's Gambit
 
-        $eventListenersPropertyName
+        $eventHandlersPropertyName
         $personalGet
         Observation Purification
         // stack: event_list, func_list

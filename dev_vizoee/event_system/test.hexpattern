@@ -5,7 +5,7 @@
     {@str(Testing :3)}>>
     Reveal
 }
-$addEventListener
+$addEventHandler
 
 {@str(test)}>>
 Vacant Reflection
