@@ -122,4 +122,12 @@
     Schrödinger's Gambit
 )
 
+#def(clearEvents)(
+    $print(clearEvents)
+    $eventListProperty
+    $personalGet
+    $dictCreate
+    Schrödinger's Gambit
+)
+
 
