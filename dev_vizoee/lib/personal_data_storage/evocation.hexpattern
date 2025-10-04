@@ -1,0 +1,44 @@
+
+#def(evocationGetPersonalProperty)(
+    // Gets List from evocation
+    
+)
+
+#def(evocationSetPersonalProperty)(
+    {
+        @null
+    }>>
+    Evocation Reflection
+    $personal_property
+    Locator's Distillation
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Evocation Reflection
+        {
+            Janus' Gambit
+            $personal_property
+            {
+                @null
+            }>>
+        }
+        Rotation Gambit
+        Numerical Reflection: 3
+        Jester's Gambit
+        Surgeon's Exaltation
+        Additive Distillation
+        Inculcate
+    }
+    {
+        Evocation Reflection
+        $personal_property
+        Locator's Distillation
+        Numerical Reflection: 1
+        Additive Distillation
+        Rotation Gambit
+        Surgeon's Exaltation
+        Inculcate
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)

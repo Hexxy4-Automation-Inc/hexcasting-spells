@@ -1,4 +1,9 @@
+#git(/libs/base.hexpattern)
+#git(/dev_vizoee/lib/personal_data_storage/evocation.hexpattern)
 
+
+#def(eventFunctionListPropertyName)({@str(Event.Functions)})
+#def(eventListPropertyName)({@str(Event.List)})
 
 #def(addEvent)(
     // stack: event function list, event name, function
@@ -40,5 +45,8 @@
 )
 
 #def(triggerEvent)(
-    // stack: event list, 
+    // stack: event list, event name, param list
+    Numerical Reflection: 2
+    Flock's Gambit
+    Integration Distillation
 )

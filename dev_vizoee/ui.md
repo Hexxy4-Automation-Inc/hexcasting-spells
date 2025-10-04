@@ -6,3 +6,6 @@ slightly grayed out when not selecting except selected item.
 selecting done by holding item (probably staff) and shift scrolling.
 select if you need is shift right click
 start daemon is right click/shift right click
+
+shift right click - start daemon/swap list
+right click - select
