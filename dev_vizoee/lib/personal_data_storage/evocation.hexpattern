@@ -22,7 +22,7 @@
     Selection Distillation
 )
 
-#def(evocationPersonalWrite)(
+#def(evocationPersonalWrit)(
     // Gets value from personal prop in evo
     // stack: name, value
     $evocationGetProp
