@@ -28,10 +28,7 @@
     Hermes' Gambit
 
     $print(addEventHandler 2)
-    Flock's Reflection
-    Flock's Gambit
-    Reveal
-    Flock's Disintegration
+    $stackPrint
     $print(addEventHandler 3)
     
     
@@ -74,7 +71,7 @@
             // stack: func_list, event
             Sekhmet's Gambit: 2
             Flock's Disintegration
-            $handleEvent
+            $handleSingleEvent
             Sekhmet's Gambit: 0
         }
         Rotation Gambit
@@ -88,8 +85,8 @@
     Bookkeeper's Gambit: vv
 )
 
-#def(handleEvent)(
-    $print(handleEvent)
+#def(handleSingleEvent)(
+    $print(handleSingleEvent)
     // stack: event function list, event name, param list
     Rotation Gambit II
     $dictRead

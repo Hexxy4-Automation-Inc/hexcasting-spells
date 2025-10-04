@@ -86,7 +86,7 @@
 )
 
 // prints entire stack as list
-#def(printStack)(
+#def(stackPrint)(
     Flock's Reflection
     Flock's Gambit
     Reveal
