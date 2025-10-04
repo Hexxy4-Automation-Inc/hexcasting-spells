@@ -1,5 +1,7 @@
 #git(/dev_vizoee/event_system/events.hexpattern)
 
+$clearEventHandlers
+
 {@str(test)}>>
 {
     {@str(Testing :3)}>>

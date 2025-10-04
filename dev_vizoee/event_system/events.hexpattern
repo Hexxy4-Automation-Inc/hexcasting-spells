@@ -31,6 +31,13 @@
     Schrödinger's Gambit
 )
 
+#def(clearEventHandlers)(
+    $eventHandlersPropertyName
+    $personalGet
+    $dictCreate
+    Schrödinger's Gambit
+)
+
 #def(handleEvents)(
     $eventListPropertyName
     $personalGet
