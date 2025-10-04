@@ -1,0 +1,14 @@
+#git(/dev_vizoee/event_system/events.hexpattern)
+
+{@str(test)}>>
+{
+    {@str(Testing :3)}>>
+    Reveal
+}
+$addEventListener
+
+{@str(test)}>>
+Vacant Reflection
+$triggerEvent
+
+$handleEvents

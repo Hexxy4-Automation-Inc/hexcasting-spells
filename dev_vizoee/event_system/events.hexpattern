@@ -1,15 +1,20 @@
 #git(/libs/base.hexpattern)
 
-#def(eventFunctionListPropertyName)({@str(Event.Functions)})
-#def(eventListPropertyName)({@str(Event.List)})
+#def(eventListenersPropertyName)({@str(Event.Functions)}>>)
+#def(eventListPropertyName)({@str(Event.List)}>>)
 
-#def(addEvent)(
-    // stack: event function list, event name, function
-    Rotation Gambit II
+#def(addEventListener)(
+    // stack: event name, function
+    $eventListenersPropertyName
+    $personalGet
+    Numerical Reflection: -2
+    Fisherman's Gambit II
+    Observation Purification
+    // stack: prop, name, function, list
+    Rotation Gambit
     Dioscuri Gambit
     $dictRead
-    Numerical Reflection: 3
-    Fisherman's Gambit
+    // stack: prop, name, function, list, list2
     Gemini Decomposition
     Augur's Purification
     {}
@@ -19,8 +24,47 @@
     }
     Augur's Exaltation
     Hermes' Gambit
+    Rotation Gambit
     Integration Distillation
+    Bubbling Gambit
     $dictOverwrite
+    Schrödinger's Gambit
+)
+
+#def(handleEvents)(
+    $eventListPropertyName
+    $personalGet
+    Gemini Decomposition
+    Observation Purification
+    Gemini Decomposition
+    Augur's Purification
+    {
+        $print(New Events)
+        // stack: prop, list
+        Jester's Gambit
+        Vacant Reflection
+        Schrödinger's Gambit
+
+        $eventListenersPropertyName
+        $personalGet
+        Observation Purification
+        // stack: event_list, func_list
+        {
+            // stack: func_list, event
+            Sekhmet's Gambit: 2
+            Flock's Disintegration
+            $handleEvent
+            Sekhmet's Gambit: 0
+        }
+        Rotation Gambit
+        Thoth's Gambit
+    }
+    {
+        $print(No Events)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Bookkeeper's Gambit: vv
 )
 
 #def(handleEvent)(
@@ -43,8 +87,16 @@
 )
 
 #def(triggerEvent)(
-    // stack: event list, event name, param list
+    // stack: event name, param list
     Numerical Reflection: 2
     Flock's Gambit
+    $eventListPropertyName
+    $personalGet
+    Undertaker's Gambit
+    Observation Purification
+    Jester's Gambit
     Integration Distillation
+    Schrödinger's Gambit
 )
+
+
