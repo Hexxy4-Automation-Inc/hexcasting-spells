@@ -1,11 +1,7 @@
 #git(/libs/base.hexpattern)
-#git(/dev_vizoee/lib/personal_data_storage/evocation.hexpattern)
 
 {
-    @str(test)
-    @str(test)
-    @str(testing)
+    @str(test2)
 }>>
 
-$evocationPersonalWrit
-$evocationPersonalRead
+$evocationPersonalRead2

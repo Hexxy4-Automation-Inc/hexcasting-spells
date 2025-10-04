@@ -1,6 +1,6 @@
 
 #def(evocationGetProp)(
-    // Gets personal prop from evo
+    // gets personal prop from evo
     Evocation Reflection
     {$personal_property}>>
     Locator's Distillation
@@ -9,6 +9,7 @@
     Equality Distillation
     {
         {@str(Evo not set up. Terminating...)}>>
+        Reveal
         Janus' Gambit
     }
     {}
@@ -23,7 +24,7 @@
 )
 
 #def(evocationPersonalWrit)(
-    // Gets value from personal prop in evo
+    // sets value to personal prop in evo
     // stack: name, value
     $evocationGetProp
     Numerical Reflection: -2
@@ -35,7 +36,7 @@
 )
 
 #def(evocationPersonalRead)(
-    // Sets value to personal prop in evo
+    // gets value from personal prop in evo
     // stack: name
     $evocationGetProp
     Observation Purification
@@ -43,7 +44,39 @@
     $dictRead
 )
 
+#def(evocationPersonalRead2)(
+    // gets prop from personal prop in evo
+    // if dont exists, creates new prop and writes it to storage
+    // stack: name
+    $evocationGetProp
+    Undertaker's Gambit
+    Observation Purification
+    Prospector's Gambit
+    $dictRead
+    Gemini Decomposition
+    Augur's Purification
+    // stack: prop, name, val
+    {
+        Bookkeeper's Gambit: vv-
+    }
+    {
+        Bookkeeper's Gambit: v
+        Prospector's Gambit
+        Observation Purification
+        Jester's Gambit
+        Schrödinger's Reflection
+        Numerical Reflection: -3
+        Fisherman's Gambit II
+        $dictOverwrite
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
 #def(evocationSetPersonalProperty)(
+    // adds prop at the end of evo
+    // requires to replace null at pos 1 with prop
     {
         @null
         $personal_property
