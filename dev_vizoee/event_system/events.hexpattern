@@ -26,6 +26,7 @@
     Augur's Exaltation
     Hermes' Gambit
     $print(addEventHandler 2)
+    $printStack
     Rotation Gambit
     Integration Distillation
     Bubbling Gambit
