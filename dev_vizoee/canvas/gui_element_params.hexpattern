@@ -1,5 +1,0 @@
-#def(guiDrawId)(@str(DrawId))
-#def(guiIndex)(@str(Id))
-#def(guiText)(@str(Text))
-#def(guiPosition)(@str(Position))
-#def(guiAlign)(@str(Align))
