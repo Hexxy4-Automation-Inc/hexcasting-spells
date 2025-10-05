@@ -96,7 +96,6 @@
         Sekhmet's Gambit: 2
         $stackPrint
         Hermes' Gambit
-        Sekhmet's Gambit: 0
     }
     {
         // Unknown element
@@ -104,7 +103,7 @@
     Augur's Exaltation
     $stackPrint
     Hermes' Gambit
-    Bookkeeper's Gambit: vv
+    Sekhmet's Gambit: 0
 )
 
 #def(guiDrawElements)(
