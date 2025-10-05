@@ -3,3 +3,10 @@
 {@str(test)}>>
 Vacant Reflection
 $triggerEvent
+
+{@str(test2)}>>
+{
+    @num(3.14)
+    Hopper
+}
+$triggerEvent
