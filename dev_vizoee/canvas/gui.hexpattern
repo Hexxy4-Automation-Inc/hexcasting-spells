@@ -1,6 +1,6 @@
 #git(/dev_vizoee/canvas/gui_element_params.hexpattern)
 
-#def(guiElementHandlersListProperty)({@str(Gui.Elements)}>>)
+#def(guiElementHandlersListProperty)({@str(Gui.Handlers)}>>)
 #def(guiElementsListProperty)({@str(Gui.Elements)}>>)
 
 #def(guiInit)(
