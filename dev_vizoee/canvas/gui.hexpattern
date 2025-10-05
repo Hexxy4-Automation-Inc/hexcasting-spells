@@ -88,6 +88,7 @@
     $print(guiDrawSingleElement)
     // stack: element handlers, element type, params
     Rotation Gambit II
+    $stackPrint
     $dictRead
     Gemini Decomposition
     Augur's Purification
