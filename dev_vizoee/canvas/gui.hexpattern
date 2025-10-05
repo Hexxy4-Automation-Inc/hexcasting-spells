@@ -1,0 +1,131 @@
+#git(/dev_vizoee/canvas/gui_element_params.hexpattern)
+
+#def(guiElementHandlersListProperty)({@str(Gui.Elements)}>>)
+#def(guiElementsListProperty)({@str(Gui.Elements)}>>)
+
+#def(guidInit)(
+    $guiElementHandlersListProperty
+    $personalGet
+    Gemini Decomposition
+    Observation Purification
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: v
+    }
+    {
+        $dictCreate
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    $guiElementsListProperty
+    $personalGet
+    Gemini Decomposition
+    Observation Purification
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: v
+    }
+    {
+        Vacant Reflection
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+#def(guiAddElemTypeHandler)(
+    // stack: element type, function
+    $guiElementHandlersListProperty
+    $personalGet
+    Numerical Reflection: -2
+    Fisherman's Gambit II
+    Observation Purification
+
+    Rotation Gambit II
+    $dictOverwrite
+    Schrödinger's Gambit
+)
+
+#def(guiSetElement)(
+    // stack: index, element
+    // if element is null/empty will remove element
+    $guiElementsListProperty
+    $personalGet
+    Numerical Reflection: -2
+    Fisherman's Gambit II
+    Observation Purification
+
+    Rotation Gambit II
+    Gemini Decomposition
+    Augur's Purification
+    {
+        $dictOverwrite
+    }
+    {
+        Bookkeeper's Gambit: v
+        $dictRemove
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    
+    Schrödinger's Gambit
+)
+
+#def(guiGetElement)(
+    // stack: index
+    $guiElementsListProperty
+    $personalGet
+    $dictRead
+)
+
+#def(guiDrawSingleElement)(
+    // stack: element handlers, element type, params
+    Rotation Gambit II
+    $dictRead
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Sekhmet's Gambit: 2
+        Hermes' Gambit
+        Sekhmet's Gambit: 0
+    }
+    {
+        // Unknown element
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Bookkeeper's Gambit: vv
+)
+
+#def(guiDrawElements)(
+    $guiElementsListProperty
+    $personalGet
+    Observation Purification
+    Numerical Reflection: 1
+    Selection Distillation
+
+    Gemini Decomposition
+    Augur's Purification
+    {
+        // stack: list
+        $guiElementHandlersListProperty
+        $personalGet
+        Observation Purification
+        // stack: element_list, func_list
+        {
+            // stack: func_list, element
+            Sekhmet's Gambit: 2
+            Flock's Disintegration
+            $guiDrawSingleElement
+            Sekhmet's Gambit: 0
+        }
+        Rotation Gambit
+        Thoth's Gambit
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+    Bookkeeper's Gambit: vv
+)

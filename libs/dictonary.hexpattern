@@ -108,3 +108,13 @@
     Numerical Reflection: 2
     Flock's Gambit
 )
+
+// stack: dict, list of keys
+#def(dictFilterValues)(
+    {
+        $dictRead
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Bookkeeper's Gambit: v-
+)

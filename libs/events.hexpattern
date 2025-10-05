@@ -1,6 +1,38 @@
 #def(eventHandlersProperty)({@str(Event.Functions)}>>)
 #def(eventListProperty)({@str(Event.List)}>>)
 
+#def(eventsInit)(
+    $eventHandlersProperty
+    $personalGet
+    Gemini Decomposition
+    Observation Purification
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: v
+    }
+    {
+        $dictCreate
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    $eventListProperty
+    $personalGet
+    Gemini Decomposition
+    Observation Purification
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: v
+    }
+    {
+        Vacant Reflection
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
 #def(addEventHandler)(
     // stack: event name, function
     $eventHandlersProperty

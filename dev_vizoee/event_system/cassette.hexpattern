@@ -1,3 +1,5 @@
 #git(/libs/base.hexpattern)
 
+$eventsInit
+
 $cassette(1)({@str(events)}>>)($handleEvents)
