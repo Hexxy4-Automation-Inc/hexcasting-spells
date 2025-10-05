@@ -1,6 +1,6 @@
 #git(/libs/base.hexpattern)
 #git(/dev_vizoee/canvas/gui.hexpattern)
 
-$guidInit
+$guiInit
 
 $cassette(1)({@str(gui)}>>)($guiDrawElements)

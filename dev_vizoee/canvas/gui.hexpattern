@@ -4,7 +4,6 @@
 #def(guiElementsListProperty)({@str(Gui.Elements)}>>)
 
 #def(guiInit)(
-    $print(guiInit)
     $guiElementHandlersListProperty
     $personalGet
     Gemini Decomposition
@@ -37,7 +36,6 @@
 )
 
 #def(guiAddElemTypeHandler)(
-    $print(guiAddElemTypeHandler)
     // stack: element type, function
     $guiElementHandlersListProperty
     $personalGet
@@ -51,7 +49,6 @@
 )
 
 #def(guiSetElement)(
-    $print(guiSetElement)
     // stack: index, element
     // if element is null/empty will remove element
     $guiElementsListProperty
@@ -77,7 +74,6 @@
 )
 
 #def(guiGetElement)(
-    $print(guiGetElement)
     // stack: index
     $guiElementsListProperty
     $personalGet
@@ -85,29 +81,24 @@
 )
 
 #def(guiDrawSingleElement)(
-    $print(guiDrawSingleElement)
     // stack: element handlers, element type, params
     Rotation Gambit II
-    $stackPrint
     $dictRead
     Gemini Decomposition
     Augur's Purification
     {
         Sekhmet's Gambit: 2
-        $stackPrint
         Hermes' Gambit
     }
     {
         // Unknown element
     }
     Augur's Exaltation
-    $stackPrint
     Hermes' Gambit
     Sekhmet's Gambit: 0
 )
 
 #def(guiDrawElements)(
-    $print(guiDrawElements)
     $guiElementsListProperty
     $personalGet
     Observation Purification
@@ -130,7 +121,6 @@
             Sekhmet's Gambit: 0
         }
         Rotation Gambit
-        $stackPrint
         Thoth's Gambit
     }
     {}
