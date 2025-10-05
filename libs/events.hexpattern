@@ -118,6 +118,10 @@
 
 #def(handleSingleEvent)(
     // stack: event function list, event name, param list
+    // add event type at start of stack
+    Prospector's Gambit
+    Speaker's Distillation
+
     Rotation Gambit II
     $dictRead
     Gemini Decomposition
