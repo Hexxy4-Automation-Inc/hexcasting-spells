@@ -3,8 +3,8 @@
 #def(guiElementHandlersListProperty)({@str(Gui.Elements)}>>)
 #def(guiElementsListProperty)({@str(Gui.Elements)}>>)
 
-#def(guidInit)(
-    $print(guidInit)
+#def(guiInit)(
+    $print(guiInit)
     $guiElementHandlersListProperty
     $personalGet
     Gemini Decomposition
