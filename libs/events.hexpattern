@@ -122,6 +122,7 @@
     Rotation Gambit II
     $dictRead
     {
+        $print(Test)
         Sekhmet's Gambit: 2
         {
             Flock's Disintegration
@@ -132,6 +133,7 @@
         Sekhmet's Gambit: 0
     }
     Jester's Gambit
+    $stackPrint
     Thoth's Gambit
     Bookkeeper's Gambit: v
 )
