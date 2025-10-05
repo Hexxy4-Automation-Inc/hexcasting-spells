@@ -1,0 +1,4 @@
+- Storage for every element - use dictionary instead of list
+- Store functions for each element separately - either property for easer debugging or akasha (public but requires bookshelfs)
+- Run each tick and run functions for each element
+- Element is a list with type 

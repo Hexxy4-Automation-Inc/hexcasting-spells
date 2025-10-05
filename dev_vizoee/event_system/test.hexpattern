@@ -1,4 +1,4 @@
-#git(/dev_vizoee/event_system/events.hexpattern)
+#git(/libs/base.hexpattern)
 
 $clearEventHandlers
 $clearEvents

@@ -1,5 +1,3 @@
-#git(/libs/base.hexpattern)
-
 #def(eventHandlersProperty)({@str(Event.Functions)}>>)
 #def(eventListProperty)({@str(Event.List)}>>)
 
@@ -31,6 +29,51 @@
     Integration Distillation
     $dictOverwrite
     Schrödinger's Gambit
+)
+
+#def(removeEventHandler)(
+    // stack: event name, function
+    $eventHandlersProperty
+    $personalGet
+    Numerical Reflection: -2
+    Fisherman's Gambit II
+    Observation Purification
+    // stack: prop, name, function, list
+    Rotation Gambit
+    Dioscuri Gambit
+    $dictRead
+    // stack: prop, name, function, list, list2
+    // stack: prop, function, list, name, list2
+    Gemini Decomposition
+    Augur's Purification
+    {
+        // stack: prop, function, list, name, list2
+        Gemini Decomposition
+        Numerical Reflection: 4
+        Fisherman's Gambit
+        Locator's Distillation
+        Excisor's Distillation
+
+        // if not empty
+        Gemini Decomposition
+        Augur's Purification
+        {
+            $dictOverwrite
+        }
+        {
+            Bookkeeper's Gambit: v
+            $dictRemove
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+
+        Schrödinger's Gambit
+    }
+    {
+        Bookkeeper's Gambit: vvvvv
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 )
 
 #def(clearEventHandlers)(

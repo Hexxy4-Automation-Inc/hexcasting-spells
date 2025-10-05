@@ -3,6 +3,7 @@
 #git(/libs/raycast.hexpattern)
 #git(/libs/hexicon.hexpattern)
 #git(/libs/personal_data_storage.hexpattern)
+#git(/libs/events.hexpattern)
 
 // ==============================================================================
 // ==============================================================================
@@ -202,4 +203,24 @@
     Subtractive Distillation
     Numerical Reflection: <1>
     Maximus Distillation II
+)
+
+#def(cassette)(
+    {
+        {Bookkeeper's Gambit: -}>>
+        Numerical Reflection: 1
+        Prospector's Gambit
+        Surgeon's Exaltation
+        Numerical Reflection: <1>
+        Enqueue
+        Bookkeeper's Gambit: v
+        <3>
+    }
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+    Numerical Reflection: <1>
+    <2>
+    Reading Purification
+    Enqueue
 )
