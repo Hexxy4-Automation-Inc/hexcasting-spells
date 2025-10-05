@@ -27,7 +27,6 @@ Schrödinger's Gambit
         $guiText
     }
     Thoth's Gambit
-    $print(ok)
     Flock's Disintegration
     Draw Text
 }
