@@ -4,6 +4,7 @@
 #def(guiElementsListProperty)({@str(Gui.Elements)}>>)
 
 #def(guidInit)(
+    $print(guidInit)
     $guiElementHandlersListProperty
     $personalGet
     Gemini Decomposition
@@ -36,6 +37,7 @@
 )
 
 #def(guiAddElemTypeHandler)(
+    $print(guiAddElemTypeHandler)
     // stack: element type, function
     $guiElementHandlersListProperty
     $personalGet
@@ -49,6 +51,7 @@
 )
 
 #def(guiSetElement)(
+    $print(guiSetElement)
     // stack: index, element
     // if element is null/empty will remove element
     $guiElementsListProperty
@@ -74,6 +77,7 @@
 )
 
 #def(guiGetElement)(
+    $print(guiGetElement)
     // stack: index
     $guiElementsListProperty
     $personalGet
@@ -81,6 +85,7 @@
 )
 
 #def(guiDrawSingleElement)(
+    $print(guiDrawSingleElement)
     // stack: element handlers, element type, params
     Rotation Gambit II
     $dictRead
@@ -100,6 +105,7 @@
 )
 
 #def(guiDrawElements)(
+    $print(guiDrawElements)
     $guiElementsListProperty
     $personalGet
     Observation Purification
