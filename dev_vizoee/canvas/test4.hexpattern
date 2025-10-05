@@ -1,0 +1,24 @@
+#git(/libs/base.hexpattern)
+#git(/dev_vizoee/canvas/gui.hexpattern)
+
+{
+    @str(test)
+    @str(text)
+}>>
+{
+    $guiDrawId
+    $guiPosition
+    $guiAlign
+    $guiText
+}
+{
+    @num(13)
+    @vec(0, 0, 0)
+    @num(0)
+    @str(Hello)
+}
+Numerical Reflection: 2
+Flock's Gambit
+Numerical Reflection: 2
+Flock's Gambit
+$guiSetElement
