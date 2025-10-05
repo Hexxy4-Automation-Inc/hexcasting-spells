@@ -18,6 +18,7 @@ $guidInit
         $guiText
     }
     Thoth's Gambit
+    $print(ok)
     Flock's Disintegration
     Draw Text
 }
