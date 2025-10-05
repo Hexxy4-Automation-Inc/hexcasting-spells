@@ -1,6 +1,12 @@
 #git(/libs/base.hexpattern)
 #git(/dev_vizoee/canvas/gui.hexpattern)
 
+$print(guidInit)
+$guiElementHandlersListProperty
+$personalGet
+$dictCreate
+Schrödinger's Gambit
+
 $guidInit
 
 {@str(text)}>>

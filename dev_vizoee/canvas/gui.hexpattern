@@ -131,6 +131,7 @@
             Sekhmet's Gambit: 0
         }
         Rotation Gambit
+        $stackPrint
         Thoth's Gambit
     }
     {}
