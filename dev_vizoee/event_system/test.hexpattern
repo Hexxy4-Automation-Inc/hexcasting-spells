@@ -6,10 +6,17 @@ $clearEvents
 {@str(test)}>>
 {
     {@str(Testing :3)}>>
-    Reveal
+    $stackPrint
 }
 $addEventHandler
 
 {@str(test)}>>
 Vacant Reflection
+$triggerEvent
+
+{@str(test2)}>>
+{
+    @num(3.14)
+    Hopper
+}
 $triggerEvent
