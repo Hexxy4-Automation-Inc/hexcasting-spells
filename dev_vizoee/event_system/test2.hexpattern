@@ -4,7 +4,7 @@
 Vacant Reflection
 $triggerEvent
 
-{@str(test2)}>>
+{@str(test)}>>
 {
     @num(3.14)
     Hopper

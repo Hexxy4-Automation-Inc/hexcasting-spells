@@ -110,8 +110,7 @@
         Rotation Gambit
         Thoth's Gambit
     }
-    {
-    }
+    {}
     Augur's Exaltation
     Hermes' Gambit
     Bookkeeper's Gambit: vv
@@ -121,21 +120,28 @@
     // stack: event function list, event name, param list
     Rotation Gambit II
     $dictRead
+    Gemini Decomposition
+    Augur's Purification
     {
-        $print(Test)
-        Sekhmet's Gambit: 2
         {
-            Flock's Disintegration
+            Sekhmet's Gambit: 2
+            {
+                Flock's Disintegration
+            }
+            Jester's Gambit
+            Additive Distillation
+            Hermes' Gambit
+            Sekhmet's Gambit: 0
         }
         Jester's Gambit
-        Additive Distillation
-        Hermes' Gambit
-        Sekhmet's Gambit: 0
+        Thoth's Gambit
     }
-    Jester's Gambit
-    $stackPrint
-    Thoth's Gambit
-    Bookkeeper's Gambit: v
+    {
+        // Unknown event
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Bookkeeper's Gambit: vv
 )
 
 #def(triggerEvent)(
