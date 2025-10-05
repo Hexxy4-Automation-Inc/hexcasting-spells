@@ -93,6 +93,7 @@
     Augur's Purification
     {
         Sekhmet's Gambit: 2
+        $stackPrint
         Hermes' Gambit
         Sekhmet's Gambit: 0
     }
