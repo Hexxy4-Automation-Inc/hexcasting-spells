@@ -1,13 +1,6 @@
 #git(/libs/base.hexpattern)
 #git(/dev_vizoee/canvas/gui.hexpattern)
 
-$print(guiInit)
-$guiElementHandlersListProperty
-$personalGet
-$dictCreate
-Schrödinger's Gambit
-
-
 
 $guiInit
 
