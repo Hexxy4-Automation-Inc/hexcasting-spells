@@ -1,13 +1,51 @@
 #git(/libs/base.hexpattern)
 #git(/dev_vizoee/canvas/gui.hexpattern)
 
-$guiElementHandlersListProperty
-$personalGet
-$dictCreate
-Schrödinger's Gambit
+$guiInit
 
-$guiElementsListProperty
-$personalGet
-$dictCreate
-Schrödinger's Gambit
+{@str(text)}>>
+{
+    // stack: params
+    {
+        $dictRead
+        // TODO: defaults
+        Soroban Gambit: 1
+    }
+    {
+        $guiDrawId
+        $guiPosition
+        $guiAlign
+        $guiText
+    }
+    Thoth's Gambit
+    $print(ok)
+    Flock's Disintegration
+    Draw Text
+}
+$guiAddElemTypeHandler
 
+
+{
+    @str(test)
+    @str(text)
+}>>
+{
+    $guiDrawId
+    $guiPosition
+    $guiAlign
+    $guiText
+}
+{
+    @num(13)
+    @vec(0, 0, 0)
+    @num(0)
+    @str(Hello)
+}
+Numerical Reflection: 2
+Flock's Gambit
+Numerical Reflection: 2
+Flock's Gambit
+$guiSetElement
+
+
+$guiDrawElements
