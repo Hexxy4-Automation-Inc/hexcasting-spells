@@ -1,0 +1,22 @@
+#def(guiElementText)(@str(text))
+
+#def(guiTextHandler)(
+    {$guiElementText}>>
+    {
+        // stack: params
+        {
+            $dictRead
+            // TODO: defaults
+            Soroban Gambit: 1
+        }
+        {
+            $guiDrawId
+            $guiPosition
+            $guiAlign
+            $guiText
+        }
+        Thoth's Gambit
+        Flock's Disintegration
+        Draw Text
+    }
+)

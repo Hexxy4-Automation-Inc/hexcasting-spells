@@ -1,0 +1,15 @@
+#def(test)(
+    {@str(Test 1)}>>
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
+$test
+
+#def(test)(
+    {@str(Test 2)}>>
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
+$test

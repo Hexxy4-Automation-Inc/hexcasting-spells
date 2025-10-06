@@ -3,3 +3,7 @@
 #def(guiText)(@str(Text))
 #def(guiPosition)(@str(Position))
 #def(guiAlign)(@str(Align))
+#def(guiHeight)(@str(Height))
+#def(guiWidth)(@str(Width))
+#def(guiFloat)(@str(Float))
+#def(guiChildren)(@str(Children))
