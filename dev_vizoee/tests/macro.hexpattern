@@ -10,8 +10,8 @@
     Bookkeeper's Gambit: v
 )
 
-$test.2
 $test.3
+$test.2
 
 #def(test.2)(
     {@str(Test 2)}>>
