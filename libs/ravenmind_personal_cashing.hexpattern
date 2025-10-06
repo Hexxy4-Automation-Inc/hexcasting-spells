@@ -13,7 +13,10 @@
     $ravenmind.get
 )
 
-#def(personalGet)($ravenmind.pGet)
+#def(personalGet)(
+    $ravenmind.pGet
+    Hermes' Gambit
+)
 #def(ravenmind.personalInit)(
     $ravenmind.init
     $ravenmind.loadGet
