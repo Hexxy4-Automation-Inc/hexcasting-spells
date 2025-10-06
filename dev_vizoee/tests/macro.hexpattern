@@ -1,15 +1,15 @@
-#def(test)(
+#def(test.2)(
     {@str(Test 1)}>>
     Reveal
     Bookkeeper's Gambit: v
 )
 
-$test
+$test.2
 
-#def(test)(
+#def(test.2)(
     {@str(Test 2)}>>
     Reveal
     Bookkeeper's Gambit: v
 )
 
-$test
+$test.2
