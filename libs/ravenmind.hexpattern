@@ -1,0 +1,29 @@
+
+
+#def(ravenmind.init)(
+    Muninn's Reflection
+    Augur's Purification
+    {}
+    {
+        $dictCreate
+        Huginn's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+
+// stack: name, value
+#def(ravenmind.set)(
+    Muninn's Reflection
+    Rotation Gambit II
+    $dictOverwrite
+    Huginn's Gambit
+)
+
+// stack: name
+#def(ravenmind.get)(
+    Muninn's Reflection
+    Jester's Gambit
+    $dictRead
+)

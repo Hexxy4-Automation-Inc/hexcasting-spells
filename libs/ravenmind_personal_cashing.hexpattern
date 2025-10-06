@@ -1,0 +1,16 @@
+#def(ravenmind.names.personalGetFunction)({@str(PersonalGet)}>>)
+
+#def(ravenmind.loadGet)(
+    $ravenmind.names.personalGetFunction
+    {
+        $evocationPersonalRead
+    }
+    $ravenmind.set
+)
+
+#def(ravenmind.pGet)(
+    $ravenmind.names.personalGetFunction
+    $ravenmind.get
+)
+
+#def(personalGet)($ravenmind.pGet)
