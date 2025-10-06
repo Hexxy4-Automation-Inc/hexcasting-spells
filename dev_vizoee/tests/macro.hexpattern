@@ -4,12 +4,26 @@
     Bookkeeper's Gambit: v
 )
 
+#def(test)(
+    {@str(Test)}>>
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
 $test.2
+$test
 
 #def(test.2)(
     {@str(Test 2)}>>
     Reveal
     Bookkeeper's Gambit: v
+
+    #def(test)(
+        {@str(Test 4)}>>
+        Reveal
+        Bookkeeper's Gambit: v
+    )
+
 )
 
 $test.2

@@ -1,0 +1,19 @@
+#def(ravenmind.names.functions)({@str(Functions)}>>)
+
+#def(ravenmind.init)(
+    Muninn's Reflection
+    Augur's Purification
+    {}
+    {
+        $dictCreate
+        Huginn's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+
+// stack: name, function
+#def(ravenmind.functions.cashe)(
+
+)
