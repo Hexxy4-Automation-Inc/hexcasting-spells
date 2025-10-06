@@ -15,6 +15,7 @@
 
 #def(personalGet)(
     $ravenmind.pGet
+    {@str(TEADFADAW)}
     Hermes' Gambit
 )
 #def(ravenmind.personalInit)(
