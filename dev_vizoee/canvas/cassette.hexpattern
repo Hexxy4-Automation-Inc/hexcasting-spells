@@ -4,4 +4,7 @@
 
 $guiInit
 
-$cassette(1)({@str(gui)}>>)($guiDrawElements)
+$cassette(1)({@str(gui)}>>)(
+    $ravenmind.personalInit
+    $guiDrawElements
+)

@@ -27,3 +27,10 @@
     Jester's Gambit
     $dictRead
 )
+
+// stack: name
+#def(ravenmind.pop)(
+    Muninn's Reflection
+    Jester's Gambit
+    $dictPop
+)

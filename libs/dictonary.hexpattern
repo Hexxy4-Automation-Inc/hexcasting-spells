@@ -109,6 +109,40 @@
     Flock's Gambit
 )
 
+// stack: dict, key
+#def(dictPop)(
+    Jester's Gambit
+    Flock's Disintegration
+    Reflecting Gambit
+    Dioscuri Gambit
+    Locator's Distillation
+    Gemini Decomposition
+    Numerical Reflection: -1
+    Equality Distillation
+    // stack: values, keys, name, index
+    {
+        Bookkeeper's Gambit: vv
+        Nullary Reflection
+        Reflecting Gambit
+    }
+    {
+        Bookkeeper's Gambit: v-
+        Undertaker's Gambit
+        Excisor's Distillation
+        Rotation Gambit II
+        Dioscuri Gambit
+        Selection Distillation
+        Rotation Gambit II
+        Excisor's Distillation
+        Bubbling Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+    Jester's Gambit
+)
+
 // stack: dict, list of keys
 #def(dictFilterValues)(
     {
