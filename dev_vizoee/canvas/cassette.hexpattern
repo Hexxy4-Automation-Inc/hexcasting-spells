@@ -2,6 +2,7 @@
 #git(/dev_vizoee/canvas/gui.hexpattern)
 #git(/libs/ravenmind_personal_cashing.hexpattern)
 
+$ravenmind.personalInit
 $guiInit
 
 $cassette(1)({@str(gui)}>>)(
