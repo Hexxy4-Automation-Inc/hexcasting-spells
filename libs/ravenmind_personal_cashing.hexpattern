@@ -1,25 +1,27 @@
-#def(ravenmind.names.personal.getFunction)({@str(personal.get)}>>)
+#def(ravenmind.names.functions)({@str(Functions)}>>)
 
-#def(ravenmind.loadGet)(
-    $ravenmind.names.personal.getFunction
-    {
-        $evocationPersonalRead
-    }
+#def(ravenmind.load.get)(
+    $ravenmind.names.functions
+    $ravenmind.set
+    
+    {@str(personal.get)}>>
+    Gemini Decomposition
+    $personal.functions.get
     $ravenmind.set
 )
 
-#def(ravenmind.pGet)(
-    $ravenmind.names.personal.getFunction
+#def(ravenmind.function.run)(
+    // stack: name
+    $ravenmind.names.functions
     $ravenmind.get
-)
-
-#def(personal.get)(
-    $ravenmind.pGet
-    {@str(TEADFADAW)}
+    Jester's Gambit
+    #dictRead
+    Observation Purification
     Hermes' Gambit
 )
 
-#def(ravenmind.personalInit)(
+
+#def(ravenmind.personal.init)(
     $ravenmind.init
-    $ravenmind.loadGet
+    $ravenmind.load.get
 )

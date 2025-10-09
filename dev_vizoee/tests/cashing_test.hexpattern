@@ -8,3 +8,5 @@ $personal.init
     $personal.get
 }
 $personal.functions.set
+
+$ravenmind.personal.init
