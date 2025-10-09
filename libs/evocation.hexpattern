@@ -1,0 +1,65 @@
+
+#def(evocation.personal.verify)(
+    // Checks if evocation is set up
+    Evocation Reflection
+    {$personal_property}>>
+    Locator's Distillation
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        {@str(Evo not set up. Terminating...)}>>
+        Reveal
+        Janus' Gambit
+    }
+    {}
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+#def(evocation.property.get)(
+    // gets personal prop from evo
+    Evocation Reflection
+    Derivation Decomposition
+    Bookkeeper's Gambit: v-
+)
+
+#def(evocation.property.set)(
+    // adds prop at the end of evo
+    // requires to replace null at pos 1 with prop
+    {
+        @null
+        $personal_property
+    }>>
+    Evocation Reflection
+    Jester's Gambit
+    Locator's Distillation
+    Numerical Reflection: -1
+    Equality Distillation
+    {
+        Evocation Reflection
+        {
+            Janus' Gambit
+            $personal_property
+            @null
+        }
+        Rotation Gambit
+        Numerical Reflection: 2
+        Jester's Gambit
+        Surgeon's Exaltation
+        Additive Distillation
+        Inculcate
+    }
+    {
+        Evocation Reflection
+        {$personal_property}>>
+        Locator's Distillation
+        Numerical Reflection: 1
+        Additive Distillation
+        Evocation Reflection
+        Reflecting Gambit
+        Surgeon's Exaltation
+        Inculcate
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)

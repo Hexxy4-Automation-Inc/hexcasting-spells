@@ -1,7 +1,7 @@
-#def(ravenmind.names.personalGetFunction)({@str(PersonalGet)}>>)
+#def(ravenmind.names.personal.getFunction)({@str(personal.get)}>>)
 
 #def(ravenmind.loadGet)(
-    $ravenmind.names.personalGetFunction
+    $ravenmind.names.personal.getFunction
     {
         $evocationPersonalRead
     }
@@ -9,15 +9,16 @@
 )
 
 #def(ravenmind.pGet)(
-    $ravenmind.names.personalGetFunction
+    $ravenmind.names.personal.getFunction
     $ravenmind.get
 )
 
-#def(personalGet)(
+#def(personal.get)(
     $ravenmind.pGet
     {@str(TEADFADAW)}
     Hermes' Gambit
 )
+
 #def(ravenmind.personalInit)(
     $ravenmind.init
     $ravenmind.loadGet

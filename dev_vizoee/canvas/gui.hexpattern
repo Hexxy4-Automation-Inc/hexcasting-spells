@@ -5,7 +5,7 @@
 
 #def(guiInit)(
     $guiElementHandlersListProperty
-    $personalGet
+    $personal.get
     Gemini Decomposition
     Observation Purification
     Augur's Purification
@@ -20,7 +20,7 @@
     Hermes' Gambit
 
     $guiElementsListProperty
-    $personalGet
+    $personal.get
     Gemini Decomposition
     Observation Purification
     Augur's Purification
@@ -38,7 +38,7 @@
 #def(guiAddElemTypeHandler)(
     // stack: element type, function
     $guiElementHandlersListProperty
-    $personalGet
+    $personal.get
     Numerical Reflection: -2
     Fisherman's Gambit II
     Observation Purification
@@ -52,7 +52,7 @@
     // stack: index, element
     // if element is null/empty will remove element
     $guiElementsListProperty
-    $personalGet
+    $personal.get
     Numerical Reflection: -2
     Fisherman's Gambit II
     Observation Purification
@@ -76,7 +76,7 @@
 #def(guiGetElement)(
     // stack: index
     $guiElementsListProperty
-    $personalGet
+    $personal.get
     $dictRead
 )
 
@@ -100,7 +100,7 @@
 
 #def(guiDrawElements)(
     $guiElementsListProperty
-    $personalGet
+    $personal.get
     Observation Purification
     Numerical Reflection: 1
     Selection Distillation
@@ -110,7 +110,7 @@
     {
         // stack: list
         $guiElementHandlersListProperty
-        $personalGet
+        $personal.get
         Observation Purification
         // stack: element_list, func_list
         {

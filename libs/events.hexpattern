@@ -3,7 +3,7 @@
 
 #def(eventsInit)(
     $eventHandlersProperty
-    $personalGet
+    $personal.get
     Gemini Decomposition
     Observation Purification
     Augur's Purification
@@ -18,7 +18,7 @@
     Hermes' Gambit
 
     $eventListProperty
-    $personalGet
+    $personal.get
     Gemini Decomposition
     Observation Purification
     Augur's Purification
@@ -36,7 +36,7 @@
 #def(addEventHandler)(
     // stack: event name, function
     $eventHandlersProperty
-    $personalGet
+    $personal.get
     Numerical Reflection: -2
     Fisherman's Gambit II
     Observation Purification
@@ -66,7 +66,7 @@
 #def(removeEventHandler)(
     // stack: event name, function
     $eventHandlersProperty
-    $personalGet
+    $personal.get
     Numerical Reflection: -2
     Fisherman's Gambit II
     Observation Purification
@@ -110,14 +110,14 @@
 
 #def(clearEventHandlers)(
     $eventHandlersProperty
-    $personalGet
+    $personal.get
     $dictCreate
     Schrödinger's Gambit
 )
 
 #def(handleEvents)(
     $eventListProperty
-    $personalGet
+    $personal.get
     Gemini Decomposition
     Observation Purification
     Gemini Decomposition
@@ -129,7 +129,7 @@
         Schrödinger's Gambit
 
         $eventHandlersProperty
-        $personalGet
+        $personal.get
         Observation Purification
         // stack: event_list, func_list
         {
@@ -180,7 +180,7 @@
     Numerical Reflection: 2
     Flock's Gambit
     $eventListProperty
-    $personalGet
+    $personal.get
     Undertaker's Gambit
     Observation Purification
     Jester's Gambit
@@ -190,7 +190,7 @@
 
 #def(clearEvents)(
     $eventListProperty
-    $personalGet
+    $personal.get
     Vacant Reflection
     Schrödinger's Gambit
 )

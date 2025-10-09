@@ -1,40 +1,91 @@
-// gets prop from personal prop in evo
-// if dont exists, creates new prop and writes it to storage
-// stack: name
-#def(personalGet)($evocationPersonalRead)
 
-// removes key from personal prop in evo
-// stack: name
-#def(personalRem)($evocationPersonalRemove)
+#def(personal.names.functions)({@str(PersonalCashedFunctions)}>>)
+
+
+#def(personal.property.get)($evocation.property.get)
 
 
 
-
-#def(evocationGetProp)(
-    // gets personal prop from evo
-    Evocation Reflection
-    {$personal_property}>>
-    Locator's Distillation
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        {@str(Evo not set up. Terminating...)}>>
-        Reveal
-        Janus' Gambit
-    }
-    {}
-    Augur's Exaltation
-    Hermes' Gambit
-
-    Evocation Reflection
-    Derivation Decomposition
-    Bookkeeper's Gambit: v-
+#def(personal.functions.get)(
+    // get function prop
+    // stack: name
+    $personal.names.functions
+    $personal.get
+    Observation Purification
+    Jester's Gambit
+    $dictRead
 )
 
-#def(evocationPersonalWrit)(
-    // sets value to personal prop in evo
+#def(personal.functions.set)(
+    // sets function to prop from personal function prop
+    // if prop already exists, overrides it, otherwise creates new prop
+    // stack: name, function
+    Jester's Gambit
+    $personal.names.functions
+    $personal.get
+    Undertaker's Gambit
+    Observation Purification
+    Prospector's Gambit
+    $dictRead
+    Gemini Decomposition
+    Augur's Purification
+    // stack: prop, name, val
+    {
+        Bookkeeper's Gambit: vv-
+    }
+    {
+        Bookkeeper's Gambit: v
+        Prospector's Gambit
+        Observation Purification
+        Jester's Gambit
+        Schrödinger's Reflection
+        Numerical Reflection: -3
+        Fisherman's Gambit II
+        $dictOverwrite
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Jester's Gambit
+    Schrödinger's Gambit
+)
+
+#def(personal.functions.remove)(
+    // removes key from personal prop function cashe
+    // stack: name
+    $personal.names.functions
+    $personal.get
+    Undertaker's Gambit
+    Observation Purification
+    Jester's Gambit
+    $dictRemove
+    Schrödinger's Gambit
+)
+
+#def(personal.functions.init)(
+    $personal.names.functions
+    $personal.get
+    Gemini Decomposition
+    Observation Purification
+    Augur's Purification
+    {
+        Bookkeeper's Gambit: v
+    }
+    {
+        $dictCreate
+        Schrödinger's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+
+
+
+#def(personal.set)(
+    // sets value to personal prop
     // stack: name, value
-    $evocationGetProp
+    $personal.property.get
     Numerical Reflection: -2
     Fisherman's Gambit II
     Observation Purification
@@ -43,20 +94,20 @@
     Schrödinger's Gambit
 )
 
-#def(evocationPersonalRead2)(
-    // gets value from personal prop in evo
+#def(personal.read)(
+    // gets value from personal prop
     // stack: name
-    $evocationGetProp
+    $personal.property.get
     Observation Purification
     Jester's Gambit
     $dictRead
 )
 
-#def(evocationPersonalRead)(
-    // gets prop from personal prop in evo
+#def(personal.get)(
+    // gets prop from personal prop
     // if dont exists, creates new prop and writes it to storage
     // stack: name
-    $evocationGetProp
+    $personal.property.get
     Undertaker's Gambit
     Observation Purification
     Prospector's Gambit
@@ -82,10 +133,10 @@
     Hermes' Gambit
 )
 
-#def(evocationPersonalRemove)(
-    // removes key from personal prop in evo
+#def(personal.remove)(
+    // removes key from personal prop
     // stack: name
-    $evocationGetProp
+    $personal.property.get
     Undertaker's Gambit
     Observation Purification
     Jester's Gambit
@@ -93,43 +144,20 @@
     Schrödinger's Gambit
 )
 
-#def(evocationSetPersonalProperty)(
-    // adds prop at the end of evo
-    // requires to replace null at pos 1 with prop
+#def(personal.init)(
+    $personal.property.get
+    Gemini Decomposition
+    Observation Purification
+    Augur's Purification
     {
-        @null
-        $personal_property
-    }>>
-    Evocation Reflection
-    Jester's Gambit
-    Locator's Distillation
-    Numerical Reflection: -1
-    Equality Distillation
-    {
-        Evocation Reflection
-        {
-            Janus' Gambit
-            $personal_property
-            @null
-        }
-        Rotation Gambit
-        Numerical Reflection: 2
-        Jester's Gambit
-        Surgeon's Exaltation
-        Additive Distillation
-        Inculcate
+        Bookkeeper's Gambit: v
     }
     {
-        Evocation Reflection
-        {$personal_property}>>
-        Locator's Distillation
-        Numerical Reflection: 1
-        Additive Distillation
-        Evocation Reflection
-        Reflecting Gambit
-        Surgeon's Exaltation
-        Inculcate
+        $dictCreate
+        Schrödinger's Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
+
+    $personal.functions.init
 )

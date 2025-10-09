@@ -2,12 +2,12 @@
 #git(/dev_vizoee/canvas/gui.hexpattern)
 
 $guiElementHandlersListProperty
-$personalGet
+$personal.get
 $dictCreate
 Schrödinger's Gambit
 
 $guiElementsListProperty
-$personalGet
+$personal.get
 $dictCreate
 Schrödinger's Gambit
 

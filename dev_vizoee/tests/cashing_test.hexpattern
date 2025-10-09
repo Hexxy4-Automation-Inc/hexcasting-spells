@@ -1,0 +1,10 @@
+#git(/libs/base.hexpattern)
+
+
+$personal.init
+
+{@str(personal.get)}>>
+{
+    $personal.get
+}
+$personal.functions.set
