@@ -2,11 +2,12 @@
 
 #def(ravenmind.load.get)(
     $ravenmind.names.functions
-    $ravenmind.set
+    $ravenmind.get
     
     {@str(personal.get)}>>
     Gemini Decomposition
     $personal.functions.get
+    $dictOverwrite
     $ravenmind.set
 )
 
@@ -23,5 +24,8 @@
 
 #def(ravenmind.personal.init)(
     $ravenmind.init
+    $ravenmind.names.functions
+    $dictCreate
+    $ravenmind.set
     $ravenmind.load.get
 )
