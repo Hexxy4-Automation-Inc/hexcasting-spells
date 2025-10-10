@@ -30,3 +30,7 @@
     $ravenmind.set
     $ravenmind.load.get
 )
+
+#def(aa)(
+    $bb<1>
+)
