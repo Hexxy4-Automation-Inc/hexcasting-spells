@@ -28,6 +28,8 @@ Augur's Purification
 
     Schrödinger's Gambit
 
+    $printText(Request sent)
+
 
     $akashaVar(lib/cc/response_prop)
     Bubbles' Purification
@@ -47,6 +49,7 @@ Augur's Purification
         Selection Distillation
         Augur's Purification
         {
+            $printText(Request received)
             Observation Purification
             Mind's Reflection
             Reading Purification
