@@ -100,26 +100,26 @@
 
     {
         $mode_wait_for_request
-        $wait_for_request
     }>>
+    $wait_for_request
     Surgeon's Exaltation
 
     {
         $mode_send_request
-        $send_request
     }>>
+    $send_request
     Surgeon's Exaltation
 
     {
         $mode_wait_for_response
-        $wait_for_response
     }>>
+    $wait_for_response
     Surgeon's Exaltation
 
     {
         $mode_send_response
-        $send_response
     }>>
+    $send_response
     Surgeon's Exaltation
 
     Bubbles' Purification
