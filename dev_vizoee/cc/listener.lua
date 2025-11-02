@@ -12,6 +12,7 @@ local function hexget(path)
     local url = path
 
     local github = require("github")
+    github.cache = {}
     spell_url = github.convert_url(url)
     local res = github.api_response(spell_url).content
     if not res then
