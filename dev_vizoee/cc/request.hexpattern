@@ -1,4 +1,5 @@
 // stack: string
+#git(/libs/base.hexpattern)
 
 #def(lib_cc_request_prop)(@hexicon(lib/cc_request_prop))
 #def(lib_cc_response_prop)(@hexicon(lib/cc_response_prop))
