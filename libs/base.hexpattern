@@ -157,6 +157,12 @@
     Bookkeeper's Gambit: v
 )
 
+#def(printText)(
+    $text(<1>)
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
 
 // insert string as text iota
 #def(textIota)(
