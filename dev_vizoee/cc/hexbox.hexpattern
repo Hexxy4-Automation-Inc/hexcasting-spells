@@ -1,0 +1,138 @@
+#def(mem_pos)({@vec(-394, 56, -697)}>>)
+#def(in_prop_pos)({@vec(-393, 58, -697)}>>)
+#def(out_prop_pos)({@vec(-394, 58, -697)}>>)
+#def(focal_port_pos)({@vec(-393, 56, -697)}>>)
+
+#def(cc_request)(@str(hexget))
+
+#def(key_mode)(@str(mode))
+#def(key_id)(@str(id))
+#def(key_request)(@str(request))
+#def(key_hash)(@str(hash))
+#def(key_response)(@str(response))
+
+#def(mode_wait_for_request)(@str(w_req))
+#def(mode_send_request)(@str(req))
+#def(mode_wait_for_response)(@str(w_res))
+#def(mode_send_response)(@str(res))
+
+#def(create_map)(
+    // param: mode
+    @pattern(EAST,dqdwdqd)
+    {
+        $key_mode
+        <1>
+    }>>
+    Surgeon's Exaltation
+)
+
+#def(wait_for_request)({
+    $in_prop_pos
+    Chronicler's Purification
+
+    Gemini Decomposition
+    Observation Purification
+
+    Derivation Decomposition
+    Prospector's Gambit
+    Augur's Purification
+    {
+        $create_map($mode_send_request)
+
+        {$key_request}>>
+        Rotation Gambit
+        Surgeon's Exaltation
+
+        {$key_id}>>
+        Rotation Gambit
+        Surgeon's Exaltation
+
+        // stack: prop, m1, m2
+        $mem_pos
+        Jester's Gambit
+        Chronicler's Gambit
+        // stack: prop, m1
+        Schrödinger's Gambit
+    }
+    {
+        Janus' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+})
+
+#def(send_request)({
+    $mem_pos
+    $create_map($mode_wait_for_response)
+    {$key_hash}>>
+
+    $focal_port_pos
+    Entity Purification
+    {
+        $cc_request
+    }
+    $mem_pos
+    Chronicler's Purification
+    $key_request
+    Selection Distillation
+    Integration Distillation
+    Undertaker's Gambit
+    Chronicler's Gambit
+
+    Hashing Purification
+    Surgeon's Exaltation
+    Chronicler's Gambit
+})
+
+#def(wait_for_response)({
+
+})
+
+#def(send_response)({
+
+})
+
+#def(init)(
+    @pattern(EAST,dqdwdqd)
+
+    {
+        $mode_wait_for_request
+        $wait_for_request
+    }>>
+    Surgeon's Exaltation
+
+    {
+        $mode_send_request
+        $send_request
+    }>>
+    Surgeon's Exaltation
+
+    {
+        $mode_wait_for_response
+        $wait_for_response
+    }>>
+    Surgeon's Exaltation
+
+    {
+        $mode_send_response
+        $send_response
+    }>>
+    Surgeon's Exaltation
+
+    Bubbles' Purification
+    Single's Purification
+
+    {
+        $mem_pos
+        Chronicler's Purification
+        $key_mode
+        Selection Distillation
+        Selection Distillation
+        Hermes' Gambit
+    }
+    Additive Distillation
+)
+
+
+
+$init

@@ -6,7 +6,8 @@
 
 
 
-#def(personal.functions.get)(
+#def(personal.functions.get)($_personal.functions.get)
+#def(_personal.functions.get)(
     // get function prop
     // stack: name
     $personal.names.functions
@@ -16,7 +17,8 @@
     $dictRead
 )
 
-#def(personal.functions.set)(
+#def(personal.functions.set)($_personal.functions.set)
+#def(_personal.functions.set)(
     // sets function to prop from personal function prop
     // if prop already exists, overrides it, otherwise creates new prop
     // stack: name, function
@@ -50,7 +52,8 @@
     Schrödinger's Gambit
 )
 
-#def(personal.functions.remove)(
+#def(personal.functions.remove)($_personal.functions.remove)
+#def(_personal.functions.remove)(
     // removes key from personal prop function cashe
     // stack: name
     $personal.names.functions
@@ -62,7 +65,8 @@
     Schrödinger's Gambit
 )
 
-#def(personal.functions.init)(
+#def(personal.functions.init)($_personal.functions.init)
+#def(_personal.functions.init)(
     $personal.names.functions
     $personal.get
     Gemini Decomposition
@@ -81,8 +85,8 @@
 
 
 
-
-#def(personal.set)(
+#def(personal.set)($_personal.set)
+#def(_personal.set)(
     // sets value to personal prop
     // stack: name, value
     $personal.property.get
@@ -94,7 +98,8 @@
     Schrödinger's Gambit
 )
 
-#def(personal.read)(
+#def(personal.read)($_personal.read)
+#def(_personal.read)(
     // gets value from personal prop
     // stack: name
     $personal.property.get
@@ -103,7 +108,8 @@
     $dictRead
 )
 
-#def(personal.get)(
+#def(personal.get)($_personal.get)
+#def(_personal.get)(
     // gets prop from personal prop
     // if dont exists, creates new prop and writes it to storage
     // stack: name
@@ -133,7 +139,8 @@
     Hermes' Gambit
 )
 
-#def(personal.remove)(
+#def(personal.remove)($_personal.remove)
+#def(_personal.remove)(
     // removes key from personal prop
     // stack: name
     $personal.property.get
@@ -144,7 +151,8 @@
     Schrödinger's Gambit
 )
 
-#def(personal.init)(
+#def(personal.init)($_personal.init)
+#def(_personal.init)(
     $personal.property.get
     Gemini Decomposition
     Observation Purification

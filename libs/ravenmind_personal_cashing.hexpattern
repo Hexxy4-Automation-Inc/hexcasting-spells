@@ -1,11 +1,11 @@
 #def(ravenmind.names.functions)({@str(Functions)}>>)
 
-#def(ravenmind.load.get)(
+#def(ravenmind.load)(
     $ravenmind.names.functions
     Gemini Decomposition
     $ravenmind.get
     
-    {@str(personal.get)}>>
+    {@str(<1>)}>>
     Gemini Decomposition
     $personal.functions.get
     $dictOverwrite
@@ -13,10 +13,9 @@
 )
 
 #def(ravenmind.function.run)(
-    // stack: name
     $ravenmind.names.functions
     $ravenmind.get
-    Jester's Gambit
+    {@str(<1>)}>>
     #dictRead
     Observation Purification
     Hermes' Gambit
@@ -28,9 +27,5 @@
     $ravenmind.names.functions
     $dictCreate
     $ravenmind.set
-    $ravenmind.load.get
-)
-
-#def(aa)(
-    $bb<1>
+    $ravenmind.load(personal.get)
 )
