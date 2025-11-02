@@ -64,7 +64,13 @@
 
 #def(send_request)({
     $mem_pos
-    $create_map($mode_wait_for_response)
+    Chronicler's Purification
+    {
+        $key_mode
+        $mode_wait_for_response
+    }>>
+    Selection Exaltation
+    
     {$key_hash}>>
 
     $focal_port_pos
@@ -86,11 +92,64 @@
 })
 
 #def(wait_for_response)({
+    $focal_port_pos
+    Entity Purification
+    Chronicler's Purification
+    Hashing Purification
 
+    $mem_pos
+    Chronicler's Purification
+    {$key_hash}>>
+    Selection Distillation
+    Equality Distillation
+    {
+        $mem_pos
+        Gemini Decomposition
+        Chronicler's Purification
+        {
+            $key_mode
+            $mode_send_response
+        }>>
+        Selection Exaltation
+
+        {$key_response}>>
+        $focal_port_pos
+        Entity Purification
+        Chronicler's Purification
+        Selection Exaltation
+
+        Selection Exaltation
+        Chronicler's Gambit
+    }
+    {
+        Janus' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
 })
 
 #def(send_response)({
+    $out_prop_pos
+    Chronicler's Purification
+    Gemini Decomposition
+    Observation Purification
 
+    $mem_pos
+    Chronicler's Purification
+
+    {$key_id}>>
+    Derivation Decomposition
+
+    Rotation Gambit
+    {$key_response}>>
+    Selection Distillation
+    
+    Selection Distillation
+    Schrödinger's Gambit
+    
+    $mem_pos
+    $create_map($mode_wait_for_request)
+    Chronicler's Gambit
 })
 
 #def(init)(
