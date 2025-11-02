@@ -64,6 +64,7 @@
 
 #def(send_request)({
     $mem_pos
+    Gemini Decomposition
     Chronicler's Purification
     {
         $key_mode
