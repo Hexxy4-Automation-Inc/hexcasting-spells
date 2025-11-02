@@ -196,6 +196,10 @@
 
     {@vec(0, 0, 0)}>>
 
+    $akashaVar(lib/map/prop/bubble)
+    @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
+
+    Single's Purification
 
     {
         $mem_pos
@@ -205,6 +209,7 @@
         Selection Distillation
         Hermes' Gambit
     }
+    Additive Distillation
 )
 
 #def(mem_init)(
