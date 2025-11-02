@@ -1,0 +1,84 @@
+#git(/libs/base.hexpattern)
+
+#def(lib_cc_request_prop)(lib/cc/request_prop)
+#def(lib_cc_response_prop)(lib/cc/response_prop)
+
+Speaker's Decomposition
+Gemini Decomposition
+Augur's Purification
+{
+    $akashaVar(lib/cc/request_prop)
+    Gemini Decomposition
+    Observation Purification
+    Mind's Reflection
+    Reading Purification
+    // stack: string, prop, map, text
+    Numerical Reflection: 3
+    Fisherman's Gambit
+    Surgeon's Exaltation
+    Schrödinger's Gambit
+
+
+    $akashaVar(lib/cc/response_prop)
+    Bubbles' Purification
+    Single's Purification
+    {
+        {
+            Bookkeeper's Gambit: -
+        }>>
+        Jester's Gambit
+        Gemini Decomposition
+        Gemini Decomposition
+        Observation Purification
+
+        Mind's Reflection
+        Reading Purification
+        
+        Selection Distillation
+        Augur's Purification
+        {
+            Observation Purification
+            Mind's Reflection
+            Reading Purification
+            
+            Selection Distillation
+            Scribe's Gambit
+
+            Gemini Decomposition
+            Observation Purification
+            
+            Mind's Reflection
+            Reading Purification
+            Excisor's Distillation
+            Schrödinger's Gambit
+        }
+        {
+            Bookkeeper's Gambit: vv
+
+            Numerical Reflection: 2
+            Prospector's Gambit
+            Surgeon's Exaltation
+            Numerical Reflection: 1
+            Enqueue
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Additive Distillation
+    Numerical Reflection: 2
+    Prospector's Gambit
+    Surgeon's Exaltation
+    Numerical Reflection: 1
+    Enqueue
+}
+{
+    Bookkeeper's Gambit: vv
+    {
+        @str(Usage: hget <path>)
+    }
+    Flock's Disintegration
+    Reveal
+    Bookkeeper's Gambit: v
+}
+Augur's Exaltation
+Hermes' Gambit
