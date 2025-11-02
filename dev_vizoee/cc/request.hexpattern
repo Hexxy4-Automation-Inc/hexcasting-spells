@@ -2,7 +2,6 @@
 #git(/libs/base.hexpattern)
 
 #def(lib_cc_request_prop)(lib/cc/request_prop)
-#def(lib_cc_response_prop)(lib/cc/response_prop)
 
 $akashaVar(lib/cc/request_prop)
 Gemini Decomposition
