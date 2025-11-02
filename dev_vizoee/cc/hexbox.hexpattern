@@ -104,6 +104,9 @@
     Selection Distillation
     Equality Distillation
     {
+        Janus' Gambit
+    }
+    {
         $mem_pos
         Gemini Decomposition
         Chronicler's Purification
@@ -119,11 +122,8 @@
         Chronicler's Purification
         Surgeon's Exaltation
 
-        Surgeon's Exaltation
         Chronicler's Gambit
-    }
-    {
-        Janus' Gambit
+        // Maybe clean focus here
     }
     Augur's Exaltation
     Hermes' Gambit
