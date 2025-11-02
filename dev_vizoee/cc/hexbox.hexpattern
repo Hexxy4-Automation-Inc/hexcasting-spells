@@ -73,7 +73,7 @@
     }
     $mem_pos
     Chronicler's Purification
-    $key_request
+    {$key_request}>>
     Selection Distillation
     Integration Distillation
     Undertaker's Gambit
@@ -125,7 +125,7 @@
     {
         $mem_pos
         Chronicler's Purification
-        $key_mode
+        {$key_mode}>>
         Selection Distillation
         Selection Distillation
         Hermes' Gambit
