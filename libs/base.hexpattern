@@ -226,3 +226,19 @@
     Reading Purification
     Enqueue
 )
+
+#def(toText)(
+    Reading Purification
+    Reading Purification
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Length Purification
+    Numerical Reflection: 1
+    Subtractive Distillation
+    Selection Exaltation
+)
+
+#def(text)(
+    {@str(<1>)}>>
+    $toText
+)
