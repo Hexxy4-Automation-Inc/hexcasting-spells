@@ -28,7 +28,7 @@ Augur's Purification
 
     Schrödinger's Gambit
 
-    $printCText(Request sent)(@vec(0.65, 1, 0.4))
+    $printText(Request sent)
 
 
     $akashaVar(lib/cc/response_prop)
