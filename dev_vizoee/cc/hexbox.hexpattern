@@ -69,7 +69,7 @@
         $key_mode
         $mode_wait_for_response
     }>>
-    Selection Exaltation
+    Surgeon's Exaltation
     
     {$key_hash}>>
 
@@ -110,15 +110,15 @@
             $key_mode
             $mode_send_response
         }>>
-        Selection Exaltation
+        Surgeon's Exaltation
 
         {$key_response}>>
         $focal_port_pos
         Entity Purification
         Chronicler's Purification
-        Selection Exaltation
+        Surgeon's Exaltation
 
-        Selection Exaltation
+        Surgeon's Exaltation
         Chronicler's Gambit
     }
     {
