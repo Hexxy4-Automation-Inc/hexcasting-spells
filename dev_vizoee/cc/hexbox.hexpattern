@@ -123,7 +123,7 @@
         Surgeon's Exaltation
 
         Chronicler's Gambit
-        
+
         // Maybe clean focus here
         $focal_port_pos
         Entity Purification
@@ -185,6 +185,24 @@
     }>>
     $send_response
     Surgeon's Exaltation
+
+    {
+        @vec(0.65, 1, 0.4)
+        @str(Commands :3)
+    }>>
+    Reading Purification
+    Jester's Gambit
+    @pattern(SOUTH_WEST,awaqeeeeewded)
+
+    {@vec(0, 0, 0)}>>
+
+    Schrödinger's Reflection
+    Gemini Decomposition
+    @pattern(EAST,dqdwdqd)
+    Schrödinger's Gambit
+
+    @pattern(SOUTH_EAST, deaqqwqqqeaeqqqeadedaqaee)
+
 
     Bubbles' Purification
     Single's Purification
