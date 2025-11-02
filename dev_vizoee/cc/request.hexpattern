@@ -1,0 +1,19 @@
+// stack: string
+
+#def(lib_cc_request_prop)(@hexicon(lib/cc_request_prop))
+#def(lib_cc_response_prop)(@hexicon(lib/cc_response_prop))
+
+$akasha
+{
+    $lib_cc_request_prop
+}>>
+Akasha's Distillation
+Gemini Decomposition
+Observation Purification
+Mind's Reflection
+Reading Purification
+// stack: string, prop, map, text
+Numerical Reflection: 3
+Fisherman's Gambit
+Surgeon's Exaltation
+Schrödinger's Gambit
