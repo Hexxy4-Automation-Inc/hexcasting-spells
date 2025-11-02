@@ -163,6 +163,12 @@
     Bookkeeper's Gambit: v
 )
 
+#def(printCText)(
+    $cText(<1>)(<2>)
+    Reveal
+    Bookkeeper's Gambit: v
+)
+
 
 // insert string as text iota
 #def(textIota)(
@@ -247,4 +253,11 @@
 #def(text)(
     {@str(<1>)}>>
     $toText
+)
+
+#def(cText)(
+    {@str(<1>)}>>
+    $toText
+    {<2>}>>
+    @pattern(SOUTH_WEST,awaqeeeeewded)
 )
