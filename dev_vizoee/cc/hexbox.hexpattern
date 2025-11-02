@@ -142,7 +142,7 @@
     {$key_id}>>
     Selection Distillation
 
-    Rotation Gambit
+    Jester's Gambit
     {$key_response}>>
     Selection Distillation
     
@@ -150,7 +150,7 @@
     Schrödinger's Gambit
     
     $mem_pos
-    $create_map($mode_wait_for_response)
+    $create_map($mode_wait_for_request)
     Chronicler's Gambit
 })
 
