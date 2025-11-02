@@ -11,8 +11,8 @@ end
 local function hexget(path)
     local url = path
 
+    package.loaded["github"] = nil
     local github = require("github")
-    github.cache = {}
     spell_url = github.convert_url(url)
     local res = github.api_response(spell_url).content
     if not res then
@@ -20,6 +20,7 @@ local function hexget(path)
         return
     end
 
+    package.loaded["hexlator"] = nil
     local hexlator = require("hexlator")
     local debug = false
     local stripped = false
