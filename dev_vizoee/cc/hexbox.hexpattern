@@ -148,7 +148,7 @@
     Schrödinger's Gambit
     
     $mem_pos
-    $create_map($mode_wait_for_request)
+    $create_map($mode_wait_for_response)
     Chronicler's Gambit
 })
 
