@@ -25,8 +25,9 @@
     }>>
     Surgeon's Exaltation
 )
+#def(wait_for_request)({})
 
-#def(wait_for_request)({
+#def(wait_for_request2)({
     $in_prop_pos
     Chronicler's Purification
 
@@ -61,7 +62,9 @@
     Hermes' Gambit
 })
 
-#def(send_request)({
+#def(send_request)({})
+
+#def(send_request2)({
     $mem_pos
     $create_map($mode_wait_for_response)
     {$key_hash}>>
