@@ -196,16 +196,6 @@
 
     {@vec(0, 0, 0)}>>
 
-    Schrödinger's Reflection
-    Gemini Decomposition
-    @pattern(EAST,dqdwdqd)
-    Schrödinger's Gambit
-
-    @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
-
-
-    Bubbles' Purification
-    Single's Purification
 
     {
         $mem_pos
@@ -215,7 +205,6 @@
         Selection Distillation
         Hermes' Gambit
     }
-    Additive Distillation
 )
 
 #def(mem_init)(
