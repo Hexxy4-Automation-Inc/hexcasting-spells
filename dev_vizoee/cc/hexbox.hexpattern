@@ -33,10 +33,11 @@
     Gemini Decomposition
     Observation Purification
 
-    Derivation Decomposition
-    Prospector's Gambit
+    Gemini Decomposition
+    Length Purification
     Augur's Purification
     {
+        Derivation Decomposition
         $create_map($mode_send_request)
 
         {$key_request}>>
