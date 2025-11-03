@@ -1,0 +1,29 @@
+#git(/libs/base.hexpattern)
+
+#def(cuboid_pos)(#git(/dev_vizoee/block_storage/cuboid_pos.hexpattern))
+
+#def(obj_display)(@str(__display))
+#def(obj_property)(@str(__property))
+#def(obj_recreate)(
+    // stack: map
+    Gemini Decomposition
+    {$obj_display}>>
+    Selection Distillation
+    Prospector's Gambit
+    {$obj_property}>>
+    Selection Distillation
+    Vector Reflection Zero
+    Jester's Gambit
+    @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
+)
+
+#def(run)(
+    // stack: map
+    // val, disp, prop
+
+)
+
+@pattern(EAST,dqdwdqd)
+$cText(:3)(@vec(0.65, 1, 0.4))
+Vector Reflection Zero
+$akashaVar(lib/map/prop/runner)

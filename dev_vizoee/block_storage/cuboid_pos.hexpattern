@@ -13,12 +13,14 @@ Fisherman's Gambit
 // y
 Multiplicative Distillation
 Division Distillation
+Floor Purification
 // stack: x, n, width, height, y
 Numerical Reflection: -3
 Fisherman's Gambit
 // z
 Rotation Gambit II
 Division Distillation
+Floor Purification
 Jester's Gambit
 Modulus Distillation
 // stack: x, y, z
