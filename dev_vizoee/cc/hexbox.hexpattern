@@ -13,6 +13,12 @@
 #def(key_hash)(@str(hash))
 #def(key_response)(@str(response))
 
+#def(key_val)(@str(value))
+
+#def(key_in_prop)(@str(in_prop))
+#def(key_out_prop)(@str(out_prop))
+#def(key_mem_prop)(@str(mem_prop))
+
 #def(mode_wait_for_request)(@str(w_req))
 #def(mode_send_request)(@str(req))
 #def(mode_wait_for_response)(@str(w_res))
@@ -28,9 +34,14 @@
     Surgeon's Exaltation
 )
 
+#def(get_mem_val)(
+    Muninn's Reflection
+    {<1>}>>
+    Selection Distillation
+)
+
 #def(wait_for_request)({
-    $in_prop_pos
-    Chronicler's Purification
+    $get_mem_val($key_in_prop)
 
     Gemini Decomposition
     Observation Purification
@@ -40,20 +51,17 @@
     Augur's Purification
     {
         Derivation Decomposition
-        $create_map($mode_send_request)
-
-        {$key_request}>>
+        Muninn's Reflection
+        {$key_val}>>
         Rotation Gambit
         Surgeon's Exaltation
-
-        {$key_id}>>
-        Rotation Gambit
+        
+        {
+            $key_mode
+            $mode_send_request
+        }>>
         Surgeon's Exaltation
-
-        // stack: prop, m1, m2
-        $mem_pos
-        Jester's Gambit
-        Chronicler's Gambit
+        Huginn's Gambit
         // stack: prop, m1
         Schrödinger's Gambit
     }
@@ -65,33 +73,26 @@
 })
 
 #def(send_request)({
-    $mem_pos
-    Gemini Decomposition
-    Chronicler's Purification
-    {
-        $key_mode
-        $mode_wait_for_response
-    }>>
-    Surgeon's Exaltation
-    
-    {$key_hash}>>
+    Muninn's Reflection
+    {$key_val}>>
 
     $focal_port_pos
     Entity Purification
-    {
-        $cc_request
-    }
-    $mem_pos
-    Chronicler's Purification
-    {$key_request}>>
-    Selection Distillation
+    {$cc_request}
+    $get_mem_val($key_val)
     Integration Distillation
     Undertaker's Gambit
     Chronicler's Gambit
 
     Hashing Purification
     Surgeon's Exaltation
-    Chronicler's Gambit
+    
+    {
+        $key_mode
+        $mode_wait_for_response
+    }>>
+    Surgeon's Exaltation
+    Huginn's Gambit
 })
 
 #def(wait_for_response)({
@@ -100,31 +101,25 @@
     Chronicler's Purification
     Hashing Purification
 
-    $mem_pos
-    Chronicler's Purification
-    {$key_hash}>>
-    Selection Distillation
+    $get_mem_val($key_val)
     Equality Distillation
     {
         Janus' Gambit
     }
     {
-        $mem_pos
-        Gemini Decomposition
-        Chronicler's Purification
-        {
-            $key_mode
-            $mode_send_response
-        }>>
-        Surgeon's Exaltation
-
-        {$key_response}>>
+        Muninn's Reflection
+        {$key_val}>>
         $focal_port_pos
         Entity Purification
         Chronicler's Purification
         Surgeon's Exaltation
 
-        Chronicler's Gambit
+        {
+            $key_mode
+            $mode_send_response
+        }>>
+        Surgeon's Exaltation
+        Huginn's Gambit
 
         // Maybe clean focus here
         $focal_port_pos
@@ -137,28 +132,23 @@
 })
 
 #def(send_response)({
-    $out_prop_pos
-    Chronicler's Purification
-    Gemini Decomposition
-    Observation Purification
-
-    $mem_pos
-    Chronicler's Purification
-    Gemini Decomposition
-
-    {$key_id}>>
-    Selection Distillation
-
-    Jester's Gambit
-    {$key_response}>>
-    Selection Distillation
-    
+    $get_mem_val($key_out_prop)
+    $get_mem_val($key_id)
+    $get_mem_val($key_val)
     Surgeon's Exaltation
     Schrödinger's Gambit
     
-    $mem_pos
-    $create_map($mode_wait_for_request)
-    Chronicler's Gambit
+    Muninn's Reflection
+    $get_mem_val($key_id)
+    Excisor's Distillation
+    $get_mem_val($key_val)
+    Excisor's Distillation
+    {
+        $key_mode
+        $mode_wait_for_request
+    }>>
+    Surgeon's Exaltation
+    Huginn's Gambit
 })
 
 #def(init)(
@@ -188,13 +178,7 @@
     $send_response
     Surgeon's Exaltation
 
-    {
-        @vec(0.65, 1, 0.4)
-        @str(Commands :3)
-    }>>
-    Reading Purification
-    Jester's Gambit
-    @pattern(SOUTH_WEST,awaqeeeeewded)
+    $cText(Bubbled commands :3)(@vec(0.65, 1, 0.4))
 
     {@vec(0, 0, 0)}>>
 
@@ -203,21 +187,43 @@
 
     Single's Purification
 
+    $mem_pos
+    Chronicler's Purification
+    Bubbles' Purification
+    Single's Purification
+
     {
-        $mem_pos
-        Chronicler's Purification
-        {$key_mode}>>
+        Observation Purification
+        Huginn's Gambit
+        
+        $get_mem_val($key_mode)
         Selection Distillation
         Selection Distillation
         Hermes' Gambit
     }
     Additive Distillation
+    Additive Distillation
 )
 
 #def(mem_init)(
     $mem_pos
+    Chronicler's Purification
     $create_map($mode_wait_for_request)
-    Chronicler's Gambit
+
+    {$key_in_prop}>>
+    $akashaVar(lib/cc/request_prop)
+    Surgeon's Exaltation
+    
+    {$key_out_prop}>>
+    $akashaVar(lib/cc/response_prop)
+    Surgeon's Exaltation
+
+    Prospector's Gambit
+    {$key_mem_prop}>>
+    Jester's Gambit
+    Surgeon's Exaltation
+
+    Schrödinger's Gambit
 )
 
 
