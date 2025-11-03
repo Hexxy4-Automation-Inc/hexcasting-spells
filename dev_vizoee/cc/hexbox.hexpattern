@@ -143,6 +143,8 @@
 
 #def(send_response)({
     $get_mem_val($key_out_prop)
+    Gemini Decomposition
+    Observation Purification
     $get_mem_val($key_id)
     $get_mem_val($key_val)
     Surgeon's Exaltation
