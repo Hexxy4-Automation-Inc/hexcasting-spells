@@ -3,6 +3,7 @@
 #def(cuboid_pos)(#git(/dev_vizoee/block_storage/cuboid_pos.hexpattern))
 
 #def(obj_display)(@str(__display))
+#def(obj_color)(@str(__color))
 #def(obj_property)(@str(__property))
 #def(obj_recreate)(
     // stack: map
@@ -17,13 +18,18 @@
     @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
 )
 
+#def(obj_simple_create)(
+    // stack: iota
+    $cText(<1>>)(<2>>)
+    {<2>}>>
+    $akashaVar(<3>)
+    @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
+)
+
 #def(run)(
     // stack: map
     // val, disp, prop
 
 )
 
-@pattern(EAST,dqdwdqd)
-$cText(:3)(@vec(0.65, 1, 0.4))
-Vector Reflection Zero
-$akashaVar(lib/map/prop/runner)
+$obj_simple_create(:3)(@vec(0.65, 1, 0.4))(lib/map/prop/runner)
