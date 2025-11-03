@@ -1,0 +1,26 @@
+// stack: n, width, height
+Numerical Reflection: 3
+Dioscuri Gambit II
+Numerical Reflection: 3
+Dioscuri Gambit II
+// stack: n, width, height, n, width, height, n, width, height
+// x
+Bookkeeper's Gambit: v
+Modulus Distillation
+// stack: n, width, height, n, width, height, x
+Numerical Reflection: -6
+Fisherman's Gambit
+// y
+Multiplicative Distillation
+Division Distillation
+// stack: x, n, width, height, y
+Numerical Reflection: -3
+Fisherman's Gambit
+// z
+Rotation Gambit II
+Division Distillation
+Jester's Gambit
+Modulus Distillation
+// stack: x, y, z
+Vector Exaltation
+// stack: vec
