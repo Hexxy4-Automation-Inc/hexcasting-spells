@@ -166,6 +166,20 @@
 })
 
 #def(init)(
+    {
+        Timekeeper's Reflection
+        Numerical Reflection: 2
+        Modulus Distillation
+        Numerical Reflection: 0
+        Equality Distillation
+        {}
+        {
+            Janus' Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+
     @pattern(EAST,dqdwdqd)
 
     {
@@ -214,6 +228,7 @@
         Selection Distillation
         Hermes' Gambit
     }
+    Additive Distillation
     Additive Distillation
     Additive Distillation
 )
