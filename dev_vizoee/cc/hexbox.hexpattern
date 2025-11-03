@@ -42,7 +42,6 @@
 
 #def(wait_for_request)({
     $get_mem_val($key_in_prop)
-
     Gemini Decomposition
     Observation Purification
 
@@ -51,8 +50,13 @@
     Augur's Purification
     {
         Derivation Decomposition
+        // prop, key, val
         Muninn's Reflection
         {$key_val}>>
+        Rotation Gambit
+        Surgeon's Exaltation
+
+        {$key_id}>>
         Rotation Gambit
         Surgeon's Exaltation
         
@@ -61,7 +65,9 @@
             $mode_send_request
         }>>
         Surgeon's Exaltation
-        Huginn's Gambit
+        $get_mem_val($key_mem_prop)
+        Jester's Gambit
+        Schrödinger's Gambit
         // stack: prop, m1
         Schrödinger's Gambit
     }
@@ -92,7 +98,9 @@
         $mode_wait_for_response
     }>>
     Surgeon's Exaltation
-    Huginn's Gambit
+    $get_mem_val($key_mem_prop)
+    Jester's Gambit
+    Schrödinger's Gambit
 })
 
 #def(wait_for_response)({
@@ -119,7 +127,9 @@
             $mode_send_response
         }>>
         Surgeon's Exaltation
-        Huginn's Gambit
+        $get_mem_val($key_mem_prop)
+        Jester's Gambit
+        Schrödinger's Gambit
 
         // Maybe clean focus here
         $focal_port_pos
@@ -148,7 +158,9 @@
         $mode_wait_for_request
     }>>
     Surgeon's Exaltation
-    Huginn's Gambit
+    $get_mem_val($key_mem_prop)
+    Jester's Gambit
+    Schrödinger's Gambit
 })
 
 #def(init)(
