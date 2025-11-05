@@ -1,0 +1,45 @@
+#def(key_index)(@num(0))
+#def(key_width)(@num(1))
+#def(key_height)(@num(2))
+
+#def(width)(8)
+#def(height)(8)
+
+#def(cuboid_pos)(#git(/dev_vizoee/block_storage/cuboid_pos.hexpattern))
+
+@pattern(EAST,dqdwdqd)
+{$key_index}>>
+Numerical Reflection: 0
+Surgeon's Exaltation
+{$key_width}>>
+Numerical Reflection: $width
+Surgeon's Exaltation
+{$key_height}>>
+Numerical Reflection: $height
+Surgeon's Exaltation
+Huginn's Gambit
+
+{
+    Muninn's Reflection
+    {$key_index}>>
+    Selection Distillation
+
+    Muninn's Reflection
+    {$key_width}>>
+    Selection Distillation
+
+    Muninn's Reflection
+    {$key_height}>>
+    Selection Distillation
+
+    $cuboid_pos
+
+    Muninn's Reflection
+    {$key_index}>>
+    Dioscuri Gambit
+    Selection Distillation
+    Numerical Reflection: 1
+    Additive Distillation
+    Surgeon's Exaltation
+    Huginn's Gambit
+}
