@@ -11,18 +11,34 @@
     {$obj_display}>>
     Selection Distillation
     Prospector's Gambit
+    Gemini Decomposition
+    {$obj_color}>>
+    Selection Distillation
+    Jester's Gambit
     {$obj_property}>>
     Selection Distillation
-    Vector Reflection Zero
-    Jester's Gambit
     @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
 )
 
 #def(obj_simple_create)(
     // stack: iota
-    $cText(<1>>)(<2>>)
+    $cText(<1>)(<2>>)
     {<2>}>>
     $akashaVar(<3>)
+    @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
+)
+
+#def(obj_create)(
+    // stack: iota
+    {$obj_display}>>
+    $cText(<1>)(<2>>)
+    Surgeon's Exaltation
+    {$obj_color}>>
+    {<2>}>>
+    Surgeon's Exaltation
+    {$obj_property}>>
+    $akashaVar(<3>)
+    Surgeon's Exaltation
     @pattern(SOUTH_EAST,deaqqwqqqeaeqqqeadedaqaaee)
 )
 
@@ -31,5 +47,5 @@
     // val, disp, prop
 
 )
-
+@pattern(EAST,dqdwdqd)
 $obj_simple_create(:3)(@vec(0.65, 1, 0.4))(lib/map/prop/runner)
