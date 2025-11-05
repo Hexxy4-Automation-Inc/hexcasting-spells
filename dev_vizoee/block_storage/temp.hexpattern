@@ -15,15 +15,9 @@
     Spatial Interchange
 )
 
-#def(targetBlock)(
-    Mind's Reflection
-    Compass' Purification
-    Mind's Reflection
-    Alidade's Purification
-    Archer's Distillation
-)
+#git(/libs/base.hexpattern)
 
-$targetBlock
+$targetBlockOnBlockFace
 Numerical Reflection: 0
 Numerical Reflection: 2
 Flock's Gambit
