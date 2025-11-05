@@ -1,45 +1,50 @@
-#def(key_index)(@num(0))
-#def(key_width)(@num(1))
-#def(key_height)(@num(2))
-
 #def(width)(8)
 #def(height)(8)
 
 #def(cuboid_pos)(#git(/dev_vizoee/block_storage/cuboid_pos.hexpattern))
 
-@pattern(EAST,dqdwdqd)
-{$key_index}>>
+#def(si_swap)(
+    // pos1, pos2
+    Gemini Decomposition
+    Numerical Reflection: 2
+    Flock's Gambit
+    Rotation Gambit
+    Gemini Decomposition
+    Numerical Reflection: 2
+    Flock's Gambit
+    Spatial Interchange
+)
+
+#def(targetBlock)(
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Archer's Distillation
+)
+
+$targetBlock
 Numerical Reflection: 0
-Surgeon's Exaltation
-{$key_width}>>
-Numerical Reflection: $width
-Surgeon's Exaltation
-{$key_height}>>
-Numerical Reflection: $height
-Surgeon's Exaltation
+Numerical Reflection: 2
+Flock's Gambit
 Huginn's Gambit
 
 {
     Muninn's Reflection
-    {$key_index}>>
-    Selection Distillation
-
-    Muninn's Reflection
-    {$key_width}>>
-    Selection Distillation
-
-    Muninn's Reflection
-    {$key_height}>>
-    Selection Distillation
-
-    $cuboid_pos
-
-    Muninn's Reflection
-    {$key_index}>>
+    Flock's Disintegration
     Dioscuri Gambit
-    Selection Distillation
     Numerical Reflection: 1
     Additive Distillation
-    Surgeon's Exaltation
+    Numerical Reflection: 2
+    Flock's Gambit
     Huginn's Gambit
+    
+    Numerical Reflection: $width
+    Numerical Reflection: $height
+
+    $cuboid_pos
+    Additive Distillation
+    
+    $targetBlock
+    $si_swap
 }
